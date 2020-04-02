@@ -1,0 +1,5 @@
+Keyboard:
+MOVE_LEFT = A;
+MOVE_RIGHT = D;
+MOVE_UP = W;
+MOVE_DOWN = S;
