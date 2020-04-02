@@ -10,17 +10,6 @@ public class Command
     {
         m_key_codes = new KeyCode[0];
     }
-    public Command(List<KeyCode> keys)
-    {
-        m_key_codes = new KeyCode[0];
-        foreach (KeyCode key in keys)
-            Push_Back(key);
-    }
-    public Command(KeyCode key_code)
-    {
-        m_key_codes = new KeyCode[0];
-        Push_Back(key_code);
-    }
 
     public void Push_Back(KeyCode key)
     {
