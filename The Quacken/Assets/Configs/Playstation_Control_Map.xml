@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Playstation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <square>JoystickButton0</square>
+  <x>JoystickButton1</x>
+  <circle>JoystickButton2</circle>
+  <triangle>JoystickButton3</triangle>
+  <L1>JoystickButton4</L1>
+  <R1>JoystickButton5</R1>
+  <L2>JoystickButton6</L2>
+  <R2>JoystickButton7</R2>
+  <share>JoystickButton8</share>
+  <options>JoystickButton9</options>
+  <L3>JoystickButton10</L3>
+  <R3>JoystickButton11</R3>
+  <PS>JoystickButton12</PS>
+  <pad_press>JoystickButton13</pad_press>
+  <left_stick_x>X-Axis</left_stick_x>
+  <left_stick_y>Y-Axis</left_stick_y>
+  <right_stick_x>3rd Axis</right_stick_x>
+  <right_stick_y>4th Axis</right_stick_y>
+  <L2_axis>5th Axis</L2_axis>
+  <R2_axis>6th Axis</R2_axis>
+  <d_pad_x>7th Axis</d_pad_x>
+  <d_pad_y>8th Axis</d_pad_y>
+</Playstation>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System;
+using System.Xml.Serialization;
 
 public enum Commands
 {
@@ -33,6 +34,7 @@ public class Player_Inputs : MonoBehaviour
             return m_commands[0].Is_Pressed();
         }
     }
+
     private void Awake()
     {
         m_commands = new Command[4];
@@ -41,81 +43,34 @@ public class Player_Inputs : MonoBehaviour
             m_commands[j] = new Command();
         }
         int index = Create_Player_Input();
-        string path = "Assets/Configs/Inputs_Player_" + index + ".txt";
-        StreamReader reader = new StreamReader(path);
+        string path = "Assets/Configs/Player_Inputs_" + index + ".xml";
 
-        string[] file = reader.ReadToEnd().Split('\r');
-        string[] parts = new string[file.Length - 1];
-        for(int i = 0; i < file.Length - 1; i++)
-        {
-            parts[i] = file[i + 1];
-        }
-
-
-        switch (file[0])
-        {
-            case "Keyboard:":
-                Check_Lines(parts);
-                break;
-
-            case "Playstation:":
-
-                break;
-
-            case "XBOX:":
-
-                break;
-        }
+        All_Controls layout = XML_Serializer.Deserialize<All_Controls>(path);
+        Assign_Controls(layout);
     }
 
-    void Check_Lines(string[] lines)
+    void Assign_Controls(All_Controls p_layout)
     {
-        Commands command;
-        KeyCode key_code;
-        string temp_command;
-        string temp_key_code;
-
-        char c;
-        int line_index;
-        foreach (string line in lines)
+        if (p_layout.Keyboard != null)
         {
-            line_index = 1;
-            temp_command = "";
-            temp_key_code = "";
-            c = line[line_index];
-
-            while (c != ' ')
-            {
-                temp_command += c;
-                line_index++;
-                c = line[line_index];
-            }
-            line_index += 2;
-            while (c != ';')
-            {
-                temp_key_code += c;
-                line_index++;
-                c = line[line_index];
-            }
-
-
-            Enum.TryParse(temp_command, true, out command);
-            Enum.TryParse(temp_key_code, true, out key_code);
-            switch (command)
-            {
-                case Commands.MOVE_LEFT:
-                    m_commands[0].Push_Back(key_code);
-                    break;
-                case Commands.MOVE_RIGHT:
-                    m_commands[1].Push_Back(key_code);
-                    break;
-                case Commands.MOVE_UP:
-                    m_commands[2].Push_Back(key_code);
-                    break;
-                case Commands.MOVE_DOWN:
-                    m_commands[3].Push_Back(key_code);
-                    break;
-            }
+            m_commands[0].Push_Back(p_layout.Keyboard.MOVE_LEFT);
+            m_commands[1].Push_Back(p_layout.Keyboard.MOVE_RIGHT);
+            m_commands[2].Push_Back(p_layout.Keyboard.MOVE_UP);
+            m_commands[3].Push_Back(p_layout.Keyboard.MOVE_DOWN);
+        }
+        if (p_layout.Playstation != null)
+        {
+            m_commands[0].Push_Back(p_layout.Playstation.axis_left_and_right, -1);
+            m_commands[1].Push_Back(p_layout.Playstation.axis_left_and_right, 1);
+            m_commands[2].Push_Back(p_layout.Playstation.axis_up_and_down, -1);
+            m_commands[3].Push_Back(p_layout.Playstation.axis_up_and_down, 1);
+        }
+        if (p_layout.Xbox != null)
+        {
+            m_commands[0].Push_Back(p_layout.Xbox.axis_left_and_right, -1);
+            m_commands[1].Push_Back(p_layout.Xbox.axis_left_and_right, 1);
+            m_commands[2].Push_Back(p_layout.Xbox.axis_up_and_down, -1);
+            m_commands[3].Push_Back(p_layout.Xbox.axis_up_and_down, 1);
         }
     }
 

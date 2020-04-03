@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Xbox xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <A>JoystickButton0</A>
+  <B>JoystickButton1</B>
+  <X>JoystickButton2</X>
+  <Y>JoystickButton3</Y>
+  <left_bumper>JoystickButton4</left_bumper>
+  <right_bumper>JoystickButton5</right_bumper>
+  <back>JoystickButton6</back>
+  <start>JoystickButton7</start>
+  <left_stick_button>JoystickButton8</left_stick_button>
+  <right_stick_button>JoystickButton9</right_stick_button>
+  <left_stick_x>X-Axis</left_stick_x>
+  <left_stick_y>Y-Axis</left_stick_y>
+  <right_stick_x>4rd Axis</right_stick_x>
+  <right_stick_y>5th Axis</right_stick_y>
+  <L2_axis>9th Axis</L2_axis>
+  <R2_axis>10th Axis</R2_axis>
+  <d_pad_x>6th Axis</d_pad_x>
+  <d_pad_y>7th Axis</d_pad_y>
+</Xbox>

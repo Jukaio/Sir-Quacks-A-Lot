@@ -12,7 +12,9 @@ public class Player_Controller : MonoBehaviour
 
     void Update()
     {
+
         print(Player_Inputs.Player(0).m_move_left);
+        print(Input.GetAxisRaw("Horizontal"));
         if (Player_Inputs.Player(0).m_move_left)
             transform.position += Vector3.left;
     }
