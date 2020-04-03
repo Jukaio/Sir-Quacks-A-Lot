@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// XML layout
 public class Controls
 {
-    public string device;
+    public Device device;
 }
 
 public class Controls_Keyboard : Controls

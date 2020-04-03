@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <All_Controls xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Keyboard>
-    <device>Keyboard</device>
+    <device>KEYBOARD</device>
     <MOVE_LEFT>A</MOVE_LEFT>
     <MOVE_RIGHT>D</MOVE_RIGHT>
     <MOVE_UP>W</MOVE_UP>
     <MOVE_DOWN>S</MOVE_DOWN>
   </Keyboard>
   <Playstation>
-    <device>Playstation</device>
-    <axis_left_and_right>Horizontal</axis_left_and_right>
-    <axis_up_and_down>Vertical</axis_up_and_down>
+    <device>PLAYSTATION</device>
+    <axis_left_and_right>horizontal_left_stick</axis_left_and_right>
+    <axis_up_and_down>vertical_left_stick</axis_up_and_down>
   </Playstation>
   <Xbox>
-    <device>Xbox</device>
-    <axis_left_and_right>Horizontal</axis_left_and_right>
-    <axis_up_and_down>Vertical</axis_up_and_down>
+    <device>XBOX</device>
+    <axis_left_and_right>d_pad_ps_horizontal</axis_left_and_right>
+    <axis_up_and_down>d_pad_ps_vertical</axis_up_and_down>
   </Xbox>
 </All_Controls>

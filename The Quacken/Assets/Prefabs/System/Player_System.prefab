@@ -41,8 +41,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2425410667539284978}
   - component: {fileID: 2425410667539284977}
-  - component: {fileID: 2425410667539284976}
-  - component: {fileID: 2425410667539284979}
   m_Layer: 0
   m_Name: Inputs
   m_TagString: Untagged
@@ -76,35 +74,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3729ac1bb864144188fc325cb07a6c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2425410667539284976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2425410667539284981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e29a79d0c94d1b841a7e3a932461a860, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_move_left: 283
-  m_move_right: 0
-  m_move_up: 0
-  m_move_down: 0
---- !u!114 &2425410667539284979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2425410667539284981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6748bf4684b24c84183558f924241c7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_move_left: 282
-  m_move_right: 0
-  m_move_up: 0
-  m_move_down: 0
+  m_current_device: 0
