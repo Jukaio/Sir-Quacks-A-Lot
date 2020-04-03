@@ -2,7 +2,6 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
@@ -12,6 +11,10 @@
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
+/[Ll]ibrary/*
+!/[Ll]ibrary/PackageCache/
+/[Ll]ibrary/PackageCache/*
+!/[Ll]ibrary/PackageCache/com.unity.2d.tilemap.extras@e9955e7528/
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
