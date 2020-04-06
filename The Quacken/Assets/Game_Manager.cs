@@ -29,6 +29,6 @@ public class Game_Manager : MonoBehaviour
 
     private void Update()
     {
-        print(m_player);
+
     }
 }

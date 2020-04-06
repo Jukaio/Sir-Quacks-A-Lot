@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class Player_Controller : MonoBehaviour
 {
+    public float m_noise_range = 3.0f;
+
     private void Awake()
     {
 
@@ -18,13 +20,13 @@ public class Player_Controller : MonoBehaviour
 
     void Update()
     {
-        if (Player_Input.Player(0).m_move_left)
+        if (Player_Input.Player(0).Move_Left)
             transform.position += Vector3.left * Time.deltaTime * 5.0f;
-        if (Player_Input.Player(0).m_move_right)
+        if (Player_Input.Player(0).Move_Right)
             transform.position += Vector3.right * Time.deltaTime * 5.0f;
-        if (Player_Input.Player(0).m_move_up)
+        if (Player_Input.Player(0).Move_Up)
             transform.position += Vector3.up * Time.deltaTime * 5.0f;
-        if (Player_Input.Player(0).m_move_down)
+        if (Player_Input.Player(0).Move_Down)
             transform.position += Vector3.down * Time.deltaTime * 5.0f;
         //print(Player_Input.Player(0).m_current_device);
     }
