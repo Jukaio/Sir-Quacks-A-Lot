@@ -27,54 +27,34 @@ public class Command
         public int m_direction;
     }
 
-    private KeyCode[] m_key_codes = new KeyCode[0];
-    private Axis_Command[] m_axes = new Axis_Command[0];
+    private KeyCode m_key_code = new KeyCode();
+    private PS_Button m_ps_buttons_code = new PS_Button();
+    private XBOX_Button m_xbox_button_code = new XBOX_Button();
 
     public Command()
     {
-        m_key_codes = new KeyCode[0];
+        m_key_code = KeyCode.None;
+        m_ps_buttons_code = PS_Button.NONE;
+        m_xbox_button_code = XBOX_Button.NONE;
     }
-
-    public void Push_Back(KeyCode p_key)
+    public void Set_Key(KeyCode p_key_code)
     {
-        KeyCode[] temp = m_key_codes;
-        m_key_codes = new KeyCode[m_key_codes.Length + 1];
-
-        int index;
-        for (index = 0 ; index < temp.Length; index++)
-            m_key_codes[index] = temp[index];
-        m_key_codes[index] = p_key;
+        m_key_code = p_key_code;
     }
-    public void Push_Back(string p_axis, int p_direction, Device p_device)
+    public void Set_Playstation_Button(PS_Button p_ps_buttons_code)
     {
-        Axis_Command[] temp = m_axes;
-        m_axes = new Axis_Command[m_axes.Length + 1];
-
-        int index;
-        for (index = 0; index < temp.Length; index++)
-            m_axes[index] = temp[index];
-        m_axes[index] = new Axis_Command(p_axis, p_direction, p_device);
+        m_ps_buttons_code = p_ps_buttons_code;
+    }
+    public void Set_XBOX_Button(XBOX_Button p_xbox_button_code)
+    {
+        m_xbox_button_code = p_xbox_button_code;
     }
 
 
     public bool Is_Pressed(ref Device p_current_device)
     {
-        foreach (KeyCode key in m_key_codes)
-        {
-            if (Input.GetKey(key))
-            {
-                p_current_device = Device.KEYBOARD;
-                return true;
-            }
-        }
-        foreach (Axis_Command axis in m_axes)
-        {
-            if (Input.GetAxisRaw(axis.m_axis_name) == axis.m_direction)
-            {
-                p_current_device = axis.m_device;
-                return true;
-            }
-        }
-        return false;
+        return Gamepad.Playstation.Get_Button(m_ps_buttons_code) ||
+                Gamepad.Xbox.Get_Button(m_xbox_button_code) ||
+                Keyboard.Keyboard.Get_Button(m_key_code);
     }
 }

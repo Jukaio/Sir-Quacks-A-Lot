@@ -18,7 +18,6 @@ public enum Commands
 // For single device usage per player, just have one device in the XML (Use a switch-case or something
 public class Player_Input : MonoBehaviour
 {
-
     static private Player_Input[] m_instance = new Player_Input[0];
     static public Player_Input Player(int index)
     {
@@ -26,30 +25,31 @@ public class Player_Input : MonoBehaviour
     }
 
     public Command[] m_commands;
+    private All_Controls m_controls;
 
     public Device m_current_device;
-    public bool m_move_left
+    public bool Move_Left
     {
         get
         {
             return m_commands[(int)Commands.MOVE_LEFT].Is_Pressed(ref m_current_device);
         }
     }
-    public bool m_move_right
+    public bool Move_Right
     {
         get
         {
             return m_commands[(int)Commands.MOVE_RIGHT].Is_Pressed(ref m_current_device);
         }
     }
-    public bool m_move_up
+    public bool Move_Up
     {
         get
         {
             return m_commands[(int)Commands.MOVE_UP].Is_Pressed(ref m_current_device);
         }
     }
-    public bool m_move_down
+    public bool Move_Down
     {
         get
         {
@@ -71,35 +71,34 @@ public class Player_Input : MonoBehaviour
     {
         int index = Create_Player_Input();
         string path = "Assets/Configs/Player_Inputs_" + index + ".xml";
-        All_Controls layout = XML_Serializer.Deserialize<All_Controls>(path);
-        Assign_Controls(layout);
+        m_controls = XML_Serializer.Deserialize<All_Controls>(path);
+        Assign_Controls(m_controls);
     }
 
     void Assign_Controls(All_Controls p_layout)
     {
         if (p_layout.Keyboard != null)
         {
-            m_commands[(int)Commands.MOVE_LEFT].Push_Back(p_layout.Keyboard.MOVE_LEFT);
-            m_commands[(int)Commands.MOVE_RIGHT].Push_Back(p_layout.Keyboard.MOVE_RIGHT);
-            m_commands[(int)Commands.MOVE_UP].Push_Back(p_layout.Keyboard.MOVE_UP);
-            m_commands[(int)Commands.MOVE_DOWN].Push_Back(p_layout.Keyboard.MOVE_DOWN);
+            m_commands[(int)Commands.MOVE_LEFT].Set_Key(p_layout.Keyboard.MOVE_LEFT);
+            m_commands[(int)Commands.MOVE_RIGHT].Set_Key(p_layout.Keyboard.MOVE_RIGHT);
+            m_commands[(int)Commands.MOVE_UP].Set_Key(p_layout.Keyboard.MOVE_UP);
+            m_commands[(int)Commands.MOVE_DOWN].Set_Key(p_layout.Keyboard.MOVE_DOWN);
         }
         if (p_layout.Playstation != null)
         {
-            m_commands[(int)Commands.MOVE_LEFT].Push_Back(p_layout.Playstation.axis_left_and_right, -1, Device.PLAYSTATION);
-            m_commands[(int)Commands.MOVE_RIGHT].Push_Back(p_layout.Playstation.axis_left_and_right, 1, Device.PLAYSTATION);
-            m_commands[(int)Commands.MOVE_UP].Push_Back(p_layout.Playstation.axis_up_and_down, -1, Device.PLAYSTATION);
-            m_commands[(int)Commands.MOVE_DOWN].Push_Back(p_layout.Playstation.axis_up_and_down, 1, Device.PLAYSTATION);
+            m_commands[(int)Commands.MOVE_LEFT].Set_Playstation_Button(p_layout.Playstation.MOVE_LEFT);
+            m_commands[(int)Commands.MOVE_RIGHT].Set_Playstation_Button(p_layout.Playstation.MOVE_RIGHT);
+            m_commands[(int)Commands.MOVE_UP].Set_Playstation_Button(p_layout.Playstation.MOVE_UP);
+            m_commands[(int)Commands.MOVE_DOWN].Set_Playstation_Button(p_layout.Playstation.MOVE_DOWN);
         }
         if (p_layout.Xbox != null)
         {
-            m_commands[(int)Commands.MOVE_LEFT].Push_Back(p_layout.Xbox.axis_left_and_right, -1, Device.XBOX);
-            m_commands[(int)Commands.MOVE_RIGHT].Push_Back(p_layout.Xbox.axis_left_and_right, 1, Device.XBOX);
-            m_commands[(int)Commands.MOVE_UP].Push_Back(p_layout.Xbox.axis_up_and_down, -1, Device.XBOX);
-            m_commands[(int)Commands.MOVE_DOWN].Push_Back(p_layout.Xbox.axis_up_and_down, 1, Device.XBOX);
+            m_commands[(int)Commands.MOVE_LEFT].Set_XBOX_Button(p_layout.Xbox.MOVE_LEFT);
+            m_commands[(int)Commands.MOVE_RIGHT].Set_XBOX_Button(p_layout.Xbox.MOVE_RIGHT);
+            m_commands[(int)Commands.MOVE_UP].Set_XBOX_Button(p_layout.Xbox.MOVE_UP);
+            m_commands[(int)Commands.MOVE_DOWN].Set_XBOX_Button(p_layout.Xbox.MOVE_DOWN);
         }
     }
-
 
     private int Create_Player_Input()
     {
@@ -117,15 +116,5 @@ public class Player_Input : MonoBehaviour
             m_instance[index] = temp[index];
         m_instance[index] = this;
         return index;
-    }
-
-    private void Start()
-    {
-
-    }
-
-    private void Update()
-    {
-
     }
 }

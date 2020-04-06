@@ -6,22 +6,26 @@ using UnityEngine;
 
 public class Player_Controller : MonoBehaviour
 {
-    
-    void Start()
+    private void Awake()
     {
 
+    }
+
+    void Start()
+    {
+        Service<Game_Manager>.Get().Set_Player(gameObject);
     }
 
     void Update()
     {
         if (Player_Input.Player(0).m_move_left)
-            print("Left");
+            transform.position += Vector3.left * Time.deltaTime * 5.0f;
         if (Player_Input.Player(0).m_move_right)
-            print("Right");
+            transform.position += Vector3.right * Time.deltaTime * 5.0f;
         if (Player_Input.Player(0).m_move_up)
-            print("Up");
+            transform.position += Vector3.up * Time.deltaTime * 5.0f;
         if (Player_Input.Player(0).m_move_down)
-            print("Down");
-        print(Player_Input.Player(0).m_current_device);
+            transform.position += Vector3.down * Time.deltaTime * 5.0f;
+        //print(Player_Input.Player(0).m_current_device);
     }
 }
