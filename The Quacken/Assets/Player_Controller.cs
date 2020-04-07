@@ -8,6 +8,7 @@ public class Player_Controller : MonoBehaviour
 {
     public float m_noise_range = 3.0f;
 
+
     private void Awake()
     {
 

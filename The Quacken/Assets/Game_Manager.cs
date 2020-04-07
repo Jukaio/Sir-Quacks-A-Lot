@@ -17,9 +17,14 @@ public class Game_Manager : MonoBehaviour
         }
     }
 
-    private void Awake()
+    Game_Manager()
     {
         Service<Game_Manager>.Set(this);
+    }
+
+    private void Awake()
+    {
+
     }
 
     public void Set_Player(GameObject p_player)
