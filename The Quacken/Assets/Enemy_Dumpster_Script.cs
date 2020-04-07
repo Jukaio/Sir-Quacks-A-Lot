@@ -47,6 +47,7 @@ public class Enemy_Dumpster_Script : MonoBehaviour
     {
         m_player = Service<Game_Manager>.Get().Player;
         m_player_noise_range = m_player.GetComponent<Player_Controller>().m_noise_range;
+        transform.GetChild(1).transform.localScale = (Vector3.one / 10.0f) * m_hearing_range;
     }
 
 
@@ -55,6 +56,13 @@ public class Enemy_Dumpster_Script : MonoBehaviour
         Set_Distance_To_Player();
         sees = Sees_Player();
         hears = Hears_Player();
+
+        Color color = Color.white;
+        if(hears)
+        {
+            color = Color.red;
+        }
+        transform.GetChild(1).GetComponent<SpriteRenderer>().color = color;
 
     }
 

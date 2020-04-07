@@ -7,7 +7,7 @@
         _Noise("Noise", 2D) = "white" {}
         _ShadowC("ShadowColor", Color) = (0.1, 0.1, 0.1, 0.1)
         _NScale("Noise Scale", Range(0,10)) = 2
-        _LightMultiplier("Light Circle Smoothness", Range(0, 5)) = 3
+        _LightMultiplier("Light Circle Smoothness", Range(0, 10)) = 3
         _ExtraLight("Light Strength", Range(0.5, 5)) = 1
         _Cutoff("Cutoff Noise", Range(0, 1)) = 1
         _SmoothEdge("Smooth Edge", Range(0, 1)) = 0.1

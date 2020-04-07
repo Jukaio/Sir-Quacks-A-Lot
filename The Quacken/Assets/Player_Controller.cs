@@ -17,6 +17,7 @@ public class Player_Controller : MonoBehaviour
     void Start()
     {
         Service<Game_Manager>.Get().Set_Player(gameObject);
+        transform.GetChild(1).transform.localScale = (Vector3.one / 10.0f) * m_noise_range;
     }
 
     void Update()
