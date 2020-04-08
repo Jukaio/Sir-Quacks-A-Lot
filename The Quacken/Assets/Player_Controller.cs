@@ -43,6 +43,7 @@ public class Player_Controller : MonoBehaviour
             transform.position += Vector3.down * Time.deltaTime * 5.0f;
         ////print(Player_Input.Player(0).m_current_device);
 
+
         Set_Ray_Data();
         Debug_Draw_Rays();
     }
