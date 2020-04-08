@@ -154,6 +154,7 @@ MonoBehaviour:
   m_noise_range: 4
   m_objects_composite_collider: {fileID: 1482243667}
   m_input: {fileID: 0}
+  m_test_mat: {fileID: 2100000, guid: 0c67c1ba36507674782f8ec90130195c, type: 2}
 --- !u!4 &375952295
 Transform:
   m_ObjectHideFlags: 0
@@ -177,7 +178,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375952293}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -3195,7 +3196,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!84 &1296631322
+--- !u!84 &1393695320
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3208,8 +3209,8 @@ RenderTexture:
   m_ForcedFallbackFormat: 4
   m_DownscaleFallback: 0
   serializedVersion: 3
-  m_Width: 1920
-  m_Height: 1080
+  m_Width: 1280
+  m_Height: 720
   m_AntiAliasing: 1
   m_MipCount: -1
   m_DepthFormat: 2
@@ -3269,40 +3270,64 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 1542085210}
     m_ColliderPaths:
-    - - X: 192000084
-        Y: -128000041
-      - X: 192000084
-        Y: 112000049
-      - X: 192000025
-        Y: 112000108
-      - X: -192000041
-        Y: 112000108
-      - X: -192000100
-        Y: 112000049
-      - X: -192000100
-        Y: -128000041
-      - X: -192000041
-        Y: -128000100
-      - X: 192000025
-        Y: -128000100
-    - - X: -175999916
-        Y: -111999900
-      - X: -175999916
-        Y: 95999900
-      - X: 175999900
-        Y: 95999900
-      - X: 175999900
-        Y: -111999900
+    - - X: 191999984
+        Y: 112000008
+      - X: 176000000
+        Y: 112000008
+      - X: 176000000
+        Y: -128000000
+      - X: 191999984
+        Y: -128000000
+    - - X: 175999984
+        Y: 112000008
+      - X: -159999984
+        Y: 112000008
+      - X: -159999984
+        Y: 96000000
+      - X: 175999984
+        Y: 96000000
+    - - X: -160000016
+        Y: 112000008
+      - X: -176000000
+        Y: 112000008
+      - X: -176000000
+        Y: 96000000
+      - X: -160000016
+        Y: 96000000
+    - - X: -176000016
+        Y: 112000008
+      - X: -192000000
+        Y: 112000008
+      - X: -192000000
+        Y: -128000000
+      - X: -176000016
+        Y: -128000000
+    - - X: 175999984
+        Y: -112000000
+      - X: -159999984
+        Y: -112000000
+      - X: -159999984
+        Y: -128000000
+      - X: 175999984
+        Y: -128000000
+    - - X: -160000016
+        Y: -112000000
+      - X: -176000000
+        Y: -112000000
+      - X: -176000000
+        Y: -128000000
+      - X: -160000016
+        Y: -128000000
   m_CompositePaths:
     m_Paths:
-    - - {x: 19.199972, y: -12.80001}
-      - {x: 19.199972, y: 11.200011}
-      - {x: -19.20001, y: 11.199976}
-      - {x: -19.199974, y: -12.80001}
-    - - {x: 17.59999, y: -11.199961}
-      - {x: -17.599993, y: -11.199961}
-      - {x: -17.599962, y: 9.599991}
-      - {x: 17.59999, y: 9.599961}
+    - - {x: 19.19997, y: -12.8}
+      - {x: 19.19997, y: 11.200001}
+      - {x: -19.2, y: 11.199971}
+      - {x: -19.199972, y: -12.8}
+    - - {x: 17.6, y: -11.19997}
+      - {x: -17.600002, y: -11.19997}
+      - {x: -17.599974, y: 9.6}
+      - {x: 17.6, y: 9.599971}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!50 &1482243668
@@ -4226,9 +4251,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1588514311}
   - component: {fileID: 1588514312}
+  - component: {fileID: 1588514313}
   m_Layer: 0
   m_Name: s_some_enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4265,6 +4291,32 @@ MonoBehaviour:
   m_cone_length: 5
   m_tag_to_compare: Player
   m_hearing_range: 3
+--- !u!61 &1588514313
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588514310}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1723752156
 GameObject:
   m_ObjectHideFlags: 0
@@ -4396,7 +4448,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 256
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 1296631322}
+  m_TargetTexture: {fileID: 1393695320}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
