@@ -10,6 +10,7 @@ public class Player_Controller : MonoBehaviour
     public CompositeCollider2D m_objects_composite_collider;
 
     Vector2[][] paths_points;
+    public Player_Input m_input;
     private void Awake()
     {
 
@@ -18,7 +19,7 @@ public class Player_Controller : MonoBehaviour
     void Start()
     {
         Service<Game_Manager>.Get().Set_Player(gameObject);
-
+        m_input = Player_Input.Player(0);
         Set_Ray_Data();
     }
 
@@ -32,15 +33,15 @@ public class Player_Controller : MonoBehaviour
     {
         Update_Noise_Range();
 
-        if (Player_Input.Player(0).Move_Left)
+        if (m_input.Move_Left)
             transform.position += Vector3.left * Time.deltaTime * 5.0f;
-        if (Player_Input.Player(0).Move_Right)
+        if (m_input.Move_Right)
             transform.position += Vector3.right * Time.deltaTime * 5.0f;
-        if (Player_Input.Player(0).Move_Up)
+        if (m_input.Move_Up)
             transform.position += Vector3.up * Time.deltaTime * 5.0f;
-        if (Player_Input.Player(0).Move_Down)
+        if (m_input.Move_Down)
             transform.position += Vector3.down * Time.deltaTime * 5.0f;
-        //print(Player_Input.Player(0).m_current_device);
+        ////print(Player_Input.Player(0).m_current_device);
 
         Set_Ray_Data();
         Debug_Draw_Rays();

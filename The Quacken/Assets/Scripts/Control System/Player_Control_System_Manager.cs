@@ -11,7 +11,7 @@ public class Player_Control_System_Manager : MonoBehaviour
     public GameObject m_player_system_template;
 
 
-    void Start()
+    void Awake()
     {
         for(int index = 0; index < m_player_amount; index++)
         {
