@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise:
-        m_Texture: {fileID: 2800000, guid: 64083d9436320d44bbaa55e8f7a74add, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4ca8b370a1a0ead4f98957a2cbb48b90, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RenderTexture:
@@ -32,14 +32,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Cutoff: 0.165
+    - _Cutoff: 0.16
     - _DistortStrength: 0.1
     - _ExtraLight: 1
     - _InnerEdge: 7.54
-    - _LightMultiplier: 0.34
+    - _LightMultiplier: 0.285
     - _NScale: 1
     - _OuterEdge: 4.4
-    - _SPeedX: 0.16
+    - _SPeedX: -0.15
     - _SPeedY: -0.1
     - _SmoothEdge: 0.242
     m_Colors:
