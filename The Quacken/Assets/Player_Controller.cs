@@ -28,13 +28,14 @@ public class Player_Controller : MonoBehaviour
     Vector3[] m_all_points;
     public Player_Input m_input;
 
-
+    Ray[] rays;
 
     public Material m_test_mat;
     MeshFilter m_mesh_filter;
     MeshRenderer m_mesh_renderer;
     Mesh m_mesh;
     GameObject m_mesh_object;
+    PolygonCollider2D m_mesh_collider;
     int[] m_indeces;
 
     private void Awake()
@@ -42,7 +43,6 @@ public class Player_Controller : MonoBehaviour
 
     }
 
-    List<float> m_test = new List<float>();
     void Start()
     {
         Service<Game_Manager>.Get().Set_Player(gameObject);
@@ -52,10 +52,6 @@ public class Player_Controller : MonoBehaviour
         Set_Indeces();
         Create_Mesh();
 
-        foreach (Vector3 point in m_all_points)
-        {
-            m_test.Add(Vector2.SignedAngle(Vector2.up, point));
-        }
     }
 
     void Update_Noise_Range()
@@ -64,8 +60,18 @@ public class Player_Controller : MonoBehaviour
 
     }
 
+    public UnityEngine.UI.Text text;
+    float dt = 0.0f;
+    float FPS = 0.0f;
+
     void Update()
     {
+        dt += Time.deltaTime;
+        dt /= 2.0f;
+        FPS = 1.0f / dt;
+
+        text.text = FPS.ToString();
+
         Update_Noise_Range();
 
         if (m_input.Move_Left)
@@ -80,10 +86,7 @@ public class Player_Controller : MonoBehaviour
 
         Cast_Rays();
         Update_Mesh();
-        foreach (Vector3 point in m_all_points)
-        {
-            m_test.Add(Vector2.SignedAngle(Vector2.up, point));
-        }
+
     }
 
     void Get_Corners()
@@ -105,74 +108,63 @@ public class Player_Controller : MonoBehaviour
                 m_all_points[j * 3] = temp;
 
                 // Offsets
-                m_all_points[j * 3 + 1] = temp.Rotate(-0.001f);
-                m_all_points[j * 3 + 2] = temp.Rotate(0.001f);
+                m_all_points[j * 3 + 1] = temp.Rotate(-0.02f);
+                m_all_points[j * 3 + 2] = temp.Rotate(0.02f);
             }
             point_index += nrOfPoints;
         }
-
     }
+
 
     void Cast_Rays()
     {
-        m_ray_hit_points = new Vector3[m_all_points.Length];
-
-        for(int i = 0; i < m_all_points.Length; i++)
-        {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, (m_all_points[i] - transform.position));
-
-            if (hit.collider != null)
-            {
-                m_ray_hit_points[i] = hit.centroid;
-                Debug.DrawLine(transform.position, hit.centroid, Color.green);
-            }
-        }
-        Quick_Sort(m_ray_hit_points, 0, m_ray_hit_points.Length - 1);
-        Vector3[] temp = m_ray_hit_points;
-        m_ray_hit_points = new Vector3[temp.Length + 1];
+        m_ray_hit_points = new Vector3[m_all_points.Length + 1];
         m_ray_hit_points[0] = transform.position;
 
-        for (int i = 0; i < temp.Length; i++)
+        for (int i = 0; i < m_all_points.Length; i++)
         {
-            m_ray_hit_points[i + 1] = temp[i];
+
+            m_ray_hit_points[i + 1] = Physics2D.Raycast(transform.position, (m_all_points[i] - transform.position), Mathf.Infinity, 1 << LayerMask.NameToLayer("Grid")).centroid;
         }
 
+        Quick_Sort(m_ray_hit_points, 1, m_ray_hit_points.Length - 1, transform.position);
     }
 
-    void Debug_Draw_Rays()
-    {
-        for (int arr_i = 0; arr_i < m_paths_points.Length; arr_i++)
-        {
-            for (int jag_i = 0; jag_i < m_paths_points[arr_i].Length; jag_i++)
-            {
-                Debug.DrawRay(transform.position, (Vector3)m_paths_points[arr_i][jag_i] - transform.position, Color.green);
-            }
-        }
-    }
-
+    GameObject mesh_collider;
     void Create_Mesh()
     {
         m_mesh_object = new GameObject("Mesh Visual");
+        mesh_collider = new GameObject("collider");
+        mesh_collider.transform.parent = m_mesh_object.transform;
+
         m_mesh_object.layer = LayerMask.NameToLayer("Lighting");
+        mesh_collider.layer = LayerMask.NameToLayer("Ignore Raycast");
+
         m_mesh_object.transform.position = Vector3.back;
+        
 
         m_mesh = new Mesh();
         m_mesh_renderer = m_mesh_object.AddComponent<MeshRenderer>();
         m_mesh_filter = m_mesh_object.AddComponent<MeshFilter>();
 
+        m_mesh_collider = mesh_collider.AddComponent<PolygonCollider2D>();
+
         m_mesh_filter.sharedMesh = m_mesh;
 
 
+        m_mesh_collider.points =  m_ray_hit_points.To_Vector2_Array();
         m_mesh.vertices = m_ray_hit_points;
         m_mesh.triangles = m_indeces;
 
         Material material = new Material(m_test_mat);
         m_mesh_renderer.material = material;
+
     }
 
     void Update_Mesh()
     {
         m_mesh.Clear();
+        m_mesh_collider.points = m_ray_hit_points.To_Vector2_Array();
         m_mesh.vertices = m_ray_hit_points;
         m_mesh.triangles = m_indeces;
     }
@@ -203,11 +195,11 @@ public class Player_Controller : MonoBehaviour
         while(min <= max)
         {
             int mid = (min + max) / 2;
-            if(key == Vector2.Angle(Vector3.up, arr[mid]))
+            if(key == Vector2.SignedAngle(Vector3.up, arr[mid]))
             {
                 return ++mid;
             }
-            else if(key < Vector2.Angle(Vector3.up, arr[mid]))
+            else if(key < Vector2.SignedAngle(Vector3.up, arr[mid]))
             {
                 max = mid - 1;
             }
@@ -219,16 +211,17 @@ public class Player_Controller : MonoBehaviour
         return null;
     }
 
-    static public int Partition(Vector3[] arr, int low, int high)
+    static public int Partition(Vector3[] arr, int low, int high, Vector3 origin)
     {
         float pivot;
-        pivot = Vector2.SignedAngle(Vector3.up, arr[high]);
+        pivot = Vector2.SignedAngle(Vector3.up, (arr[high] - origin).normalized);
 
         int i = (low - 1);
         {
             for (int j = low; j < high; j++)
             {
-                if(Vector2.SignedAngle(Vector3.up, arr[j]) < pivot)
+                float angle = Vector2.SignedAngle(Vector3.up, (arr[j] - origin).normalized);
+                if (angle < pivot)
                 {
                     i++;
                     Vector3 temp = arr[i];
@@ -242,42 +235,17 @@ public class Player_Controller : MonoBehaviour
 
             return i + 1;
         }
-        //while (true)
-        //{
-        //    while (Vector2.SignedAngle(Vector3.up, arr[left]) < pivot)
-        //    {
-        //        left++;
-        //    }
-        //    while (Vector2.SignedAngle(Vector3.up, arr[right]) > pivot)
-        //    {
-        //        right--;
-        //    }
-        //    if (Vector2.SignedAngle(Vector3.up, arr[left]) < Vector2.SignedAngle(Vector3.up, arr[right]))
-        //    {
-        //        Vector3 temp = arr[right];
-        //        arr[right] = arr[left];
-        //        arr[left] = temp;
-        //    }
-        //    else
-        //    {
-        //        return right;
-        //    }
-        //}
     }
 
-    public static void Quick_Sort(Vector3[] arr, int left, int right)
+
+    public static void Quick_Sort(Vector3[] arr, int low, int high, Vector3 origin)
     {
-        if (left < right)
+        if (low < high)
         {
-            int pivot = Partition(arr, left, right);
-            Quick_Sort(arr, left, pivot - 1);
-            Quick_Sort(arr, pivot + 1, right);
+            int pivot = Partition(arr, low, high, origin);
+            Quick_Sort(arr, low, pivot - 1, origin);
+            Quick_Sort(arr, pivot + 1, high, origin);
         }
-    }
-
-    public static float Atan2(Vector3 obj)
-    {
-        return (float)Math.Atan2((double)obj.y, (double)obj.x);
     }
 }
 
