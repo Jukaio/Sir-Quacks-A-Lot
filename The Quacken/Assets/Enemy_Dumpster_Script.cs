@@ -43,21 +43,67 @@ public class Enemy_Dumpster_Script : MonoBehaviour
     bool sees; // For debugging
     bool hears; // For debugging
 
+    public Animator m_anim;
+
+    Physics2D_Movement m_movement;
+    public Entity_Data m_data;
     void Start()
     {
+        m_anim = GetComponent<Animator>();
         m_player = Service<Game_Manager>.Get().Player;
         m_player_noise_range = m_player.GetComponent<Player_Controller>().m_noise_range;
         Update_Hearing_Range();
+
+        m_movement = GetComponent<Physics2D_Movement>();
+        m_movement.Set_Data(m_data);
+        m_state = Movement_States.UP;
     }
 
     void Update_Hearing_Range()
     {
-        transform.GetChild(1).transform.localScale = (Vector3.one / 10.0f) * m_hearing_range;
+        transform.GetChild(0).transform.localScale = (Vector3.one / 10.0f) * m_hearing_range;
     }
 
+    enum Movement_States
+    {
+        UP, DOWN, LEFT, RIGHT
+    }
+
+    public UnityEngine.UI.Text text;
+    Movement_States m_state;
     void Update()
     {
-        Set_Distance_To_Player();
+        m_movement.Reset_Direction();
+
+        switch (m_state)
+        {
+            case Movement_States.UP:
+                m_movement.Add_Direction(Vector2.up);
+                if (Vector2.Distance(transform.position, Physics2D.Raycast(transform.position, Vector2.up, Mathf.Infinity).centroid) < 1.25f)
+                    m_state = Movement_States.LEFT;
+                break;
+            case Movement_States.DOWN:
+                m_movement.Add_Direction(Vector2.down);
+                if (Vector2.Distance(transform.position, Physics2D.Raycast(transform.position, Vector2.down, Mathf.Infinity).centroid) < 1.25f)
+                    m_state = Movement_States.RIGHT;
+                break;
+            case Movement_States.LEFT:
+                m_movement.Add_Direction(Vector2.left);
+                if (Vector2.Distance(transform.position, Physics2D.Raycast(transform.position, Vector2.left, Mathf.Infinity).centroid) < 1.5f)
+                    m_state = Movement_States.DOWN;
+                break;
+            case Movement_States.RIGHT:
+                m_movement.Add_Direction(Vector2.right);
+                if (Vector2.Distance(transform.position, Physics2D.Raycast(transform.position, Vector2.right, Mathf.Infinity).centroid) < 1.5f)
+                    m_state = Movement_States.UP;
+                break;
+        }
+
+        m_anim.SetFloat("x", m_movement.direction.x);
+        m_anim.SetFloat("y", m_movement.direction.y);
+        m_anim.SetFloat("prev_x", m_movement.prev_direction.x);
+        m_anim.SetFloat("prev_y", m_movement.prev_direction.y);
+
         sees = Sees_Player();
         hears = Hears_Player();
 
@@ -66,8 +112,18 @@ public class Enemy_Dumpster_Script : MonoBehaviour
         {
             color = Color.red;
         }
-        transform.GetChild(1).GetComponent<SpriteRenderer>().color = color;
 
+        if(hears || sees)
+        {
+            
+        }
+        transform.GetChild(0).GetComponent<SpriteRenderer>().color = color;
+
+    }
+
+    void FixedUpdate()
+    {
+        m_movement.Execute();
     }
 
     void Set_Distance_To_Player()
@@ -78,9 +134,9 @@ public class Enemy_Dumpster_Script : MonoBehaviour
 
     bool Player_In_Vision_Range()
     {
-        m_view_direction = m_origin.Rotate(transform.rotation.eulerAngles.z);
-        m_view_angle = Vector2.Angle(m_origin, m_view_direction);
-        m_to_player_angle = Vector2.Angle(m_origin, m_to_player_direction.normalized);
+        m_view_direction = m_movement.direction.Rotate(transform.rotation.eulerAngles.z);
+        m_view_angle = Vector2.Angle(m_movement.direction, m_view_direction);
+        m_to_player_angle = Vector2.Angle(m_movement.direction, m_to_player_direction.normalized);
 
         return  m_to_player_angle > m_view_angle - m_cone_width && m_to_player_angle < m_view_angle + m_cone_width &&
                 m_to_player_distance < m_cone_length;
@@ -88,9 +144,11 @@ public class Enemy_Dumpster_Script : MonoBehaviour
 
     bool Sees_Player()
     {
+        Set_Distance_To_Player();
         if (Player_In_Vision_Range())
         {
-            m_hit = Physics2D.Raycast(transform.position, m_to_player_direction);
+            m_hit = Physics2D.Raycast(transform.position, m_to_player_direction * m_to_player_distance);
+            Debug.DrawRay(transform.position, m_to_player_direction * m_to_player_distance, Color.green);
             if (m_hit.collider.CompareTag(m_tag_to_compare))
                 return true;
         }
@@ -101,4 +159,5 @@ public class Enemy_Dumpster_Script : MonoBehaviour
     {
         return m_to_player_distance < m_player_noise_range + m_hearing_range;
     }
+
 }

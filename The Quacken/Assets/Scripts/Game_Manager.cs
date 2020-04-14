@@ -24,6 +24,7 @@ public class Game_Manager : MonoBehaviour
 
     private void Awake()
     {
+
         //Scene_Manager.Load_Level(1);
     }
 
