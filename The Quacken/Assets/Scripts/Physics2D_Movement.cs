@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Physics2D_Movement : MonoBehaviour
 {
-    private Entity_Data m_data;
+    [SerializeField] private float m_speed = 5.0f;
 
     private Vector2 m_direction;
     private Vector2 m_prev_direction;
@@ -33,17 +33,13 @@ public class Physics2D_Movement : MonoBehaviour
         }
     }
     private Rigidbody2D m_rb;
-
+    
     private void Awake()
     {
         m_rb = GetComponent<Rigidbody2D>();
         m_direction = Vector2.zero;
     }
 
-    public void Set_Data(Entity_Data p_data)
-    {
-        m_data = p_data;
-    }
 
     public void Reset_Direction()
     {
@@ -61,7 +57,7 @@ public class Physics2D_Movement : MonoBehaviour
         if (direction != Vector2.zero)
             m_prev_direction = m_direction;
         
-        m_rb.velocity = m_direction * m_data.m_speed;
+        m_rb.velocity = m_direction * m_speed;
         m_direction = Vector2.zero;
     }
 }

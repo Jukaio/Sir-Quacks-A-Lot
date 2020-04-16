@@ -4,69 +4,34 @@ using UnityEngine;
 
 public class Enemy_Dumpster_Script : MonoBehaviour
 {
-    ///////////////////////
-    /// SerializeFields ///
-    ///////////////////////
-
-    // Seeing
-    [SerializeField] private float m_cone_width = 30.0f;
-    [SerializeField] private float m_cone_length = 5.0f;
-    [SerializeField] private string m_tag_to_compare = "Player";
-    // Hearing
-    [SerializeField] private float m_hearing_range = 3.0f;
-
-    ////////////////////////
-    /// !SerializeFields ///
-    ////////////////////////
-
-    // to_player
-    // Seeing
-    // Cone
+    [SerializeField] Enemy_Data m_data;
     private GameObject m_player;
-    Vector2 m_to_player_direction;
-    float m_to_player_distance;
-    float m_to_player_angle;
-    // Raycast - If player is behind a collider or not
-    RaycastHit2D m_hit = new RaycastHit2D();
 
-    // hearing
-    float m_player_noise_range;
-    // !to_player
-
-    // this (Enemy)
-    Vector2 m_origin = Vector2.up;
-    Vector2 m_view_direction;
-    float m_view_angle;
-    // !this
-
-    // Interface Visuals for early development
-    bool sees; // For debugging
-    bool hears; // For debugging
 
     public Animator m_anim;
 
     Physics2D_Movement m_movement;
-    public Entity_Data m_data;
+    Seeing m_seeing;
+    Hearing m_hearing;
+
+
     void Start()
     {
-        m_anim = GetComponent<Animator>();
+        m_seeing = GetComponent<Seeing>();
+        m_hearing = GetComponent<Hearing>();
         m_player = Service<Game_Manager>.Get().Player;
-        m_player_noise_range = m_player.GetComponent<Player_Controller>().m_noise_range;
-        Update_Hearing_Range();
+
+        m_anim = GetComponent<Animator>();
 
         m_movement = GetComponent<Physics2D_Movement>();
-        m_movement.Set_Data(m_data);
         m_state = Movement_States.UP;
     }
 
-    void Update_Hearing_Range()
-    {
-        transform.GetChild(0).transform.localScale = (Vector3.one / 10.0f) * m_hearing_range;
-    }
+
 
     enum Movement_States
     {
-        UP, DOWN, LEFT, RIGHT
+        UP, DOWN, LEFT, RIGHT, CHASE
     }
 
     public UnityEngine.UI.Text text;
@@ -97,6 +62,12 @@ public class Enemy_Dumpster_Script : MonoBehaviour
                 if (Vector2.Distance(transform.position, Physics2D.Raycast(transform.position, Vector2.right, Mathf.Infinity).centroid) < 1.5f)
                     m_state = Movement_States.UP;
                 break;
+
+            case Movement_States.CHASE:
+                m_movement.Add_Direction((m_player.transform.position - transform.position).normalized);
+                if (!m_seeing.See(m_movement.direction, m_player))
+                    m_state = Movement_States.UP;
+                break;
         }
 
         m_anim.SetFloat("x", m_movement.direction.x);
@@ -104,61 +75,14 @@ public class Enemy_Dumpster_Script : MonoBehaviour
         m_anim.SetFloat("prev_x", m_movement.prev_direction.x);
         m_anim.SetFloat("prev_y", m_movement.prev_direction.y);
 
-        sees = Sees_Player();
-        hears = Hears_Player();
-
-        Color color = Color.white;
-        if(hears)
-        {
-            color = Color.red;
-        }
-
-        if(sees)
-        {
-            color = Color.blue;
-
-        }
-        transform.GetChild(0).GetComponent<SpriteRenderer>().color = color;
-
+        if (m_seeing.See(m_movement.direction, m_player))
+            m_state = Movement_States.CHASE;
+        if (m_hearing.Hear(m_player, m_player.GetComponent<Player_Controller>().m_noise_range))
+            Debug.LogWarning("I hear");
     }
 
     void FixedUpdate()
     {
         m_movement.Execute();
     }
-
-    void Set_Distance_To_Player()
-    {
-        m_to_player_direction = (m_player.transform.position - transform.position).normalized;
-        m_to_player_distance = Vector2.Distance(transform.position, m_player.transform.position);
-    }
-
-    bool Player_In_Vision_Range()
-    {
-        m_view_direction = m_movement.direction.Rotate(transform.rotation.eulerAngles.z);
-        m_view_angle = Vector2.Angle(m_movement.direction, m_view_direction);
-        m_to_player_angle = Vector2.Angle(m_movement.direction, m_to_player_direction.normalized);
-
-        return  m_to_player_angle > m_view_angle - m_cone_width && m_to_player_angle < m_view_angle + m_cone_width &&
-                m_to_player_distance < m_cone_length;
-    }
-
-    bool Sees_Player()
-    {
-        Set_Distance_To_Player();
-        if (Player_In_Vision_Range())
-        {
-            m_hit = Physics2D.Raycast(transform.position, m_to_player_direction * m_to_player_distance);
-            Debug.DrawRay(transform.position, m_hit.centroid - (Vector2)transform.position, Color.green);
-            if (m_hit.collider.CompareTag(m_tag_to_compare))
-                return true;
-        }
-        return false;
-    }
-
-    bool Hears_Player()
-    {
-        return m_to_player_distance < m_player_noise_range + m_hearing_range;
-    }
-
 }
