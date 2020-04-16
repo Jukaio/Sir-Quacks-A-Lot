@@ -19,7 +19,6 @@ public class Player_Controller : MonoBehaviour
     {
         m_anim = GetComponent<Animator>();
         m_movement = GetComponent<Physics2D_Movement>();
-        m_movement.Set_Data(m_data);
         Service<Game_Manager>.Get().Set_Player(gameObject);
     }
 
