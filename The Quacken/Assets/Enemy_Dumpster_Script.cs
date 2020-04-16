@@ -113,9 +113,10 @@ public class Enemy_Dumpster_Script : MonoBehaviour
             color = Color.red;
         }
 
-        if(hears || sees)
+        if(sees)
         {
-            
+            color = Color.blue;
+
         }
         transform.GetChild(0).GetComponent<SpriteRenderer>().color = color;
 
@@ -148,7 +149,7 @@ public class Enemy_Dumpster_Script : MonoBehaviour
         if (Player_In_Vision_Range())
         {
             m_hit = Physics2D.Raycast(transform.position, m_to_player_direction * m_to_player_distance);
-            Debug.DrawRay(transform.position, m_to_player_direction * m_to_player_distance, Color.green);
+            Debug.DrawRay(transform.position, m_hit.centroid - (Vector2)transform.position, Color.green);
             if (m_hit.collider.CompareTag(m_tag_to_compare))
                 return true;
         }

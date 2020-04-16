@@ -9,4 +9,10 @@ public class Scene_Manager : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(index, LoadSceneMode.Additive);
     }
+
+    static public void Unload_Level(int index)
+    {
+        if (SceneManager.GetSceneAt(index).isLoaded)
+            SceneManager.UnloadSceneAsync(index);
+    }
 }

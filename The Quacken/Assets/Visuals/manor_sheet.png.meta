@@ -89,6 +89,9 @@ TextureImporter:
   - first:
       213: -354421915527563592
     second: manor_sheet_28
+  - first:
+      213: -8938398864183758482
+    second: manor_sheet_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -132,7 +135,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -200,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a860153269e33b940800000000000000
-      internalID: 5310657200158475914
+      spriteID: e617297379d64f380800000000000000
+      internalID: -8938398864183758482
       vertices: []
       indices: 
       edges: []
