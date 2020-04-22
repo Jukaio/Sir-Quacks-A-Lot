@@ -5,7 +5,7 @@ using UnityEngine;
 
 public struct Service<T>
 {
-    private static T m_instance;
+    private static T m_instance = default(T);
 
     static public bool Set(T p_instance)
     {

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Game_Manager : MonoBehaviour
 {
     private GameObject m_player;
+    [SerializeField] private Sound_Manager m_sound_manager;
     public GameObject Player
     {
         get
@@ -24,7 +25,7 @@ public class Game_Manager : MonoBehaviour
 
     private void Awake()
     {
-
+        Service<Sound_Manager>.Set(m_sound_manager);
         //Scene_Manager.Load_Level(1);
     }
 

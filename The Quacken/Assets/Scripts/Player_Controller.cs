@@ -103,6 +103,8 @@ public class Player_Controller : MonoBehaviour
     private void Update()
     {
         Handle_Inputs();
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+            Service<Sound_Manager>.Get().Play("Music", "Test");
     }
 
     void FixedUpdate()
