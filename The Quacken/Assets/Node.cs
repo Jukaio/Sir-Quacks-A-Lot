@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class Node 
+public class Node : MonoBehaviour
 {
     public Vector2 m_position;
-    public Node[] neighbours_;
+    public Node m_parent;
 
-    void Start()
+    public Node(Vector2 p_position, Node p_parent)
     {
-        //Grid_Manager.Subscribe(this);
+        m_position = p_position;
+        m_parent = p_parent;
     }
 }

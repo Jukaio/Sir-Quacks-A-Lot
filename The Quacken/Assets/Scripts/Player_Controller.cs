@@ -15,8 +15,24 @@ public class Player_Controller : MonoBehaviour
     public Player_Data m_data;
     public Animator m_anim;
 
+    //Smell
+    float m_distance_interval = 5.0f;
+    float m_distance_walked;
+    Vector2 old_position;
+    public GameObject m_template_smell;
+    GameObject[] m_game_objects;
+    // !Smell
+
     private void Awake()
     {
+        m_game_objects = new GameObject[10];
+        for (int i = 0; i < 10; i++)
+        {
+            m_game_objects[i] = new GameObject("smell");
+            m_game_objects[i].SetActive(false);
+            m_game_objects[i].AddComponent<CircleCollider2D>().isTrigger = true;
+        }
+
         m_anim = GetComponent<Animator>();
         m_movement = GetComponent<Physics2D_Movement>();
         Service<Game_Manager>.Get().Set_Player(gameObject);
@@ -25,6 +41,7 @@ public class Player_Controller : MonoBehaviour
     void Start()
     {
         m_input = Player_Input.Player(0);
+        m_distance_walked = m_distance_interval;
     }
 
     void Update_Noise_Range()
@@ -50,9 +67,37 @@ public class Player_Controller : MonoBehaviour
         m_anim.SetFloat("prev_y", m_movement.prev_direction.y);
     }
 
+    GameObject m_prev = null;
+    int m_smell_index = 0;
     void Execute_Inputs()
     {
         m_movement.Execute();
+
+        if (m_smell_index < 10)
+        {
+            m_distance_walked -= Vector2.Distance(old_position, transform.position);
+            if (m_distance_walked < 0)
+            {
+                m_game_objects[m_smell_index].transform.position = transform.position;
+                m_game_objects[m_smell_index].SetActive(true);
+                if (m_prev != null)
+                    m_game_objects[m_smell_index].transform.parent = m_prev.transform;
+
+                m_prev = m_game_objects[m_smell_index];
+                m_smell_index++;
+                m_distance_walked = m_distance_interval;
+            }
+        }
+
+        for(int i = 0; i < 10; i++)
+        {
+            if(m_game_objects[i].transform.childCount != 0)
+            {
+                Debug.DrawLine(m_game_objects[i].transform.position, m_game_objects[i].transform.GetChild(0).transform.position, Color.red);
+            }
+        }
+
+        old_position = transform.position;
     }
 
     private void Update()
