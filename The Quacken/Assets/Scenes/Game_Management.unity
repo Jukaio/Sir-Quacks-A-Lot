@@ -226,6 +226,7 @@ GameObject:
   - component: {fileID: 1180207036}
   - component: {fileID: 1180207035}
   - component: {fileID: 1180207033}
+  - component: {fileID: 1180207037}
   m_Layer: 0
   m_Name: g_sound_manager
   m_TagString: Untagged
@@ -544,8 +545,14 @@ MonoBehaviour:
   m_packages:
   - m_package_name: Music
     m_clips:
-    - m_name: Test
+    - m_name: Background
       m_clip: {fileID: 8300000, guid: 0493b717dec50ce40bb1b7897809e2b4, type: 3}
+  - m_package_name: Duck
+    m_clips:
+    - m_name: Test
+      m_clip: {fileID: 8300000, guid: 19980b67be18ed748a37a711a8f7662f, type: 3}
+    - m_name: Test
+      m_clip: {fileID: 0}
 --- !u!4 &1180207034
 Transform:
   m_ObjectHideFlags: 0
@@ -752,6 +759,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1180207037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180207028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb7764beed0f6d4a9b0a61ab2fda601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_board_buttons:
+  - m_button: 49
+    m_pack_name: Music
+    m_sound_name: Test
 --- !u!1 &1371524936
 GameObject:
   m_ObjectHideFlags: 0
