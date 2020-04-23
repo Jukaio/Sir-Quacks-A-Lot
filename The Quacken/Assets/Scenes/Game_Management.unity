@@ -544,8 +544,14 @@ MonoBehaviour:
   m_packages:
   - m_package_name: Music
     m_clips:
-    - m_name: Test
+    - m_name: Background
       m_clip: {fileID: 8300000, guid: 0493b717dec50ce40bb1b7897809e2b4, type: 3}
+  - m_package_name: Duck
+    m_clips:
+    - m_name: Test
+      m_clip: {fileID: 8300000, guid: 19980b67be18ed748a37a711a8f7662f, type: 3}
+    - m_name: Test
+      m_clip: {fileID: 0}
 --- !u!4 &1180207034
 Transform:
   m_ObjectHideFlags: 0
