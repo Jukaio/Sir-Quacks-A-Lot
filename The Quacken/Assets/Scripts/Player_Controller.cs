@@ -21,16 +21,28 @@ public class Player_Controller : MonoBehaviour
     Vector2 old_position;
     public GameObject m_template_smell;
     GameObject[] m_game_objects;
+    GameObject m_trail;
+    public Material m_test_mat;
     // !Smell
 
     private void Awake()
     {
         m_game_objects = new GameObject[10];
+        m_trail = new GameObject("Trail");
         for (int i = 0; i < 10; i++)
         {
             m_game_objects[i] = new GameObject("smell");
-            m_game_objects[i].SetActive(false);
-            m_game_objects[i].AddComponent<CircleCollider2D>().isTrigger = true;
+            Mesh mesh = new Mesh();
+            Material material = new Material(m_test_mat);
+
+            //m_game_objects[i].SetActive(false);
+            //m_game_objects[i].AddComponent<CircleCollider2D>().isTrigger = true;
+            //m_game_objects[i].layer = LayerMask.NameToLayer("Light_Overlay");
+            //m_game_objects[i].AddComponent<MeshRenderer>().material = material;
+            //m_game_objects[i].AddComponent<MeshFilter>().sharedMesh = mesh;
+
+            //int[] triangles =  { 0, 1, 2, 0, 2, 3 };
+            //m_game_objects[i].GetComponent<MeshFilter>().sharedMesh.triangles = triangles;
         }
 
         m_anim = GetComponent<Animator>();
@@ -67,44 +79,68 @@ public class Player_Controller : MonoBehaviour
         m_anim.SetFloat("prev_y", m_movement.prev_direction.y);
     }
 
+    GameObject m_prev_prev = null;
     GameObject m_prev = null;
+    GameObject m_current;
     int m_smell_index = 0;
     void Execute_Inputs()
     {
         m_movement.Execute();
+    }
+
+    private void Update()
+    {
+        Handle_Inputs();
 
         if (m_smell_index < 10)
         {
             m_distance_walked -= Vector2.Distance(old_position, transform.position);
             if (m_distance_walked < 0)
             {
-                m_game_objects[m_smell_index].transform.position = transform.position;
-                m_game_objects[m_smell_index].SetActive(true);
-                if (m_prev != null)
-                    m_game_objects[m_smell_index].transform.parent = m_prev.transform;
+                m_current = m_game_objects[m_smell_index];
+                m_current.SetActive(true);
+                m_current.transform.parent = transform;
+                m_current.transform.position = transform.position;
 
-                m_prev = m_game_objects[m_smell_index];
+                if (m_prev != null)
+                {
+                    if (m_prev_prev != null)
+                    {
+                        m_prev.transform.parent = m_prev_prev.transform;
+                    }
+                    else
+                        m_prev.transform.parent = m_trail.transform;
+                }
+                m_prev_prev = m_prev;
+                m_prev = m_current;
                 m_smell_index++;
                 m_distance_walked = m_distance_interval;
             }
         }
 
-        for(int i = 0; i < 10; i++)
+        //for (int i = 0; i < 10; i++)
+        //{
+        //    m_game_objects[i].GetComponent<MeshFilter>().sharedMesh.Clear();
+
+        //    int[] triangles = { 0, 1, 2, 0, 2, 3 };
+        //    Vector3[] verts = {m_game_objects[i].transform.position - (Vector3.down * 5),
+        //                       m_game_objects[i].transform.position - (Vector3.left * 5),
+        //                       m_game_objects[i].transform.position - (Vector3.up * 5),
+        //                       m_game_objects[i].transform.position - (Vector3.right * 5)};
+        //    m_game_objects[i].GetComponent<MeshFilter>().sharedMesh.triangles = triangles;
+        //    m_game_objects[i].GetComponent<MeshFilter>().sharedMesh.vertices = verts;
+        //}
+
+
+
+        for (int i = 0; i < 10; i++)
         {
-            if(m_game_objects[i].transform.childCount != 0)
+            if (m_game_objects[i].transform.childCount != 0)
             {
                 Debug.DrawLine(m_game_objects[i].transform.position, m_game_objects[i].transform.GetChild(0).transform.position, Color.red);
             }
         }
-
         old_position = transform.position;
-    }
-
-    private void Update()
-    {
-        Handle_Inputs();
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-            Service<Sound_Manager>.Get().Play("Music", "Test");
     }
 
     void FixedUpdate()
