@@ -17,9 +17,9 @@ public class Hearing : Sensing
 
     }
 
-    public bool Hear(GameObject p_target, float p_noise_rage)
+    public bool Sense(float p_noise_range, GameObject p_target)
     {
         m_to_player_distance = Set_Distance_To_Target(p_target);
-        return m_to_player_distance < p_noise_rage + m_hearing_range;
+        return m_to_player_distance < p_noise_range + m_hearing_range;
     }
 }

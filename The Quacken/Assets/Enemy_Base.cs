@@ -1,0 +1,48 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+abstract public class Enemy_Base : MonoBehaviour
+{
+    [SerializeField] private protected Enemy_Data m_data;
+    private protected Animator m_anim;
+    private protected Physics2D_Movement m_movement;
+    private protected GameObject m_player;
+    private protected Seeing m_seeing;
+    private protected Hearing m_hearing;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        m_seeing = GetComponent<Seeing>();
+        m_hearing = GetComponent<Hearing>();
+        m_player = Service<Game_Manager>.Get().Player;
+        m_anim = GetComponent<Animator>();
+        m_movement = GetComponent<Physics2D_Movement>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        m_movement.Reset_Direction();
+
+        Behaviour();
+
+        Apply_Decorations();
+    }
+
+    abstract public void Behaviour();
+
+    public void Apply_Decorations()
+    {
+        m_anim.SetFloat("x", m_movement.direction.x);
+        m_anim.SetFloat("y", m_movement.direction.y);
+        m_anim.SetFloat("prev_x", m_movement.prev_direction.x);
+        m_anim.SetFloat("prev_y", m_movement.prev_direction.y);
+    }
+
+    void FixedUpdate()
+    {
+        m_movement.Execute();
+    }
+}

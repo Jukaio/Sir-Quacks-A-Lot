@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sensing : MonoBehaviour
+abstract public class Sensing : MonoBehaviour
 {
     public float Set_Distance_To_Target(GameObject p_target)
     {
@@ -13,4 +13,6 @@ public class Sensing : MonoBehaviour
     {
         return (p_target.transform.position - transform.position).normalized;
     }
+
+    // By default the sense is false - If not inheritated the sense counts as "broken"
 }
