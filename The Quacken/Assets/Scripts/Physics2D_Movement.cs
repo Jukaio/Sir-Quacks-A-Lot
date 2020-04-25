@@ -42,6 +42,10 @@ public class Physics2D_Movement : MonoBehaviour
         m_direction = Vector2.zero;
     }
 
+    public void Set_Speed(float p_speed)
+    {
+        m_speed = p_speed;
+    }
 
     public void Reset_Direction()
     {
@@ -51,6 +55,12 @@ public class Physics2D_Movement : MonoBehaviour
     public void Add_Direction(Vector2 p_direction)
     {
         m_direction += p_direction;
+    }
+
+    public void Normalise()
+    {
+        m_direction.Normalize();
+        m_prev_direction.Normalize();
     }
 
     public void Execute()
