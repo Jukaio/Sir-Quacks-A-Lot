@@ -25,7 +25,7 @@ public class Seeing : Sensing
 
     void Start()
     {
-        //Create_Mesh();
+        Create_Mesh();
     }
 
     void Create_Mesh()
@@ -45,29 +45,45 @@ public class Seeing : Sensing
         m_mesh_renderer.material = material;
     }
 
-    bool Player_In_Vision_Range(Vector2 p_view_direction)
+    void Field_Of_View(Vector2 p_view_direction)
     {
-        float view_angle = Mathf.Atan2(p_view_direction.x, p_view_direction.y);
-
-        m_to_player_angle = Vector2.Angle(p_view_direction.normalized, m_to_player_direction.normalized);
-
         Vector2 look_direction = (Vector2)(p_view_direction * m_cone_length);
         Debug.DrawLine(transform.position, (Vector2)transform.position + look_direction.Rotate(-m_cone_width), Color.red);
         Debug.DrawLine(transform.position, (Vector2)transform.position + look_direction.Rotate(m_cone_width), Color.red);
         Debug.DrawLine((Vector2)transform.position + look_direction.Rotate(-m_cone_width), (Vector2)transform.position + look_direction, Color.red);
         Debug.DrawLine((Vector2)transform.position + look_direction, (Vector2)transform.position + look_direction.Rotate(m_cone_width), Color.red);
 
-        //Vector3[] temp_vert = { transform.position,
-        //                        look_direction.Rotate(-m_cone_width) + (Vector2)transform.position,
-        //                        look_direction + (Vector2)transform.position,
-        //                        look_direction.Rotate(m_cone_width) + (Vector2)transform.position};
-        //int[] temp_tris = { 0, 1, 2, 0, 2, 3 };
+        Vector3[] temp_vert = { transform.position,
+                                look_direction.Rotate(-m_cone_width) + (Vector2)transform.position,
+                                look_direction.Rotate(-m_cone_width / 2) + (Vector2)transform.position,
+                                look_direction + (Vector2)transform.position,
+                                look_direction.Rotate(m_cone_width / 2) + (Vector2)transform.position,
+                                look_direction.Rotate(m_cone_width) + (Vector2)transform.position};
+        int[] temp_tris = { 0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 5 };
+        m_mesh.Clear();
+        m_mesh.vertices = temp_vert;
+        m_mesh.triangles = temp_tris;
 
-        //m_mesh.Clear();
-        //m_mesh.vertices = temp_vert;
-        //m_mesh.triangles = temp_tris;
+        for (int i = 0; i < (int)m_cone_width * 2; i++)
+        {
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, look_direction.Rotate((float)i - m_cone_width));
+            if (hit.collider != null)
+            {
+                if (hit.distance < m_cone_length)
+                    Debug.DrawLine(transform.position, hit.point, Color.red);
+                else
+                    Debug.DrawLine(transform.position, look_direction.Rotate((float)i - m_cone_width).normalized * m_cone_length + (Vector2)transform.position, Color.yellow);
+            }
+        }
+    }
 
+    bool Player_In_Vision_Range(Vector2 p_view_direction)
+    {
+        float view_angle = Mathf.Atan2(p_view_direction.x, p_view_direction.y);
 
+        m_to_player_angle = Vector2.Angle(p_view_direction.normalized, m_to_player_direction.normalized);
+
+        Field_Of_View(p_view_direction);
 
         return m_to_player_angle > view_angle - m_cone_width && m_to_player_angle < view_angle + m_cone_width &&
                 m_to_player_distance < m_cone_length;
