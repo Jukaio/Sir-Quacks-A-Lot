@@ -26,6 +26,7 @@ public class Owl_Controller : Enemy_Base
     State m_state;
 
     Vector3 m_look_at;
+    Vector3 m_sit_direction;
     float m_timer;
     int m_rotations;
     public override void Behaviour()
@@ -45,8 +46,11 @@ public class Owl_Controller : Enemy_Base
                     m_movement.Set_Speed(0.0f);
                     m_state = State.LOOK_AROUND;
                     m_rotations = 0;
-                    m_timer = 1.0f;
+                    m_timer = 0.4f;
                     m_look_at = -m_movement.prev_direction;
+                    m_sit_direction = m_look_at;
+                    m_anim.SetFloat("x", 0.0f);
+                    m_anim.SetFloat("y", 0.0f);
                     if (Math.Atan2(m_look_at.x, m_look_at.y) < Math.Atan2((Vector2.up + Vector2.right).x, (Vector2.up + Vector2.right).y) &&
                         Math.Atan2(m_look_at.x, m_look_at.y) > Math.Atan2((Vector2.up + Vector2.left).x, (Vector2.up + Vector2.left).y))
                         m_look_at = Vector2.up;
@@ -59,23 +63,21 @@ public class Owl_Controller : Enemy_Base
                     else if (Math.Atan2(m_look_at.x, m_look_at.y) < Math.Atan2((Vector2.left + Vector2.up).x, (Vector2.left + Vector2.up).y) &&
                              Math.Atan2(m_look_at.x, m_look_at.y) > Math.Atan2((Vector2.left + Vector2.down).x, (Vector2.left + Vector2.down).y))
                         m_look_at = Vector2.left;
-
                 }
                 break;
 
             case State.LOOK_AROUND:
                 m_movement.Add_Direction(m_look_at);
                 m_timer -= Time.deltaTime;
+                if (m_rotations > 18)
+                    m_state = State.ENTER_MOVEMENT;
                 if (m_timer <= 0.0f)
                 {
-                    m_look_at = m_look_at.Rotate(90.0f);
+                    m_look_at = m_look_at.Rotate(20.0f);
                     m_movement.Add_Direction(m_look_at.normalized);
-                    m_timer = 1.0f;
+                    m_timer = 0.4f;
                     m_rotations++;
                 }
-                Debug.Log(Mathf.Atan2(m_look_at.x, m_look_at.y));
-                if (m_rotations > 4)
-                    m_state = State.ENTER_MOVEMENT;
 
                 break;
             default:
@@ -130,4 +132,21 @@ public class Owl_Controller : Enemy_Base
         }
     }
 
+    public override void Animate()
+    {
+        if (m_state != State.LOOK_AROUND)
+        {
+            m_anim.SetFloat("x", m_movement.direction.x);
+            m_anim.SetFloat("y", m_movement.direction.y);
+            m_anim.SetFloat("prev_x", m_movement.prev_direction.x);
+            m_anim.SetFloat("prev_y", m_movement.prev_direction.y);
+        }
+        else
+        {
+            m_anim.SetFloat("prev_x", m_sit_direction.x);
+            m_anim.SetFloat("prev_y", m_sit_direction.y);
+            m_anim.SetFloat("head_x", m_look_at.x);
+            m_anim.SetFloat("head_y", m_look_at.y);
+        }
+    }
 }

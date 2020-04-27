@@ -27,19 +27,12 @@ abstract public class Enemy_Base : MonoBehaviour
         m_movement.Reset_Direction();
 
         Behaviour();
-
-        Apply_Decorations();
+        Animate();
     }
 
     abstract public void Behaviour();
+    abstract public void Animate();
 
-    public void Apply_Decorations()
-    {
-        m_anim.SetFloat("x", m_movement.direction.x);
-        m_anim.SetFloat("y", m_movement.direction.y);
-        m_anim.SetFloat("prev_x", m_movement.prev_direction.x);
-        m_anim.SetFloat("prev_y", m_movement.prev_direction.y);
-    }
 
     void FixedUpdate()
     {

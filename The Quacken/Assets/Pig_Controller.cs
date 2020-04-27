@@ -48,4 +48,12 @@ public class Pig_Controller : Enemy_Base
         if (m_hearing.Sense(m_player.GetComponent<Player_Controller>().m_noise_range, m_player))
             Debug.LogWarning("I hear");
     }
+
+    public override void Animate()
+    {
+        m_anim.SetFloat("x", m_movement.direction.x);
+        m_anim.SetFloat("y", m_movement.direction.y);
+        m_anim.SetFloat("prev_x", m_movement.prev_direction.x);
+        m_anim.SetFloat("prev_y", m_movement.prev_direction.y);
+    }
 }

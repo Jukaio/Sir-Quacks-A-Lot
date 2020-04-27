@@ -8,4 +8,9 @@ public class Enemy_Dumpster_Script : Enemy_Base
     {
 
     }
+
+    public override void Animate()
+    {
+
+    }
 }
