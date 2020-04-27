@@ -7,6 +7,7 @@ public class Clip
 {
     public string m_name;
     public AudioClip m_clip;
+    public bool m_loop;
 }
 
 [System.Serializable]
@@ -27,7 +28,7 @@ public class Sound_Manager : MonoBehaviour
 
     [SerializeField] private Sound_Package[] m_packages;
 
-    private Dictionary<string, Dictionary<string, AudioClip>> m_dictionary = new Dictionary<string, Dictionary<string, AudioClip>>();
+    private Dictionary<string, Dictionary<string, Clip>> m_dictionary = new Dictionary<string, Dictionary<string, Clip>>();
 
 
     private void Start()
@@ -43,7 +44,7 @@ public class Sound_Manager : MonoBehaviour
                 continue;
             }
 
-            m_dictionary.Add(package.m_package_name, new Dictionary<string, AudioClip>());
+            m_dictionary.Add(package.m_package_name, new Dictionary<string, Clip>());
             foreach(Clip clip in package.m_clips)
             {
                 if (clip.m_name.Length <= 2)
@@ -51,7 +52,7 @@ public class Sound_Manager : MonoBehaviour
                     Debug.LogWarning(" ID of Clip in " + package.m_package_name + " to short or ID not set", gameObject);
                     continue;
                 }
-                m_dictionary[package.m_package_name].Add(clip.m_name, clip.m_clip);
+                m_dictionary[package.m_package_name].Add(clip.m_name, clip);
             }
         }
     }
@@ -63,7 +64,9 @@ public class Sound_Manager : MonoBehaviour
         {
             if(!source.isPlaying)
             {
-                source.clip = m_dictionary[p_package_name][p_clip_name];
+                Clip temp = m_dictionary[p_package_name][p_clip_name];
+                source.clip = temp.m_clip;
+                source.loop = temp.m_loop;
                 source.Play();
                 return;
             }
