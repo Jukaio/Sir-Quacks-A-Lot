@@ -296,7 +296,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 3220880162310517021}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c66651194cddf640b71f9240b8752cd, type: 3}
   m_Name: 
@@ -381,6 +381,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_packages.Array.data[1].m_clips.Array.data[0].m_name
       value: Duck movement
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220880161272919716, guid: 36eec5302005713428cb3fa0e29138b6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3220880161272919719, guid: 36eec5302005713428cb3fa0e29138b6,
         type: 3}

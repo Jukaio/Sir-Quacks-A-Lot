@@ -21,6 +21,7 @@ public class Shadow_Manager : MonoBehaviour
     GameObject m_mesh_object;
     PolygonCollider2D m_mesh_collider;
     GameObject m_mesh_collider_object;
+
     int[] m_indeces;
 
     public Camera camera;
