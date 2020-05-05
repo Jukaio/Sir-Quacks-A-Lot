@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Scene_Manager : MonoBehaviour
 {
-    static public void Load_Level(int index)
+    public void Load_Level(int index)
     {
         SceneManager.LoadSceneAsync(index, LoadSceneMode.Additive);
     }
 
-    static public void Unload_Level(int index)
+    public void Unload_Level(int index)
     {
         if (SceneManager.GetSceneAt(index).isLoaded)
             SceneManager.UnloadSceneAsync(index);
