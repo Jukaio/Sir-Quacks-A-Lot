@@ -130,7 +130,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 76808571}
-  - component: {fileID: 76808570}
   m_Layer: 0
   m_Name: g_smell_manager
   m_TagString: Untagged
@@ -138,18 +137,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &76808570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 76808569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14ad611a51c311b4a8880aa783652aa5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &76808571
 Transform:
   m_ObjectHideFlags: 0
@@ -367,6 +354,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: g_sound_manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220880161272919721, guid: 36eec5302005713428cb3fa0e29138b6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36eec5302005713428cb3fa0e29138b6, type: 3}

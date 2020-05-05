@@ -17,7 +17,6 @@ public class Grid_Manager : MonoBehaviour
         for(int i = 0; i < transform.childCount; i++)
         {
             Tilemap tile_map = transform.GetChild(i).GetComponent<Tilemap>();
-            Debug.Log(tile_map.size.x);
         }
 
         //m_instance = this;

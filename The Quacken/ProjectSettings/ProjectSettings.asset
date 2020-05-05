@@ -636,10 +636,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: ca907d42-3ae7-4679-b926-4afd28bb7978
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  projectName: The Quacken
-  organizationId: jukaio
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 1
   disableOldInputManagerSupport: 0
