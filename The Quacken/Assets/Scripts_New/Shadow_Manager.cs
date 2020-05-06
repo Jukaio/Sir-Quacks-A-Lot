@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Utility;
 
 public class Shadow_Manager : MonoBehaviour
 {
@@ -15,7 +16,6 @@ public class Shadow_Manager : MonoBehaviour
     Mesh m_mesh;
     GameObject m_mesh_object;
     PolygonCollider2D m_mesh_collider;
-    GameObject m_mesh_collider_object;
 
     int[] m_indeces;
 
@@ -49,17 +49,16 @@ public class Shadow_Manager : MonoBehaviour
 
     void Create_Mesh()
     {
-        m_mesh = Utility.Create_Mesh(out m_mesh_object, out m_mesh_collider_object,
+        m_mesh = Extra_Mesh.Create_Mesh(out m_mesh_object, out m_mesh_collider,
                                     "m_shadow", "m_shadow_collider",
                                     "Light_Overlay", "Ignore Raycast",
                                     new Material(m_shadow_material));
-        m_mesh_collider = (PolygonCollider2D) m_mesh_collider_object.GetComponent(typeof(PolygonCollider2D));
  
     }
     void Update_Mesh()
     {
         m_mesh_collider.points = m_ray_hit_points.To_Vector2_Array();
-        Utility.Update_Mesh(ref m_mesh, m_ray_hit_points, m_indeces);
+        Extra_Mesh.Update_Mesh(ref m_mesh, m_ray_hit_points, m_indeces);
     }
 
     List<Vector3> m_corner_list = new List<Vector3>();

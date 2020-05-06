@@ -9,7 +9,7 @@ public class Shadow_Renderer : MonoBehaviour
 
     Mesh m_mesh;
     GameObject m_mesh_object;
-    GameObject m_mesh_collider_object;
+    PolygonCollider2D m_mesh_collider_object;
     public Material m_shadow_material;
 
     Vector3[] m_vertices;
@@ -28,7 +28,7 @@ public class Shadow_Renderer : MonoBehaviour
     void Start()
     {
         m_shadow = GetComponent<Shadow>();
-        m_mesh = Utility.Create_Mesh(out m_mesh_object, out m_mesh_collider_object,
+        m_mesh = Utility.Extra_Mesh.Create_Mesh(out m_mesh_object, out m_mesh_collider_object,
                             "m_shadow", "m_shadow_collider",
                             "Light_Overlay", "Ignore Raycast",
                             new Material(m_shadow_material));
@@ -36,6 +36,6 @@ public class Shadow_Renderer : MonoBehaviour
 
     void Update()
     {
-        Utility.Update_Mesh(ref m_mesh, m_vertices, m_triangles);
+        Utility.Extra_Mesh.Update_Mesh(ref m_mesh, m_vertices, m_triangles);
     }
 }
