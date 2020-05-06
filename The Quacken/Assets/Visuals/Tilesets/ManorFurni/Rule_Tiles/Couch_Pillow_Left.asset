@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
   m_Name: Couch_Pillow_Left
   m_EditorClassIdentifier: 
-  m_DefaultSprite: {fileID: -8333305446376235, guid: 677e241d46f7a95479ed71b2c95d48ed,
+  m_DefaultSprite: {fileID: -2918354688387552855, guid: 995eefce7a1b73643ac8fa34b2cc28de,
     type: 3}
   m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 1
@@ -20,7 +20,8 @@ MonoBehaviour:
   - m_Id: 0
     m_Sprites:
     - {fileID: 3896064288255506111, guid: 995eefce7a1b73643ac8fa34b2cc28de, type: 3}
-    m_GameObject: {fileID: 0}
+    m_GameObject: {fileID: 3428125402260331826, guid: c974c3328e0372f4fbde9d8caaa95677,
+      type: 3}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
     m_Output: 0
@@ -36,7 +37,8 @@ MonoBehaviour:
   - m_Id: 1
     m_Sprites:
     - {fileID: -6445244095579020267, guid: 995eefce7a1b73643ac8fa34b2cc28de, type: 3}
-    m_GameObject: {fileID: 0}
+    m_GameObject: {fileID: 3428125402260331826, guid: c974c3328e0372f4fbde9d8caaa95677,
+      type: 3}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
     m_Output: 0
