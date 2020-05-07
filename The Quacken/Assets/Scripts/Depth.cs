@@ -14,27 +14,21 @@ public class Depth : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "mapSort")
+        if (collision.tag == "mapAbove")
         {
             renderer.sortingOrder = 9;
         }
-        if (collision.tag == "wallSort")
+        if (collision.tag == "mapBellow")
         {
-            renderer.sortingOrder = 2;
+            renderer.sortingOrder = 12;
         }
+        //if (collision.tag == "wallSort")
+        //{
+        //    renderer.sortingOrder = 2;
+        //}
         if (collision.tag == "tunnel")
         {
             renderer.color = Color.clear;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        renderer.sortingOrder = 12;
-
-        if (collision.tag == "tunnel")
-        {
-            renderer.color = Color.white;
         }
     }
 }

@@ -34,7 +34,8 @@ MonoBehaviour:
   - m_Id: 1
     m_Sprites:
     - {fileID: 9081789808493897887, guid: 995eefce7a1b73643ac8fa34b2cc28de, type: 3}
-    m_GameObject: {fileID: 0}
+    m_GameObject: {fileID: 3428125402260331826, guid: 9566791e2b3c42c47ba9f0f4feae0a1e,
+      type: 3}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
     m_Output: 0
@@ -48,7 +49,8 @@ MonoBehaviour:
   - m_Id: 2
     m_Sprites:
     - {fileID: -8169583228843156874, guid: 995eefce7a1b73643ac8fa34b2cc28de, type: 3}
-    m_GameObject: {fileID: 0}
+    m_GameObject: {fileID: 3428125402260331826, guid: 9566791e2b3c42c47ba9f0f4feae0a1e,
+      type: 3}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
     m_Output: 0
