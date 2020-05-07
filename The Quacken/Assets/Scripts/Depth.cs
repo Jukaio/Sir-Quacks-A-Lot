@@ -10,7 +10,7 @@ public class Depth : MonoBehaviour
     void Start()
     {
         renderer = GetComponent<SpriteRenderer>();
-        renderer.sortingOrder = 12;
+        renderer.sortingOrder = 13;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -21,7 +21,7 @@ public class Depth : MonoBehaviour
         }
         if (collision.tag == "mapBellow")
         {
-            renderer.sortingOrder = 12;
+            renderer.sortingOrder = 13;
         }
         //if (collision.tag == "wallSort")
         //{
@@ -32,4 +32,15 @@ public class Depth : MonoBehaviour
             tunnelRenderer.GetComponent<UnityEngine.Tilemaps.Tilemap>().color = Color.clear;
         }
     }
+
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "tunnel")
+        {
+            tunnelRenderer.GetComponent<UnityEngine.Tilemaps.Tilemap>().color = Color.white;
+        }
+    }
 }
+
+
