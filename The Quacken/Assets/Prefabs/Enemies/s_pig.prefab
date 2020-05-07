@@ -176,7 +176,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70fbc51567d5c4f4da68da6c73d1615f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_data: {fileID: 11400000, guid: 686e8deae8b82834196241fd03e0a92b, type: 2}
   m_waypoints: []
   m_type: 0
   m_use_waypoints: 0
@@ -277,8 +276,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2010464115
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 12
   m_Sprite: {fileID: 4716455224992253548, guid: 1913d683717eac04cab3fe0d6e502dc2,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
