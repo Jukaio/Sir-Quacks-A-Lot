@@ -5,6 +5,7 @@ using UnityEngine;
 public class Depth : MonoBehaviour
 {
     SpriteRenderer renderer;
+    public GameObject tunnelRenderer;
 
     void Start()
     {
@@ -28,7 +29,7 @@ public class Depth : MonoBehaviour
         //}
         if (collision.tag == "tunnel")
         {
-            renderer.color = Color.clear;
+            tunnelRenderer.GetComponent<UnityEngine.Tilemaps.Tilemap>().color = Color.clear;
         }
     }
 }
