@@ -87,9 +87,7 @@ public class Owl_Controller : Enemy_Base
         m_movement.Normalise();
 
         if (m_seeing.Sense(m_movement.direction, m_player))
-            ;
-        if (m_hearing.Sense(m_player.GetComponent<Player_Controller>().m_noise_range, m_player))
-            Debug.LogWarning("I hear");
+            Destroy(m_player);
     }
 
     void Next_Target()

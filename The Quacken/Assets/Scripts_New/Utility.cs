@@ -50,7 +50,7 @@ public struct Point
     }
 }
 
-public struct Segment : IComparable // Could add a function to swap start and end according to Atan2
+public struct Segment // Could add a function to swap start and end according to Atan2
 {
     public Segment(Vector2 p_start, Vector2 p_end)
     {
@@ -73,9 +73,13 @@ public struct Segment : IComparable // Could add a function to swap start and en
     public int m_polygon_id;
     public int m_id;
 
-    public int CompareTo(object obj)
+    public override bool Equals(object obj)
     {
-        throw new NotImplementedException();
+        return obj is Segment segment &&
+               m_start.Equals(segment.m_start) &&
+               m_end.Equals(segment.m_end) &&
+               m_polygon_id == segment.m_polygon_id &&
+               m_id == segment.m_id;
     }
 }
 
@@ -118,6 +122,23 @@ namespace Utility
 
             Material material = new Material(p_material);
             mesh_renderer.material = material;
+            return mesh;
+        }
+
+        public static Mesh Create_Mesh(out GameObject p_mesh_object, out MeshRenderer p_mesh_renderer, string p_name, string p_mesh_layer, Material p_material)
+        {
+            p_mesh_object = new GameObject(p_name);
+            p_mesh_object.transform.position = Vector3.back;
+            p_mesh_object.layer = LayerMask.NameToLayer(p_mesh_layer);
+
+            Mesh mesh = new Mesh();
+            p_mesh_renderer = p_mesh_object.AddComponent<MeshRenderer>();
+            MeshFilter m_mesh_filter = p_mesh_object.AddComponent<MeshFilter>();
+
+            m_mesh_filter.sharedMesh = mesh;
+
+            Material material = new Material(p_material);
+            p_mesh_renderer.material = material;
             return mesh;
         }
 
@@ -319,6 +340,20 @@ namespace Utility
 
             return ((uA >= 0 && uA <= 1) && (uB >= 0 && uB <= 1));
         }
+        static public bool Line_Line_Intersection_Excluding_Ends(Segment lhs, Segment rhs)
+        {
+            Vector2 lhs_start = lhs.m_start;
+            Vector2 lhs_end = lhs.m_end;
+            Vector2 rhs_start = rhs.m_start;
+            Vector2 rhs_end = rhs.m_end;
+
+            float uA = (((rhs_end.x - rhs_start.x) * (lhs_start.y - rhs_start.y) - (rhs_end.y - rhs_start.y) * (lhs_start.x - rhs_start.x)) /
+                        ((rhs_end.y - rhs_start.y) * (lhs_end.x - lhs_start.x) - (rhs_end.x - rhs_start.x) * (lhs_end.y - lhs_start.y)));
+            float uB = (((lhs_end.x - lhs_start.x) * (lhs_start.y - rhs_start.y) - (lhs_end.y - lhs_start.y) * (lhs_start.x - rhs_start.x)) /
+                        ((rhs_end.y - rhs_start.y) * (lhs_end.x - lhs_start.x) - (rhs_end.x - rhs_start.x) * (lhs_end.y - lhs_start.y)));
+
+            return ((uA > 0 && uA < 1) && (uB > 0 && uB < 1));
+        }
         static public bool Line_Line_Intersection(Segment lhs, Segment rhs, ref Vector2 p_intersection)
         {
             Vector2 lhs_start = lhs.m_start;
@@ -366,6 +401,28 @@ namespace Utility
             double angle = temp < 0 ? Math.Abs(temp) + (Math.PI + temp) * 2 : temp;
 
             return angle;
+        }
+
+        static public double Signed_Angle_Between_Segments(Vector2 p_lhs, Vector2 p_rhs, Vector2 p_origin)
+        {
+
+            double angle1 = Math.Atan2(p_origin.y - p_lhs.y,
+                                       p_origin.x - p_lhs.x);
+
+            double angle2 = Math.Atan2(p_origin.y - p_rhs.y,
+                                       p_origin.x - p_rhs.x);
+
+            double temp = angle1 - angle2;
+
+            return temp;
+        }
+
+        static public double Determinant(Vector2 p_point, Vector2 p_line_a, Vector2 p_line_b)
+        {
+            double first = (p_point.x - p_line_b.x) * (p_line_a.y - p_line_b.y);
+            double second = (p_point.y - p_line_b.y) * (p_line_a.x - p_line_b.x);
+
+            return first - second;
         }
     }
 }

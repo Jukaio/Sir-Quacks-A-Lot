@@ -206,7 +206,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e87eee4e037f714468c333ec1051630c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_data: {fileID: 0}
   m_waypoints:
   - {fileID: 5971820234875026712}
   - {fileID: 5971820234739579792}
@@ -309,9 +308,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -2010464115
-  m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 12
   m_Sprite: {fileID: -5788238931334067951, guid: 98967c8ce81751341891867c8a796524,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -348,7 +347,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
+  m_Size: {x: 1.5, y: 1.75}
   m_EdgeRadius: 0
 --- !u!50 &5971820236290169434
 Rigidbody2D:

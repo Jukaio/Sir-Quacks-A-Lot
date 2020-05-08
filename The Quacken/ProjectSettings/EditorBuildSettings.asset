@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Game_Management.unity
     guid: 65dc93952413d5044925d90d59fb0670
   - enabled: 1
+    path: Assets/Scenes/RutaMap.unity
+    guid: 28634bad5117f464bb8b02131aa89f73
+  - enabled: 1
     path: Assets/Scenes/Presentable level.unity
     guid: 0b9e2e11c498d8c4ea92a48ba6c03046
   m_configObjects:
