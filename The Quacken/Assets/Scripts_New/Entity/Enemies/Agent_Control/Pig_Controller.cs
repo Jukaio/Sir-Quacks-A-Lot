@@ -36,9 +36,7 @@ public class Pig_Controller : Enemy_Base
             Ray_Cast_Behaviour();
 
         if (m_seeing.Sense(m_movement.direction, m_player))
-            m_state = Movement_States.CHASE;
-        if (m_hearing.Sense(m_player.GetComponent<Player_Controller>().m_noise_range, m_player))
-            Debug.LogWarning("I hear");
+            Destroy(m_player);
     }
 
     void Ray_Cast_Behaviour()

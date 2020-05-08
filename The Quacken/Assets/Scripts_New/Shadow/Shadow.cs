@@ -6,7 +6,6 @@ using System;
 using CSKicksCollection.Trees;
 using Utility;
 
-
 [RequireComponent(typeof(Shadow_Renderer))]
 public class Shadow : MonoBehaviour
 {
@@ -27,7 +26,7 @@ public class Shadow : MonoBehaviour
     private List<int> m_triangles = new List<int>();
 
     // List of all the segments
-    List<List<Segment>> m_segments = new List<List<Segment>>();
+    List<List<Segment>> m_segments = new List<List<Segment>>(); // Exchange with Binary tree (O(n) vs (O(log(n))
 
     // Visible points
     List<Point> m_points = new List<Point>();
@@ -62,6 +61,8 @@ public class Shadow : MonoBehaviour
             // Amount of points added during the current polygon
             int points_added = 0;
             // Go through each point in path i
+
+            List<Point> points = new List<Point>();
             for (int j = 0; j < amount_of_points; j++)
             {
                 // Segment coordinates
@@ -73,7 +74,8 @@ public class Shadow : MonoBehaviour
                 Vector2 start_vector = path[start_index]; // Start Vert
                 Vector2 end_vector = path[end_index_right]; // End Vert
                 Segment segment = new Segment(start_vector, end_vector, i, segment_id);
- 
+
+
                 // If the segment is somewhat within the bounds - Use it! (The points are in the bounds or the line intersects with the camera bounds)
                 if (Extra_Collision.Rectangle_Line_Collison(segment, m_camera_bounds) || 
                     Extra_Collision.In_Bounds(start_vector, m_camera_bounds) || 
@@ -85,29 +87,29 @@ public class Shadow : MonoBehaviour
 
                     // If a point already exists, refresh the data of it
                     // Else just add it and advance the points_added counter
-                    int s = m_points.IndexOf(start, m_points.Count - points_added);
+                    int s = points.IndexOf(start);
                     if (s > -1)
                     {
-                        var temp = m_points[s];
+                        var temp = points[s];
                         temp.second_segment = segment_id;
-                        m_points[s] = temp;
+                        points[s] = temp;
                     }
                     else
                     {
-                        m_points.Add(start);
+                        points.Add(start);
                         points_added++;
                     }
 
-                    int e = m_points.IndexOf(end, m_points.Count - points_added);
+                    int e = points.IndexOf(end);
                     if (e > -1)
                     {
-                        var temp = m_points[e];
+                        var temp = points[e];
                         temp.second_segment = segment_id;
-                        m_points[e] = temp;
+                        points[e] = temp;
                     }
                     else
                     {
-                        m_points.Add(end);
+                        points.Add(end);
                         points_added++;
                     }
 
@@ -118,11 +120,11 @@ public class Shadow : MonoBehaviour
                     segment_id++;
                 }
             }
-            // Add the polygon to the list
+            m_points.AddRange(points);
             m_segments.Add(polygon);
         }
         // Sort the points by angle
-        m_points = m_points.OrderBy(p => Angle.Angle_Between_Segments(p.m_coordinate, Vector2.left, transform.position)).ToList();
+        m_points = m_points.OrderBy(p => Angle.Angle_Between_Segments(p.m_coordinate, Vector2.left + (transform.position * Vector2.up), transform.position)).ToList();
     }
 
     private void Start()
@@ -130,6 +132,7 @@ public class Shadow : MonoBehaviour
         m_shadow_Renderer = GetComponent<Shadow_Renderer>();
     }
 
+    public GameObject some_object;
     void Update()
     {
 
@@ -141,7 +144,29 @@ public class Shadow : MonoBehaviour
 
         // Make Segments out of the Paths
         Paths_To_Segments();
+ 
+
         m_points = Visibility.Find_Visible_Points(m_segments, m_points, position);
+        Color color = Color.black;
+        float r = 1.0f / m_points.Count;
+        foreach (Point point in m_points)
+        {
+            Vector2 top_left =      (Vector2.left + Vector2.up) / 8.0f;
+            Vector2 top_right =     (Vector2.right + Vector2.up) / 8.0f;
+            Vector2 down_right=     (Vector2.right + Vector2.down) / 8.0f;
+            Vector2 down_left =     (Vector2.left + Vector2.down) / 8.0f;
+
+            Vector2 p = point.m_coordinate;
+
+            Debug.DrawLine(p + top_left, p + top_right, color);
+            Debug.DrawLine(p + top_right, p + down_right, color);
+            Debug.DrawLine(p + down_right, p + down_left, color);
+            Debug.DrawLine(p + down_left, p + top_left, color);
+            Debug.DrawLine(transform.position, p, color);
+
+            color.r += r;
+
+        }
 
         m_triangles.Clear();
         m_hit_points.Clear();
@@ -180,10 +205,7 @@ public class Shadow : MonoBehaviour
         }
         m_triangles[m_triangles.Count - 1] = 1; // Correct the last triangle
 
-        foreach(var hit in m_hit_points)
-        {
-            Debug.DrawLine(position, hit, Color.cyan);
-        }
+
 
         // Sorts from index 1 to the end of the array (skips the player position
         // Player position is always indexed as 0;

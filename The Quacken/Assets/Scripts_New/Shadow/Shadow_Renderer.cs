@@ -12,7 +12,7 @@ public class Shadow_Renderer : MonoBehaviour
     PolygonCollider2D m_mesh_collider_object;
     public Material m_shadow_material;
 
-    Vector3[] m_vertices;
+    private Vector3[] m_vertices;
     public Vector3[] Vertices
     {
         get { return m_vertices; }
