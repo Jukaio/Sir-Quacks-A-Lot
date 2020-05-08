@@ -32,4 +32,15 @@ public class Depth : MonoBehaviour
             tunnelRenderer.GetComponent<UnityEngine.Tilemaps.Tilemap>().color = Color.clear;
         }
     }
+
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "tunnel")
+        {
+            tunnelRenderer.GetComponent<UnityEngine.Tilemaps.Tilemap>().color = Color.white;
+        }
+    }
 }
+
+
