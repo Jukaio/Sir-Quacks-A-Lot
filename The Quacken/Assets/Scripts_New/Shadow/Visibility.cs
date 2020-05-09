@@ -49,7 +49,7 @@ class Visibility
             return true;
     }
 
-    static public List<Point> Find_Visible_Points(List<List<Segment>> p_polygons, List<Point> p_points, Vector2 p_position)
+    public static List<Point> Find_Visible_Points(List<List<Segment>> p_polygons, List<Point> p_points, Vector2 p_position)
     {
         SortedSet<Key_Segment> set = new SortedSet<Key_Segment>();
         Segment halfline = new Segment(p_position, (2000.0f * Vector2.left) + (p_position * Vector2.up));

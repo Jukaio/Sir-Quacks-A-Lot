@@ -4,17 +4,19 @@ using UnityEngine;
 using System.Linq;
 using System;
 using CSKicksCollection.Trees;
+using Packages.Rider.Editor.UnitTesting;
 using Utility;
 
 [RequireComponent(typeof(Shadow_Renderer))]
 public class Shadow : MonoBehaviour
 {
     // Renders the Shadow_Mesh
-    Shadow_Renderer m_shadow_Renderer;
+    private Shadow_Renderer m_shadow_renderer;
 
     // Camera with bounds
     public UnityEngine.U2D.PixelPerfectCamera m_camera;
-    Rect m_camera_bounds;
+    private Rect m_camera_bounds;
+
 
     // The grid edge data
     public CompositeCollider2D m_collider;
@@ -38,6 +40,9 @@ public class Shadow : MonoBehaviour
             list.Clear();
         m_segments.Clear();
         m_points.Clear();
+        
+
+
 
         // Jagged array of points of each path (Empty)
         Vector2[][] paths_points = new Vector2[m_collider.pathCount][];
@@ -84,9 +89,9 @@ public class Shadow : MonoBehaviour
                     // Create start and end points based on the continous data for a polygon and segment
                     Point start = new Point(start_vector, segment_id, -1, i);
                     Point end = new Point(end_vector, segment_id, -1, i);
-
                     // If a point already exists, refresh the data of it
                     // Else just add it and advance the points_added counter
+
                     int s = points.IndexOf(start);
                     if (s > -1)
                     {
@@ -129,7 +134,7 @@ public class Shadow : MonoBehaviour
 
     private void Start()
     {
-        m_shadow_Renderer = GetComponent<Shadow_Renderer>();
+        m_shadow_renderer = GetComponent<Shadow_Renderer>();
     }
 
     public GameObject some_object;
@@ -140,7 +145,12 @@ public class Shadow : MonoBehaviour
         Vector2 position = transform.position;
 
         // Get the camera bounds with an offset size
-        m_camera_bounds = Utility.Bounds.Create_Camera_Rect(m_camera, position, 2.0f);
+        m_camera_bounds = Utility.Bounds.Create_Camera_Rect(m_camera, m_camera.transform.position, 2.0f);
+
+        Debug.DrawLine(m_camera_bounds.min, new Vector2(m_camera_bounds.xMax, m_camera_bounds.yMin), Color.red);
+        Debug.DrawLine(new Vector2(m_camera_bounds.xMax, m_camera_bounds.yMin), m_camera_bounds.max, Color.red);
+        Debug.DrawLine(m_camera_bounds.max, new Vector2(m_camera_bounds.xMin, m_camera_bounds.yMax), Color.red);
+        Debug.DrawLine(new Vector2(m_camera_bounds.xMin, m_camera_bounds.yMax), m_camera_bounds.min, new Color(0.57f, 1f, 0.26f));
 
         // Make Segments out of the Paths
         Paths_To_Segments();
@@ -151,27 +161,26 @@ public class Shadow : MonoBehaviour
         float r = 1.0f / m_points.Count;
         foreach (Point point in m_points)
         {
-            Vector2 top_left =      (Vector2.left + Vector2.up) / 8.0f;
-            Vector2 top_right =     (Vector2.right + Vector2.up) / 8.0f;
-            Vector2 down_right=     (Vector2.right + Vector2.down) / 8.0f;
-            Vector2 down_left =     (Vector2.left + Vector2.down) / 8.0f;
+            Vector2 top_left   =     (Vector2.left  + Vector2.up)   / 8.0f;
+            Vector2 top_right  =     (Vector2.right + Vector2.up)   / 8.0f;
+            Vector2 down_right =     (Vector2.right + Vector2.down) / 8.0f;
+            Vector2 down_left  =     (Vector2.left  + Vector2.down) / 8.0f;
 
             Vector2 p = point.m_coordinate;
 
-            Debug.DrawLine(p + top_left, p + top_right, color);
-            Debug.DrawLine(p + top_right, p + down_right, color);
-            Debug.DrawLine(p + down_right, p + down_left, color);
-            Debug.DrawLine(p + down_left, p + top_left, color);
-            Debug.DrawLine(transform.position, p, color);
+            Debug.DrawLine(p + top_left,       p + top_right,  color);
+            Debug.DrawLine(p + top_right,      p + down_right, color);
+            Debug.DrawLine(p + down_right,     p + down_left,  color);
+            Debug.DrawLine(p + down_left,      p + top_left,   color);
+            Debug.DrawLine(transform.position, p,              color);
 
             color.r += r;
-
         }
 
         m_triangles.Clear();
         m_hit_points.Clear();
 
-        Vector2[] bounds = { m_camera_bounds.min + Vector2.down + Vector2.left, 
+        Vector2[] bounds = { m_camera_bounds.min + Vector2.down  + Vector2.left, 
                              m_camera_bounds.max + Vector2.right + Vector2.up, 
                              new Vector2(m_camera_bounds.xMin - 1, m_camera_bounds.yMax + 1), 
                              new Vector2(m_camera_bounds.xMax + 1, m_camera_bounds.yMin - 1)};
@@ -196,7 +205,8 @@ public class Shadow : MonoBehaviour
         {
             for (int i = -1; i < 2; i++)
             {
-                m_hit_points.Add(Physics2D.Raycast(transform.position, (point.m_coordinate.Rotate(0.004f * i) - position), Mathf.Infinity, 1 << LayerMask.NameToLayer("Grid")).point);
+                Vector2 hit_point = Physics2D.Raycast(position, (point.m_coordinate.Rotate(0.004f * i) - position), Mathf.Infinity, 1 << LayerMask.NameToLayer("Grid")).point;
+                m_hit_points.Add(hit_point);
                 m_triangles.Add(0);         // Origin vert for triangle
                 m_triangles.Add(added);     // Left vert for triangle
                 m_triangles.Add(added + 1); // Right vert for triangle
@@ -205,6 +215,25 @@ public class Shadow : MonoBehaviour
         }
         m_triangles[m_triangles.Count - 1] = 1; // Correct the last triangle
 
+        color = Color.black;
+        r = 1.0f / m_hit_points.Count;
+        foreach (Vector2 point in m_hit_points)
+        {
+            Vector2 top_left = (Vector2.left + Vector2.up) / 8.0f;
+            Vector2 top_right = (Vector2.right + Vector2.up) / 8.0f;
+            Vector2 down_right = (Vector2.right + Vector2.down) / 8.0f;
+            Vector2 down_left = (Vector2.left + Vector2.down) / 8.0f;
+
+            Vector2 p = point;
+
+            Debug.DrawLine(p + top_left, p + top_right, color);
+            Debug.DrawLine(p + top_right, p + down_right, color);
+            Debug.DrawLine(p + down_right, p + down_left, color);
+            Debug.DrawLine(p + down_left, p + top_left, color);
+            Debug.DrawLine(transform.position, p, color);
+
+            color.r += r;
+        }
 
 
         // Sorts from index 1 to the end of the array (skips the player position
@@ -212,7 +241,7 @@ public class Shadow : MonoBehaviour
         m_hit_points = m_hit_points.OrderBy(p => Angle.Angle_Between_Segments(p, Vector2.left, transform.position)).ToList();
         m_hit_points.Insert(0, position);
 
-        m_shadow_Renderer.Triangles = m_triangles.ToArray();
-        m_shadow_Renderer.Vertices = m_hit_points.ToArray();
+        m_shadow_renderer.Triangles = m_triangles.ToArray();
+        m_shadow_renderer.Vertices = m_hit_points.ToArray();
     }
 }
