@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[ExecuteInEditMode]
 public class Map : MonoBehaviour
 {
 
@@ -12,6 +13,6 @@ public class Map : MonoBehaviour
 
     void Update()
     {
-        
+       
     }
 }
