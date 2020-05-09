@@ -66,5 +66,10 @@ public class Player_Controller : MonoBehaviour
         Update_Noise_Range();
         Execute_Inputs();
     }
+
+    private void OnGUI()
+    {
+        
+    }
 }
 

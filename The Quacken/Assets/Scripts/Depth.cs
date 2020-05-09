@@ -17,10 +17,15 @@ public class Depth : MonoBehaviour
     {
         if (collision.tag == "mapAbove")
         {
+            //Color color = Color.white;
+            //color.a = 0.5f;
+            //collision.gameObject.transform.parent.GetComponent<UnityEngine.Tilemaps.Tilemap>().color = color;
             renderer.sortingOrder = 9;
         }
         if (collision.tag == "mapBellow")
         {
+            //Color color = Color.white;
+            //collision.gameObject.transform.parent.GetComponent<UnityEngine.Tilemaps.Tilemap>().color = color;
             renderer.sortingOrder = 13;
         }
         //if (collision.tag == "wallSort")

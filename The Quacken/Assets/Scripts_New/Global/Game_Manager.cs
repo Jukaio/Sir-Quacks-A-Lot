@@ -6,6 +6,7 @@ public class Game_Manager : MonoBehaviour
 {
     private GameObject m_player;
     [SerializeField] private Sound_Manager m_sound_manager; // Global Managers get assigned before the game starts
+    [SerializeField] private Map_Manager m_level_manager;
     public GameObject Player
     {
         get
@@ -26,6 +27,7 @@ public class Game_Manager : MonoBehaviour
     private void Awake()
     {
         Service<Sound_Manager>.Set(m_sound_manager);
+        Service<Map_Manager>.Set(m_level_manager);
         //Scene_Manager.Load_Level(1);
     }
 
