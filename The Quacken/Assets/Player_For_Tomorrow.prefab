@@ -68,7 +68,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 416659173
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4e38847f937707141921e93a5b92bf07, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
@@ -192,8 +192,10 @@ GameObject:
   - component: {fileID: 2659658233142058489}
   - component: {fileID: 2659658233142058494}
   - component: {fileID: 2659658233142058495}
+  - component: {fileID: 3459494854897825068}
+  - component: {fileID: 3641968951635244866}
   m_Layer: 0
-  m_Name: s_player
+  m_Name: Player_For_Tomorrow
   m_TagString: Player
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -231,10 +233,7 @@ MonoBehaviour:
   m_objects_composite_collider: {fileID: 0}
   m_input: {fileID: 0}
   m_movement: {fileID: 0}
-  m_data: {fileID: 11400000, guid: caf6d5035f597614598d7b425aab0918, type: 2}
   m_anim: {fileID: 0}
-  m_template_smell: {fileID: 0}
-  m_test_mat: {fileID: 2100000, guid: 3b839ed642ad19148965333f2d61c470, type: 2}
 --- !u!61 &2659658233142058490
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -332,7 +331,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1112727147
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 5005232257630071168, guid: 274b97b4468c7e548b3359d140c5c2bf,
     type: 3}
@@ -381,6 +380,34 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.75
+--- !u!114 &3459494854897825068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2659658233142058487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a46a986c4ade02a439e4e0db7b1da924, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_shadow_material: {fileID: 2100000, guid: 3b839ed642ad19148965333f2d61c470, type: 2}
+--- !u!114 &3641968951635244866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2659658233142058487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 902a3914dcb319b4fbeb4c6d3a852fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_camera: {fileID: 2659658233286571731}
+  m_collider: {fileID: 0}
+  some_object: {fileID: 0}
 --- !u!1 &2659658233286571566
 GameObject:
   m_ObjectHideFlags: 0

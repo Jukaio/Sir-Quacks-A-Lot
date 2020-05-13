@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6035226103815095223}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: s_waypoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2736481332110608887}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: s_pig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 743904522289314050}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: waypoint
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -105,7 +105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2728466970503229504}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: waypoint
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -120,7 +120,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4156636808284564791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.71, y: -15.76, z: 0}
+  m_LocalPosition: {x: 22.51, y: -7.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6035226103815095223}
@@ -143,7 +143,7 @@ GameObject:
   - component: {fileID: 6108184675233491837}
   - component: {fileID: 6108184675233491836}
   - component: {fileID: 6108184675233491826}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: m_entity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,9 +176,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70fbc51567d5c4f4da68da6c73d1615f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_waypoints: []
+  m_waypoints:
+  - {fileID: 8351919375592832017}
+  - {fileID: 4156636808284564791}
   m_type: 0
-  m_use_waypoints: 0
+  m_use_waypoints: 1
 --- !u!114 &6108184675233491824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,7 +208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_cone_width: 35
   m_cone_length: 4
-  m_test_mat: {fileID: 2100000, guid: 3b839ed642ad19148965333f2d61c470, type: 2}
+  m_test_mat: {fileID: 2100000, guid: 46e92ef6db0ffb947b4b0cf0ce19e95b, type: 2}
 --- !u!114 &6108184675233491827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,7 +280,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 12
-  m_Sprite: {fileID: 4716455224992253548, guid: 1913d683717eac04cab3fe0d6e502dc2,
+  m_Sprite: {fileID: -8728128837541529156, guid: 8815a3fe708472645a0113ba888c0cee,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -303,18 +305,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.016314507, y: -0.5750866}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.5, y: 1.75}
+    oldSize: {x: 2.25, y: 2.5}
     newSize: {x: 1.5, y: 1.75}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 1.75}
+  m_Size: {x: 1.2389677, y: 1.15452}
   m_EdgeRadius: 0
 --- !u!50 &6108184675233491826
 Rigidbody2D:
@@ -336,7 +338,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &7118935756112335203
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,7 +348,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2639509906581558713}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: waypoint
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -376,7 +378,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3351008908081094468}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: waypoint
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -391,7 +393,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8351919375592832017}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -15.36, z: 0}
+  m_LocalPosition: {x: 6.91, y: -7.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6035226103815095223}

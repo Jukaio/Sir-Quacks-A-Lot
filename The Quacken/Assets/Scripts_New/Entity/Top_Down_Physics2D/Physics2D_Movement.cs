@@ -6,7 +6,15 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Physics2D_Movement : MonoBehaviour
 {
+
+    private float m_init_speed; // initial speed
+    public float Initial_Speed
+    {
+        get => m_init_speed;
+    }
+
     [SerializeField] private float m_speed = 5.0f;
+    public float Speed { get => m_speed; }
 
 
     // Rigidbody Movement 
@@ -40,6 +48,7 @@ public class Physics2D_Movement : MonoBehaviour
     {
         m_rb = GetComponent<Rigidbody2D>();
         m_direction = Vector2.zero;
+        m_init_speed = m_speed;
     }
 
     public void Set_Speed(float p_speed)
@@ -90,7 +99,7 @@ public class Physics2D_Movement : MonoBehaviour
     public bool Movement()
     {
         float distance = Mathf.Sqrt(Mathf.Pow(m_from.x - m_target.x, 2) + Mathf.Pow(m_from.y - m_target.y, 2));
-        m_factor += (m_speed / 10.0f) / distance;
+        m_factor += (m_speed / distance) * Time.deltaTime;
         Interpolate(ref m_factor);
 
         m_direction = (m_target - m_from).normalized;

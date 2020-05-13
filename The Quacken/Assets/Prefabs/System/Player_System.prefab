@@ -74,4 +74,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba0bfab833d43042811f49ef2197bbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_file: {fileID: 4900000, guid: 27005d67fcb50cb4690688fe45f7ae78, type: 3}
   m_current_device: 0

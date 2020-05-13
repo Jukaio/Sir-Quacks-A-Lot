@@ -33,7 +33,7 @@ public class Seeing : Sensing
 
     void Start()
     {
-        m_mesh = Utility.Extra_Mesh.Create_Mesh(out m_mesh_object, out m_mesh_renderer, "s_pig_mesh", "Light_Overlay", m_test_mat);
+        m_mesh = Utility.Extra_Mesh.Create_Mesh(out m_mesh_object, out m_mesh_renderer, "s_mesh", "Default", m_test_mat);
         m_mesh_object.transform.localPosition = Vector3.zero + Vector3.back;
         m_mesh_object.transform.parent = transform;
 
@@ -66,7 +66,7 @@ public class Seeing : Sensing
             triangle_index++;
         }
         m_triangles[m_triangles.Length - 1] = 1;
-        m_mesh_renderer.sortingOrder = 15;
+        m_mesh_renderer.sortingOrder = 2;
 
         m_trigger_zone.points = m_polygon_trigger_points;
 
@@ -121,9 +121,12 @@ public class Seeing : Sensing
         if (in_trigger_zone) // Only Raycast if player is in the trigger zone
         {
             var hit = Physics2D.Raycast(transform.position, m_to_player_direction * m_to_player_distance);
-            Debug.DrawLine(transform.position, hit.point, Color.red);
+            Debug.DrawLine(transform.position, hit.point, Color.cyan);
             if (hit.collider.CompareTag(p_target.tag))
+            {
+                in_trigger_zone = false;
                 return true;
+            }
         }
         return false;
     }

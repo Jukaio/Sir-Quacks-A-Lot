@@ -29,13 +29,14 @@ public class Owl_Controller : Enemy_Base
     Vector3 m_sit_direction;
     float m_timer;
     int m_rotations;
+
     public override void Behaviour()
     {
         switch (m_state)
         {
             case State.ENTER_MOVEMENT:
                 m_movement.Enter_Movement(m_waypoints[m_index].transform.position);
-                m_movement.Set_Speed(1.0f);
+                m_movement.Set_Speed(m_movement.Initial_Speed);
                 m_state = State.MOVEMENT;
                 break;
 
@@ -87,7 +88,7 @@ public class Owl_Controller : Enemy_Base
         m_movement.Normalise();
 
         if (m_seeing.Sense(m_movement.direction, m_player))
-            Destroy(m_player);
+            m_player.GetComponent<Player_Controller>().Respawn();
     }
 
     void Next_Target()

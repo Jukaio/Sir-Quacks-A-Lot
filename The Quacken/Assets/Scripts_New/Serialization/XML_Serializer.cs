@@ -4,6 +4,7 @@ using UnityEngine;
 using System.IO;
 using System;
 using System.Xml.Serialization;
+using System.Xml;
 
 public class XML_Serializer
 {
@@ -18,9 +19,26 @@ public class XML_Serializer
     public static T Deserialize<T>(string p_path)
     {
         XmlSerializer serializer = new XmlSerializer(typeof(T));
+        if (File.Exists(p_path))
+        {
+            Debug.Log("No File in Directory");
+            return default(T);
+        }
         StreamReader reader = new StreamReader(p_path);
         T deserialzed = (T)serializer.Deserialize(reader.BaseStream);
+
         reader.Close();
+        return deserialzed;
+    }
+
+    public static T Deserialize<T>(TextAsset p_file)
+    {
+        XmlSerializer serializer = new XmlSerializer(typeof(T));
+        var temp = XmlReader.Create(new MemoryStream(p_file.bytes));
+
+        //StreamReader reader = new StreamReader(p_path);
+        T deserialzed = (T)serializer.Deserialize(temp);
+        temp.Close();
         return deserialzed;
     }
 }

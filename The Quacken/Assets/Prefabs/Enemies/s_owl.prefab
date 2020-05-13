@@ -239,7 +239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_cone_width: 35
   m_cone_length: 8
-  m_test_mat: {fileID: 2100000, guid: 3b839ed642ad19148965333f2d61c470, type: 2}
+  m_test_mat: {fileID: 2100000, guid: 46e92ef6db0ffb947b4b0cf0ce19e95b, type: 2}
 --- !u!114 &5971820236290169430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,7 +369,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &5971820236430878421
 GameObject:
   m_ObjectHideFlags: 0

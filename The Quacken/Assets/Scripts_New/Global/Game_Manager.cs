@@ -38,6 +38,6 @@ public class Game_Manager : MonoBehaviour
 
     private void Update()
     {
-
+        
     }
 }

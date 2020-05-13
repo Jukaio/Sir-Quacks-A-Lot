@@ -21,6 +21,7 @@ public class Player_Controller : MonoBehaviour
 
     void Start()
     {
+        m_spawn_position = transform.position;
         m_input = Player_Input_System.Player(0);
     }
 
@@ -47,10 +48,12 @@ public class Player_Controller : MonoBehaviour
         m_anim.SetFloat("prev_y", m_movement.prev_direction.y);
     }
 
-    GameObject m_prev_prev = null;
-    GameObject m_prev = null;
-    GameObject m_current;
-    int m_smell_index = 0;
+    public Vector2 m_spawn_position;
+    public void Respawn()
+    {
+        transform.position = m_spawn_position;
+    }
+
     void Execute_Inputs()
     {
         m_movement.Execute();
