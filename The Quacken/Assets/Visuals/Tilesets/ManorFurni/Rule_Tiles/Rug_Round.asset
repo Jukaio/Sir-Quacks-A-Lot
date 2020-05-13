@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
   m_Name: Rug_Round
   m_EditorClassIdentifier: 
-  m_DefaultSprite: {fileID: -2572457117361448569, guid: 677e241d46f7a95479ed71b2c95d48ed,
+  m_DefaultSprite: {fileID: 9131808260951083568, guid: 318afb1f1af1402449ec97ef0326658b,
     type: 3}
   m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 1
   m_TilingRules:
   - m_Id: 0
     m_Sprites:
-    - {fileID: 5979080547868259925, guid: 677e241d46f7a95479ed71b2c95d48ed, type: 3}
+    - {fileID: -2724316788706472871, guid: 318afb1f1af1402449ec97ef0326658b, type: 3}
     m_GameObject: {fileID: 0}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
@@ -34,7 +34,7 @@ MonoBehaviour:
     m_RuleTransform: 0
   - m_Id: 1
     m_Sprites:
-    - {fileID: -2572457117361448569, guid: 677e241d46f7a95479ed71b2c95d48ed, type: 3}
+    - {fileID: 9131808260951083568, guid: 318afb1f1af1402449ec97ef0326658b, type: 3}
     m_GameObject: {fileID: 0}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
@@ -49,7 +49,7 @@ MonoBehaviour:
     m_RuleTransform: 0
   - m_Id: 2
     m_Sprites:
-    - {fileID: -4442869009237654965, guid: 677e241d46f7a95479ed71b2c95d48ed, type: 3}
+    - {fileID: -3171844562505210245, guid: 318afb1f1af1402449ec97ef0326658b, type: 3}
     m_GameObject: {fileID: 0}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
@@ -64,7 +64,7 @@ MonoBehaviour:
     m_RuleTransform: 0
   - m_Id: 3
     m_Sprites:
-    - {fileID: -541772750805472444, guid: 677e241d46f7a95479ed71b2c95d48ed, type: 3}
+    - {fileID: 6277768162933450282, guid: 318afb1f1af1402449ec97ef0326658b, type: 3}
     m_GameObject: {fileID: 0}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5

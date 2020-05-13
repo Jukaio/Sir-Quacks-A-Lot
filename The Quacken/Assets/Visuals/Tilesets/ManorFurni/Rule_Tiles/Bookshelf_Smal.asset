@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
   m_Name: Bookshelf_Smal
   m_EditorClassIdentifier: 
-  m_DefaultSprite: {fileID: -8502794088747936059, guid: 677e241d46f7a95479ed71b2c95d48ed,
+  m_DefaultSprite: {fileID: -7642542142869348596, guid: 995eefce7a1b73643ac8fa34b2cc28de,
     type: 3}
   m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 1
   m_TilingRules:
   - m_Id: 0
     m_Sprites:
-    - {fileID: 2885156803722439078, guid: 677e241d46f7a95479ed71b2c95d48ed, type: 3}
+    - {fileID: -7642542142869348596, guid: 995eefce7a1b73643ac8fa34b2cc28de, type: 3}
     m_GameObject: {fileID: 0}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
@@ -33,8 +33,9 @@ MonoBehaviour:
     m_RuleTransform: 0
   - m_Id: 1
     m_Sprites:
-    - {fileID: -1284537915425145311, guid: 677e241d46f7a95479ed71b2c95d48ed, type: 3}
-    m_GameObject: {fileID: 0}
+    - {fileID: 9081789808493897887, guid: 995eefce7a1b73643ac8fa34b2cc28de, type: 3}
+    m_GameObject: {fileID: 3428125402260331826, guid: 9566791e2b3c42c47ba9f0f4feae0a1e,
+      type: 3}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
     m_Output: 0
@@ -47,8 +48,9 @@ MonoBehaviour:
     m_RuleTransform: 0
   - m_Id: 2
     m_Sprites:
-    - {fileID: -7960501448177674908, guid: 677e241d46f7a95479ed71b2c95d48ed, type: 3}
-    m_GameObject: {fileID: 0}
+    - {fileID: -8169583228843156874, guid: 995eefce7a1b73643ac8fa34b2cc28de, type: 3}
+    m_GameObject: {fileID: 3428125402260331826, guid: 9566791e2b3c42c47ba9f0f4feae0a1e,
+      type: 3}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
     m_Output: 0

@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-  - pickupObject
+  - mapAbove
+  - mapBellow
+  - tunnel
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,6 @@ TagManager:
   - UI
   - 
   - 
-  - Noise_Overlay
   - Grid
   - Light_Overlay
   - Grabbed
@@ -39,19 +39,8 @@ TagManager:
   - 
   - 
   - 
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Player_Circle
-    uniqueID: 416659173
-    locked: 0
-  - name: Enemy_Circle
-    uniqueID: 424426539
-    locked: 0
-  - name: Player
-    uniqueID: 3182240149
-    locked: 0
-  - name: Enemy
-    uniqueID: 2284503181
     locked: 0

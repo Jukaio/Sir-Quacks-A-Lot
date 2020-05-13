@@ -1,0 +1,2042 @@
+fileFormatVersion: 2
+guid: 69a1a9c9dbb14f1409becafa6aca4c87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -563980554216478764
+    second: manorDecoSheet1_0
+  - first:
+      213: 7923104869758533123
+    second: manorDecoSheet1_1
+  - first:
+      213: -2171788469913382278
+    second: manorDecoSheet1_2
+  - first:
+      213: 3028405536439567280
+    second: manorDecoSheet1_3
+  - first:
+      213: 7837839525587034095
+    second: manorDecoSheet1_4
+  - first:
+      213: -1803564789055318498
+    second: manorDecoSheet1_5
+  - first:
+      213: -5563453889737059923
+    second: manorDecoSheet1_6
+  - first:
+      213: -8054853122731115701
+    second: manorDecoSheet1_7
+  - first:
+      213: -8141193294625645685
+    second: manorDecoSheet1_8
+  - first:
+      213: 3957667146411419413
+    second: manorDecoSheet1_9
+  - first:
+      213: -5600183870491451326
+    second: manorDecoSheet1_10
+  - first:
+      213: -2811709660053613687
+    second: manorDecoSheet1_11
+  - first:
+      213: 4176825361286203791
+    second: manorDecoSheet1_12
+  - first:
+      213: -8989478468632820652
+    second: manorDecoSheet1_13
+  - first:
+      213: -8388454099180401804
+    second: manorDecoSheet1_14
+  - first:
+      213: 5253296508594847583
+    second: manorDecoSheet1_15
+  - first:
+      213: 4502353535121973035
+    second: manorDecoSheet1_16
+  - first:
+      213: 7449924030683918266
+    second: manorDecoSheet1_17
+  - first:
+      213: 8615411455491670184
+    second: manorDecoSheet1_18
+  - first:
+      213: -2787452375664307241
+    second: manorDecoSheet1_19
+  - first:
+      213: -4753045658634011687
+    second: manorDecoSheet1_20
+  - first:
+      213: 7668758687838741651
+    second: manorDecoSheet1_21
+  - first:
+      213: -1164807063590427158
+    second: manorDecoSheet1_22
+  - first:
+      213: -4006243150508719355
+    second: manorDecoSheet1_23
+  - first:
+      213: -7822339699824169174
+    second: manorDecoSheet1_24
+  - first:
+      213: -7696205524539767593
+    second: manorDecoSheet1_25
+  - first:
+      213: 7469147502233140394
+    second: manorDecoSheet1_26
+  - first:
+      213: 515474060356037305
+    second: manorDecoSheet1_27
+  - first:
+      213: 336021188130083836
+    second: manorDecoSheet1_28
+  - first:
+      213: -2161071953404348287
+    second: manorDecoSheet1_29
+  - first:
+      213: 7927649154612068314
+    second: manorDecoSheet1_30
+  - first:
+      213: 2616867468143630078
+    second: manorDecoSheet1_31
+  - first:
+      213: 8968072954820272829
+    second: manorDecoSheet1_32
+  - first:
+      213: -1274957760239196958
+    second: manorDecoSheet1_33
+  - first:
+      213: 7398457643230954703
+    second: manorDecoSheet1_34
+  - first:
+      213: 9154056178188986100
+    second: manorDecoSheet1_35
+  - first:
+      213: -2229736691643239646
+    second: manorDecoSheet1_36
+  - first:
+      213: 3424155069479681410
+    second: manorDecoSheet1_37
+  - first:
+      213: 5216948861260825621
+    second: manorDecoSheet1_38
+  - first:
+      213: -7834288525038571495
+    second: manorDecoSheet1_39
+  - first:
+      213: -6665652973973438197
+    second: manorDecoSheet1_40
+  - first:
+      213: 2892039128776991131
+    second: manorDecoSheet1_41
+  - first:
+      213: -2565646754385452713
+    second: manorDecoSheet1_42
+  - first:
+      213: -3296068371259947205
+    second: manorDecoSheet1_43
+  - first:
+      213: -5480317482020843250
+    second: manorDecoSheet1_44
+  - first:
+      213: 1795038016484953252
+    second: manorDecoSheet1_45
+  - first:
+      213: -4734632075880933551
+    second: manorDecoSheet1_46
+  - first:
+      213: 5700097735556794778
+    second: manorDecoSheet1_47
+  - first:
+      213: -6803638556205618926
+    second: manorDecoSheet1_48
+  - first:
+      213: 6990747532978966139
+    second: manorDecoSheet1_49
+  - first:
+      213: -953539463378251656
+    second: manorDecoSheet1_50
+  - first:
+      213: -2416841876447443594
+    second: manorDecoSheet1_51
+  - first:
+      213: 3697148391979180650
+    second: manorDecoSheet1_52
+  - first:
+      213: -2506282718135305535
+    second: manorDecoSheet1_53
+  - first:
+      213: 5579394827468538859
+    second: manorDecoSheet1_54
+  - first:
+      213: 842182644762610448
+    second: manorDecoSheet1_55
+  - first:
+      213: -880421494727656400
+    second: manorDecoSheet1_56
+  - first:
+      213: -83304805428537248
+    second: manorDecoSheet1_57
+  - first:
+      213: 33015518002893295
+    second: manorDecoSheet1_58
+  - first:
+      213: 5869021507670053875
+    second: manorDecoSheet1_59
+  - first:
+      213: 615285202062610074
+    second: manorDecoSheet1_60
+  - first:
+      213: -5890885625404190467
+    second: manorDecoSheet1_61
+  - first:
+      213: -256755116884208108
+    second: manorDecoSheet1_62
+  - first:
+      213: -5206746709650568931
+    second: manorDecoSheet1_63
+  - first:
+      213: -6376435067003230290
+    second: manorDecoSheet1_64
+  - first:
+      213: 4024616331440379861
+    second: manorDecoSheet1_65
+  - first:
+      213: 8146998979741821749
+    second: manorDecoSheet1_66
+  - first:
+      213: -4109892976231569407
+    second: manorDecoSheet1_67
+  - first:
+      213: -2259444061213253836
+    second: manorDecoSheet1_68
+  - first:
+      213: 5945736424951913244
+    second: manorDecoSheet1_69
+  - first:
+      213: 1770356090295139989
+    second: manorDecoSheet1_70
+  - first:
+      213: -211346893572678227
+    second: manorDecoSheet1_71
+  - first:
+      213: -2138833985360628552
+    second: manorDecoSheet1_72
+  - first:
+      213: -890295226300068503
+    second: manorDecoSheet1_73
+  - first:
+      213: 8154666555911805374
+    second: manorDecoSheet1_74
+  - first:
+      213: 8101343992321289787
+    second: manorDecoSheet1_75
+  - first:
+      213: -2485239370574103600
+    second: manorDecoSheet1_76
+  - first:
+      213: 6199792979950953719
+    second: manorDecoSheet1_77
+  - first:
+      213: -4410086178158554577
+    second: manorDecoSheet1_78
+  - first:
+      213: -4252875528169193022
+    second: manorDecoSheet1_79
+  - first:
+      213: -2723415646613589787
+    second: manorDecoSheet1_80
+  - first:
+      213: 7811735307926329979
+    second: manorDecoSheet1_81
+  - first:
+      213: -8013567905428961894
+    second: manorDecoSheet1_82
+  - first:
+      213: 4028274896807201277
+    second: manorDecoSheet1_83
+  - first:
+      213: 805762783778123528
+    second: manorDecoSheet1_84
+  - first:
+      213: -2336719918853656770
+    second: manorDecoSheet1_85
+  - first:
+      213: 2565429127331089302
+    second: manorDecoSheet1_86
+  - first:
+      213: -7642542142869348596
+    second: manorDecoSheet1_87
+  - first:
+      213: -3306285958736086978
+    second: manorDecoSheet1_88
+  - first:
+      213: 5548023915135770167
+    second: manorDecoSheet1_89
+  - first:
+      213: 1700702199439920775
+    second: manorDecoSheet1_90
+  - first:
+      213: 5188497591673937481
+    second: manorDecoSheet1_91
+  - first:
+      213: 923274584151476332
+    second: manorDecoSheet1_92
+  - first:
+      213: -4189378563893114954
+    second: manorDecoSheet1_93
+  - first:
+      213: -4212418105019573948
+    second: manorDecoSheet1_94
+  - first:
+      213: 4835980156117067624
+    second: manorDecoSheet1_95
+  - first:
+      213: 3932661487854317718
+    second: manorDecoSheet1_96
+  - first:
+      213: -212329391462152749
+    second: manorDecoSheet1_97
+  - first:
+      213: 4348650243568224377
+    second: manorDecoSheet1_98
+  - first:
+      213: -4806206789537612078
+    second: manorDecoSheet1_99
+  - first:
+      213: 3891288512892070242
+    second: manorDecoSheet1_100
+  - first:
+      213: 9081789808493897887
+    second: manorDecoSheet1_101
+  - first:
+      213: 5092779454524106504
+    second: manorDecoSheet1_102
+  - first:
+      213: 4544215582161030416
+    second: manorDecoSheet1_103
+  - first:
+      213: 3718669080302987955
+    second: manorDecoSheet1_104
+  - first:
+      213: 1648183306906326903
+    second: manorDecoSheet1_105
+  - first:
+      213: 2578673044173492868
+    second: manorDecoSheet1_106
+  - first:
+      213: -733402592697942634
+    second: manorDecoSheet1_107
+  - first:
+      213: 3896064288255506111
+    second: manorDecoSheet1_108
+  - first:
+      213: -6445244095579020267
+    second: manorDecoSheet1_109
+  - first:
+      213: 3375177015818736069
+    second: manorDecoSheet1_110
+  - first:
+      213: -508584361737572536
+    second: manorDecoSheet1_111
+  - first:
+      213: -6709599482964898632
+    second: manorDecoSheet1_112
+  - first:
+      213: 751768445568451422
+    second: manorDecoSheet1_113
+  - first:
+      213: -4939282404598221798
+    second: manorDecoSheet1_114
+  - first:
+      213: -8169583228843156874
+    second: manorDecoSheet1_115
+  - first:
+      213: -1000846210381485809
+    second: manorDecoSheet1_116
+  - first:
+      213: -3239762265194828441
+    second: manorDecoSheet1_117
+  - first:
+      213: 4539384083242734622
+    second: manorDecoSheet1_118
+  - first:
+      213: 1222203391171744971
+    second: manorDecoSheet1_119
+  - first:
+      213: -1192700405676547325
+    second: manorDecoSheet1_120
+  - first:
+      213: 2078168793903185030
+    second: manorDecoSheet1_121
+  - first:
+      213: 8984383970753555614
+    second: manorDecoSheet1_122
+  - first:
+      213: -2160661607016379433
+    second: manorDecoSheet1_123
+  - first:
+      213: -6744126176805497281
+    second: manorDecoSheet1_124
+  - first:
+      213: 1771405046150871800
+    second: manorDecoSheet1_125
+  - first:
+      213: 5783067490868965289
+    second: manorDecoSheet1_126
+  - first:
+      213: 724994454073527425
+    second: manorDecoSheet1_127
+  - first:
+      213: 4022794962086831518
+    second: manorDecoSheet1_128
+  - first:
+      213: -4294052266347307899
+    second: manorDecoSheet1_129
+  - first:
+      213: -8838080095642851347
+    second: manorDecoSheet1_130
+  - first:
+      213: -8337802470106944780
+    second: manorDecoSheet1_131
+  - first:
+      213: -6068718380202433512
+    second: manorDecoSheet1_132
+  - first:
+      213: -6023246318975270307
+    second: manorDecoSheet1_133
+  - first:
+      213: -5073061329825266343
+    second: manorDecoSheet1_134
+  - first:
+      213: -801804825731274896
+    second: manorDecoSheet1_135
+  - first:
+      213: -2918354688387552855
+    second: manorDecoSheet1_136
+  - first:
+      213: 1728829194692702539
+    second: manorDecoSheet1_137
+  - first:
+      213: 541564077037074291
+    second: manorDecoSheet1_138
+  - first:
+      213: -6110115682991477756
+    second: manorDecoSheet1_139
+  - first:
+      213: -1357462291750435649
+    second: manorDecoSheet1_140
+  - first:
+      213: -8369048463280815513
+    second: manorDecoSheet1_141
+  - first:
+      213: 8523670423006424105
+    second: manorDecoSheet1_142
+  - first:
+      213: 7655920698948518096
+    second: manorDecoSheet1_143
+  - first:
+      213: -8971547420673491607
+    second: manorDecoSheet1_144
+  - first:
+      213: -5595463540570245387
+    second: manorDecoSheet1_145
+  - first:
+      213: -9054096234350010853
+    second: manorDecoSheet1_146
+  - first:
+      213: -5098326781266055770
+    second: manorDecoSheet1_147
+  - first:
+      213: -1664656234948543876
+    second: manorDecoSheet1_148
+  - first:
+      213: 8892465354522065667
+    second: manorDecoSheet1_149
+  - first:
+      213: 4369308113716870395
+    second: manorDecoSheet1_150
+  - first:
+      213: -3396615998842225699
+    second: manorDecoSheet1_151
+  - first:
+      213: -5235444353306569600
+    second: manorDecoSheet1_152
+  - first:
+      213: -2991000951523786425
+    second: manorDecoSheet1_153
+  - first:
+      213: -4031883587089097714
+    second: manorDecoSheet1_154
+  - first:
+      213: 4068745768222343452
+    second: manorDecoSheet1_155
+  - first:
+      213: 7696886613374970615
+    second: manorDecoSheet1_156
+  - first:
+      213: 7431364251451691502
+    second: manorDecoSheet1_157
+  - first:
+      213: -467146067641557082
+    second: manorDecoSheet1_158
+  - first:
+      213: 4732440456599106729
+    second: manorDecoSheet1_159
+  - first:
+      213: -3612998050955821868
+    second: manorDecoSheet1_160
+  - first:
+      213: -8577940537617727847
+    second: manorDecoSheet1_161
+  - first:
+      213: 4956711728516122855
+    second: manorDecoSheet1_162
+  - first:
+      213: 5543810422206094192
+    second: manorDecoSheet1_163
+  - first:
+      213: 3809413376536096936
+    second: manorDecoSheet1_164
+  - first:
+      213: 8327952472962375602
+    second: manorDecoSheet1_165
+  - first:
+      213: -7568588877345515631
+    second: manorDecoSheet1_166
+  - first:
+      213: -8788282665358613557
+    second: manorDecoSheet1_167
+  - first:
+      213: 8081869613080257609
+    second: manorDecoSheet1_168
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: manorDecoSheet1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7e2bd8ca65c28f0800000000000000
+      internalID: -563980554216478764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eff1096e584fd60800000000000000
+      internalID: 7923104869758533123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72168ba4e14cd1e0800000000000000
+      internalID: -2171788469913382278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b38e4b4ace070a20800000000000000
+      internalID: 3028405536439567280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef9129958995cc60800000000000000
+      internalID: 7837839525587034095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1694fa416378f6e0800000000000000
+      internalID: -1803564789055318498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bcea3d079369b80800000000000000
+      internalID: -8388454099180401804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f7896675577e840800000000000000
+      internalID: 5253296508594847583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f5b2a8fa29b7e30800000000000000
+      internalID: 4502353535121973035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfaf8c3f62736760800000000000000
+      internalID: 7449924030683918266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a089668217109770800000000000000
+      internalID: 8615411455491670184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3d53835daf059d0800000000000000
+      internalID: -2787452375664307241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf39f738d79c9a400800000000000000
+      internalID: 336021188130083836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_29
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188364b12845202e0800000000000000
+      internalID: -2161071953404348287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adff39457eaa40e60800000000000000
+      internalID: 7927649154612068314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef61af6f81bf05420800000000000000
+      internalID: 2616867468143630078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2a9d766def47c70800000000000000
+      internalID: 8968072954820272829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4a05d0ca07e4ee0800000000000000
+      internalID: -1274957760239196958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751a8b9ceddf46cd0800000000000000
+      internalID: -2565646754385452713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_43
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3786a797430242d0800000000000000
+      internalID: -3296068371259947205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_44
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01d8cb394002f3b0800000000000000
+      internalID: -5480317482020843250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_45
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac48e2c09149e810800000000000000
+      internalID: 1795038016484953252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15752fe46353b4eb0800000000000000
+      internalID: -4734632075880933551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a990fd8a0b0da1f40800000000000000
+      internalID: 5700097735556794778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cb322b05d18c3f0800000000000000
+      internalID: -880421494727656400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_57
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068595888ba08def0800000000000000
+      internalID: -83304805428537248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe153ae407b457000800000000000000
+      internalID: 33015518002893295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_59
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f31dcf37f3f27150800000000000000
+      internalID: 5869021507670053875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_60
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e0f70a1aee98800800000000000000
+      internalID: 615285202062610074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df014552cbe5f3ea0800000000000000
+      internalID: -5890885625404190467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ebdfffb71919810800000000000000
+      internalID: 1770356090295139989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_71
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadd73cbe15211df0800000000000000
+      internalID: -211346893572678227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_72
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4fb0582d55152e0800000000000000
+      internalID: -2138833985360628552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d882b653905a3f0800000000000000
+      internalID: -890295226300068503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb991eef6023b2170800000000000000
+      internalID: 8154666555911805374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_75
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e2e813071cd6070800000000000000
+      internalID: 8101343992321289787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f23549bf4ae2b00800000000000000
+      internalID: 805762783778123528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_85
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fe5214d9d429fd0800000000000000
+      internalID: -2336719918853656770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b8207f23c3a9320800000000000000
+      internalID: 2565429127331089302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fd159b96c30f590800000000000000
+      internalID: -7642542142869348596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e387caf1076bd12d0800000000000000
+      internalID: -3306285958736086978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e1a0b2b5a8efc40800000000000000
+      internalID: 5548023915135770167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e8752c3ab1a9710800000000000000
+      internalID: 1700702199439920775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_91
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ed1bdd11f310840800000000000000
+      internalID: 5188497591673937481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978cc4c3b52895c30800000000000000
+      internalID: 4348650243568224377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_99
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de3a88a36cec4db0800000000000000
+      internalID: -4806206789537612078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_100
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2696d791942a00630800000000000000
+      internalID: 3891288512892070242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98aa04a6bff80e70800000000000000
+      internalID: 9081789808493897887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80721526eef2da640800000000000000
+      internalID: 5092779454524106504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_103
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dc085eefb401f30800000000000000
+      internalID: 4544215582161030416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_104
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba20b083dd5b9330800000000000000
+      internalID: 3718669080302987955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_105
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77751e43cf58fd610800000000000000
+      internalID: 1648183306906326903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc8bb8b1d6b2e2a0800000000000000
+      internalID: -6709599482964898632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_113
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53847f0b61de6a00800000000000000
+      internalID: 751768445568451422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_114
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14f59c82d4247bb0800000000000000
+      internalID: -4939282404598221798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_115
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a90d1765fcf9e80800000000000000
+      internalID: -8169583228843156874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_116
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f096a63aca74c12f0800000000000000
+      internalID: -1000846210381485809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_117
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76de852826d0a03d0800000000000000
+      internalID: -3239762265194828441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_118
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14deb4e5c12ffe30800000000000000
+      internalID: 4539384083242734622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c5861f6367864c0800000000000000
+      internalID: -4294052266347307899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_130
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7e1caaaf4d85580800000000000000
+      internalID: -8838080095642851347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faa6e934dc2a4c80800000000000000
+      internalID: -8337802470106944780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_156
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faaca25895d0da60800000000000000
+      internalID: 7696886613374970615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_157
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee19054e962812760800000000000000
+      internalID: 7431364251451691502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_158
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af1104602d5489f0800000000000000
+      internalID: -467146067641557082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_163
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bd3b5e4329fec40800000000000000
+      internalID: 5543810422206094192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manorDecoSheet1_164
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a03e076841cdd430800000000000000
+      internalID: 3809413376536096936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

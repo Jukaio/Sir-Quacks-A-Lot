@@ -6,6 +6,7 @@
     <MOVE_RIGHT>D</MOVE_RIGHT>
     <MOVE_UP>W</MOVE_UP>
     <MOVE_DOWN>S</MOVE_DOWN>
+    <ACTION>Space</ACTION>
   </Keyboard>
   <Playstation>
     <device>PLAYSTATION</device>
@@ -13,6 +14,7 @@
     <MOVE_RIGHT>LEFT_STICK_RIGHT</MOVE_RIGHT>
     <MOVE_UP>LEFT_STICK_UP</MOVE_UP>
     <MOVE_DOWN>LEFT_STICK_DOWN</MOVE_DOWN>
+    <ACTION>CROSS</ACTION>
   </Playstation>
   <Xbox>
     <device>XBOX</device>
@@ -20,5 +22,6 @@
     <MOVE_RIGHT>LEFT_STICK_RIGHT</MOVE_RIGHT>
     <MOVE_UP>LEFT_STICK_UP</MOVE_UP>
     <MOVE_DOWN>LEFT_STICK_DOWN</MOVE_DOWN>
+    <ACTION>A</ACTION>
   </Xbox>
 </All_Controls>
