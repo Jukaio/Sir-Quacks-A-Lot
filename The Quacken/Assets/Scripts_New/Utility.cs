@@ -58,6 +58,9 @@ public struct Segment // Could add a function to swap start and end according to
         m_end = p_end;
         m_polygon_id = -1;
         m_id = -1;
+        float x = p_end.x - p_start.x;
+        float y = p_end.y - p_end.y;
+        m_length = Mathf.Sqrt(x * x + y * y);
     }
 
     public Segment(Vector2 p_start, Vector2 p_end, int p_polygon_id, int p_id)
@@ -66,12 +69,16 @@ public struct Segment // Could add a function to swap start and end according to
         m_end = p_end;
         m_polygon_id = p_polygon_id;
         m_id = p_id;
+        float x = p_end.x - p_start.x;
+        float y = p_end.y - p_end.y;
+        m_length = Mathf.Sqrt(x * x + y * y);
     }
 
     public Vector2 m_start;
     public Vector2 m_end;
     public int m_polygon_id;
     public int m_id;
+    public float m_length;
 
     public override bool Equals(object obj)
     {

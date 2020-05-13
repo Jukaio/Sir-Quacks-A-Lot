@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System;
-using System.Xml.Serialization;
+using System.Xml;
 
 // Possible player input commands
 // Assign saved player inputs from XML
@@ -14,6 +14,8 @@ namespace Game_Input
 
     public class Player_Input_System : MonoBehaviour
     {
+        public TextAsset m_file;
+
         static private Player_Input_System[] m_instance = new Player_Input_System[0];
         static public Player_Input_System Player(int index)
         {
@@ -65,9 +67,8 @@ namespace Game_Input
 
         void Deserialize_XML_File()
         {
-            int index = Create_Player_Input();
-            string path = "Assets/Configs/Player_Inputs_" + index + ".xml";
-            m_controls = XML_Serializer.Deserialize<All_Controls>(path);
+            int index = Create_Player_Input();       
+            m_controls = XML_Serializer.Deserialize<All_Controls>(m_file);
             Assign_Controls(m_controls);
         }
 

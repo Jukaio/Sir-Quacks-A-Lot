@@ -17,12 +17,7 @@ namespace Game_Input
         public KeyCode MOVE_RIGHT;
         public KeyCode MOVE_UP;
         public KeyCode MOVE_DOWN;
-    }
-
-    public class Controls_Controller : Controls
-    {
-        public string axis_up_and_down;
-        public string axis_left_and_right;
+        public KeyCode ACTION;
     }
 
     public class Controls_Playstation : Controls
@@ -31,6 +26,7 @@ namespace Game_Input
         public PS_Button MOVE_RIGHT;
         public PS_Button MOVE_UP;
         public PS_Button MOVE_DOWN;
+        public PS_Button ACTION;
     }
 
     public class Controls_Xbox : Controls
@@ -39,6 +35,7 @@ namespace Game_Input
         public XBOX_Button MOVE_RIGHT;
         public XBOX_Button MOVE_UP;
         public XBOX_Button MOVE_DOWN;
+        public XBOX_Button ACTION;
     }
 
 
@@ -47,5 +44,18 @@ namespace Game_Input
         public Controls_Keyboard Keyboard;
         public Controls_Playstation Playstation;
         public Controls_Xbox Xbox;
+
+        public static All_Controls Get_Default()
+        {
+            All_Controls temp = new All_Controls();
+            temp.Keyboard.device = Device.KEYBOARD;
+            temp.Keyboard.MOVE_LEFT = KeyCode.A;
+            temp.Keyboard.MOVE_RIGHT = KeyCode.D;
+            temp.Keyboard.MOVE_UP = KeyCode.W;
+            temp.Keyboard.MOVE_DOWN = KeyCode.S;
+            temp.Keyboard.ACTION = KeyCode.Space;
+
+            return temp;
+        }
     }
 }

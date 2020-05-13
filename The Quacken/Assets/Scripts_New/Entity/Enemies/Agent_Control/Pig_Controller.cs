@@ -36,7 +36,7 @@ public class Pig_Controller : Enemy_Base
             Ray_Cast_Behaviour();
 
         if (m_seeing.Sense(m_movement.direction, m_player))
-            Destroy(m_player);
+            m_player.GetComponent<Player_Controller>().Respawn();
     }
 
     void Ray_Cast_Behaviour()
@@ -82,7 +82,7 @@ public class Pig_Controller : Enemy_Base
         {
             case Movement_States.ENTER_MOVEMENT:
                 m_movement.Enter_Movement(m_waypoints[m_index].transform.position);
-                m_movement.Set_Speed(1.0f);
+                m_movement.Set_Speed(m_movement.Speed);
                 m_state = Movement_States.MOVEMENT;
                 break;
 

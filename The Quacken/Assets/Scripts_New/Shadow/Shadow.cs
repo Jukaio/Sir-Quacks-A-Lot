@@ -4,7 +4,6 @@ using UnityEngine;
 using System.Linq;
 using System;
 using CSKicksCollection.Trees;
-using Packages.Rider.Editor.UnitTesting;
 using Utility;
 
 [RequireComponent(typeof(Shadow_Renderer))]
@@ -19,7 +18,20 @@ public class Shadow : MonoBehaviour
 
 
     // The grid edge data
-    public CompositeCollider2D m_collider;
+    public CompositeCollider2D m_map;
+    public CompositeCollider2D Map
+    {
+        get => m_map;
+        set => m_map = value;
+    }
+    public void Set_Map(GameObject p_game_object)
+    {
+        Map = p_game_object.GetComponent<CompositeCollider2D>();
+    }
+    public void Set_Map(CompositeCollider2D p_collider)
+    {
+        Map = p_collider;
+    }
 
     // Private containers for RayHitPoints and Triangles
     private List<Vector3> m_hit_points = new List<Vector3>();
@@ -40,21 +52,21 @@ public class Shadow : MonoBehaviour
             list.Clear();
         m_segments.Clear();
         m_points.Clear();
-        
 
 
+        Vector2 map_position = m_map.transform.position;
 
         // Jagged array of points of each path (Empty)
-        Vector2[][] paths_points = new Vector2[m_collider.pathCount][];
+        Vector2[][] paths_points = new Vector2[m_map.pathCount][];
 
-        for (int i = 0; i < m_collider.pathCount; i++)
+        for (int i = 0; i < m_map.pathCount; i++)
         {
             // Get Path with points
             // Get the points of path i
-            paths_points[i] = new Vector2[m_collider.GetPathPointCount(i)];
+            paths_points[i] = new Vector2[m_map.GetPathPointCount(i)];
 
             // Get amount of points for offset 
-            int amount_of_points = m_collider.GetPath(i, paths_points[i]);
+            int amount_of_points = m_map.GetPath(i, paths_points[i]);
 
             // Small short cut for the path points
             Vector2[] path = paths_points[i];
@@ -76,10 +88,9 @@ public class Shadow : MonoBehaviour
                 int end_index_right = (j + 1 < path.Length) ? j + 1 : 0;
 
                 // Create a Segment with the points of the current edge/path partition 
-                Vector2 start_vector = path[start_index]; // Start Vert
-                Vector2 end_vector = path[end_index_right]; // End Vert
+                Vector2 start_vector = path[start_index] + map_position; // Start Vert
+                Vector2 end_vector = path[end_index_right] + map_position; // End Vert
                 Segment segment = new Segment(start_vector, end_vector, i, segment_id);
-
 
                 // If the segment is somewhat within the bounds - Use it! (The points are in the bounds or the line intersects with the camera bounds)
                 if (Extra_Collision.Rectangle_Line_Collison(segment, m_camera_bounds) || 
@@ -121,6 +132,7 @@ public class Shadow : MonoBehaviour
                     // Add the segment to the list
                     // Advance the segment_id by one
                     // 
+                    segment.m_id = segment_id;
                     polygon.Add(segment); 
                     segment_id++;
                 }
@@ -137,7 +149,6 @@ public class Shadow : MonoBehaviour
         m_shadow_renderer = GetComponent<Shadow_Renderer>();
     }
 
-    public GameObject some_object;
     void Update()
     {
 
@@ -216,21 +227,21 @@ public class Shadow : MonoBehaviour
         m_triangles[m_triangles.Count - 1] = 1; // Correct the last triangle
 
         color = Color.black;
-        r = 1.0f / m_hit_points.Count;
-        foreach (Vector2 point in m_hit_points)
+        r = 1.0f / m_points.Count;
+        foreach (var point in m_points)
         {
             Vector2 top_left = (Vector2.left + Vector2.up) / 8.0f;
             Vector2 top_right = (Vector2.right + Vector2.up) / 8.0f;
             Vector2 down_right = (Vector2.right + Vector2.down) / 8.0f;
             Vector2 down_left = (Vector2.left + Vector2.down) / 8.0f;
 
-            Vector2 p = point;
+            var p = point;
 
-            Debug.DrawLine(p + top_left, p + top_right, color);
-            Debug.DrawLine(p + top_right, p + down_right, color);
-            Debug.DrawLine(p + down_right, p + down_left, color);
-            Debug.DrawLine(p + down_left, p + top_left, color);
-            Debug.DrawLine(transform.position, p, color);
+            Debug.DrawLine(p.m_coordinate + top_left, p.m_coordinate + top_right, color);
+            Debug.DrawLine(p.m_coordinate + top_right, p.m_coordinate + down_right, color);
+            Debug.DrawLine(p.m_coordinate + down_right, p.m_coordinate + down_left, color);
+            Debug.DrawLine(p.m_coordinate + down_left, p.m_coordinate + top_left, color);
+            Debug.DrawLine(transform.position, p.m_coordinate, color);
 
             color.r += r;
         }

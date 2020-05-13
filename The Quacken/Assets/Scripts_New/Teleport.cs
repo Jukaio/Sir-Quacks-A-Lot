@@ -16,9 +16,11 @@ public class Teleport : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Vector2.Distance(Service<Game_Manager>.Get().Player.transform.position, m_start.transform.position) < 1.0f)
+        if(Vector2.Distance(Service<Game_Manager>.Get().Player.transform.position, m_start.transform.position) < 1.5f)
         {
-            Service<Game_Manager>.Get().Player.transform.position = m_end.transform.position;
+            GameObject player = Service<Game_Manager>.Get().Player;
+            player.transform.position = m_end.transform.position;
+            player.GetComponent<Player_Controller>().m_spawn_position = m_end.transform.position;
         }
     }
 }
