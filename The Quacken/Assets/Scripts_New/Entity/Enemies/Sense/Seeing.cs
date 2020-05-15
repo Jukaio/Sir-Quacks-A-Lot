@@ -73,34 +73,6 @@ public class Seeing : Sensing
         Utility.Extra_Mesh.Update_Mesh(ref m_mesh, m_verts, m_triangles);
     }
 
-    //void Field_Of_View(Vector2 p_view_direction)
-    //{
-    //    // Make/Use a polygon collider, idiot. It's cheaper than 90 fucking raycasts!! 
-    //    Vector2 look_direction = (Vector2)(p_view_direction * m_cone_length);
-
-    //    m_mesh_object.transform.localPosition = Vector3.zero + Vector3.back * 5.0f;
-    //    int triangle_index = 1;
-    //    m_polygon_trigger_points[0] = Vector2.zero;
-    //    m_verts[0] = Vector3.zero;
-    //    for (int i = (int)-m_cone_width; i < (int)m_cone_width; i++)
-    //    {
-    //        int index = i + (int)m_cone_width;
-    //        var temp = look_direction.Rotate(i).normalized * m_cone_length;
-    //        m_polygon_trigger_points[index + 1] = temp;
-    //        m_verts[index + 1] = temp;
-    //        m_triangles[index * 3 + 0] = 0;
-    //        m_triangles[index * 3 + 1] = triangle_index;
-    //        m_triangles[index * 3 + 2] = triangle_index + 1;
-    //        triangle_index++;
-    //    }
-    //    m_triangles[m_triangles.Length - 1] = 1;
-    //    m_mesh_renderer.sortingOrder = 15;
-
-    //    m_trigger_zone.points = m_polygon_trigger_points;
-
-    //    Utility.Extra_Mesh.Update_Mesh(ref m_mesh, m_verts, m_triangles);
-    //}
-
     bool Player_In_Vision_Range(Vector2 p_view_direction)
     {
         float view_angle = Mathf.Atan2(p_view_direction.x, p_view_direction.y);
