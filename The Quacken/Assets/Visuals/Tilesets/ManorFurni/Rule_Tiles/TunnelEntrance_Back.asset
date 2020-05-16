@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
   m_Name: TunnelEntrance_Back
   m_EditorClassIdentifier: 
-  m_DefaultSprite: {fileID: 8081869613080257609, guid: 69a1a9c9dbb14f1409becafa6aca4c87,
+  m_DefaultSprite: {fileID: -7053628374618827704, guid: 318afb1f1af1402449ec97ef0326658b,
     type: 3}
   m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 1
   m_TilingRules:
   - m_Id: 0
     m_Sprites:
-    - {fileID: -8577940537617727847, guid: 69a1a9c9dbb14f1409becafa6aca4c87, type: 3}
+    - {fileID: 4019318481496824415, guid: 318afb1f1af1402449ec97ef0326658b, type: 3}
     m_GameObject: {fileID: 0}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
@@ -32,7 +32,7 @@ MonoBehaviour:
     m_RuleTransform: 0
   - m_Id: 1
     m_Sprites:
-    - {fileID: 8081869613080257609, guid: 69a1a9c9dbb14f1409becafa6aca4c87, type: 3}
+    - {fileID: -7053628374618827704, guid: 318afb1f1af1402449ec97ef0326658b, type: 3}
     m_GameObject: {fileID: 0}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5

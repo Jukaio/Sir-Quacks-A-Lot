@@ -5,12 +5,12 @@ using UnityEngine;
 public class Depth : MonoBehaviour
 {
     SpriteRenderer renderer;
-    //public GameObject tunnelRenderer;
+    public int topLayer;
 
     void Start()
     {
         renderer = GetComponent<SpriteRenderer>();
-        renderer.sortingOrder = 13;
+        renderer.sortingOrder = topLayer;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -26,24 +26,7 @@ public class Depth : MonoBehaviour
         {
             //Color color = Color.white;
             //collision.gameObject.transform.parent.GetComponent<UnityEngine.Tilemaps.Tilemap>().color = color;
-            renderer.sortingOrder = 13;
-        }
-        //if (collision.tag == "wallSort")
-        //{
-        //    renderer.sortingOrder = 2;
-        //}
-        if (collision.tag == "tunnel")
-        {
-            //tunnelRenderer.GetComponent<UnityEngine.Tilemaps.Tilemap>().color = Color.clear;
-        }
-    }
-
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.tag == "tunnel")
-        {
-            //tunnelRenderer.GetComponent<UnityEngine.Tilemaps.Tilemap>().color = Color.white;
+            renderer.sortingOrder = topLayer;
         }
     }
 }
