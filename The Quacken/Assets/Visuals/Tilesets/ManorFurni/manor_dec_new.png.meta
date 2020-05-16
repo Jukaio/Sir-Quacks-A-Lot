@@ -509,6 +509,513 @@ TextureImporter:
   - first:
       213: 8081869613080257609
     second: manorDecoSheet1_168
+  - first:
+      213: -4169935795932875086
+    second: manor_dec_new_0
+  - first:
+      213: 4026015566706680888
+    second: manor_dec_new_1
+  - first:
+      213: -5210916841802679726
+    second: manor_dec_new_2
+  - first:
+      213: -5292140243976264734
+    second: manor_dec_new_3
+  - first:
+      213: 1651143749948859456
+    second: manor_dec_new_4
+  - first:
+      213: -3113145358110681639
+    second: manor_dec_new_5
+  - first:
+      213: -2116058632610694449
+    second: manor_dec_new_6
+  - first:
+      213: 2891964114551801022
+    second: manor_dec_new_7
+  - first:
+      213: 2443553571746172237
+    second: manor_dec_new_8
+  - first:
+      213: 7705252013066700435
+    second: manor_dec_new_9
+  - first:
+      213: 5754474775171264349
+    second: manor_dec_new_10
+  - first:
+      213: 3693411566073838389
+    second: manor_dec_new_11
+  - first:
+      213: 8784838871327789619
+    second: manor_dec_new_12
+  - first:
+      213: -2862324849518435798
+    second: manor_dec_new_13
+  - first:
+      213: -6250287437261057174
+    second: manor_dec_new_14
+  - first:
+      213: 92264099914408454
+    second: manor_dec_new_15
+  - first:
+      213: 7982553911729184410
+    second: manor_dec_new_16
+  - first:
+      213: 9057982145047839523
+    second: manor_dec_new_17
+  - first:
+      213: -8721992162649052751
+    second: manor_dec_new_18
+  - first:
+      213: -6706226616261965708
+    second: manor_dec_new_19
+  - first:
+      213: -7195055306153113884
+    second: manor_dec_new_20
+  - first:
+      213: 5596788281971621318
+    second: manor_dec_new_21
+  - first:
+      213: 1409298604076723708
+    second: manor_dec_new_22
+  - first:
+      213: -8111413831771842951
+    second: manor_dec_new_23
+  - first:
+      213: -585501985211285033
+    second: manor_dec_new_24
+  - first:
+      213: -3979062946364862034
+    second: manor_dec_new_25
+  - first:
+      213: 4433598916846353544
+    second: manor_dec_new_26
+  - first:
+      213: 55047016024488816
+    second: manor_dec_new_27
+  - first:
+      213: 8404263282454586040
+    second: manor_dec_new_28
+  - first:
+      213: -7520895658460104164
+    second: manor_dec_new_29
+  - first:
+      213: 8114230487854760994
+    second: manor_dec_new_30
+  - first:
+      213: 952263454120778850
+    second: manor_dec_new_31
+  - first:
+      213: -7464301676321339603
+    second: manor_dec_new_32
+  - first:
+      213: -7405951322168220564
+    second: manor_dec_new_33
+  - first:
+      213: 7273282708448811908
+    second: manor_dec_new_34
+  - first:
+      213: 2594760674456148122
+    second: manor_dec_new_35
+  - first:
+      213: 8190487164309475058
+    second: manor_dec_new_36
+  - first:
+      213: 4840288304407500747
+    second: manor_dec_new_37
+  - first:
+      213: -2952791021480038857
+    second: manor_dec_new_38
+  - first:
+      213: -6478672439533537498
+    second: manor_dec_new_39
+  - first:
+      213: 7547616395905199544
+    second: manor_dec_new_40
+  - first:
+      213: -6638860093209406535
+    second: manor_dec_new_41
+  - first:
+      213: -441749938012964990
+    second: manor_dec_new_42
+  - first:
+      213: -191363738047949587
+    second: manor_dec_new_43
+  - first:
+      213: 6854493419204198638
+    second: manor_dec_new_44
+  - first:
+      213: -2981095143502582569
+    second: manor_dec_new_45
+  - first:
+      213: 2747666878755537200
+    second: manor_dec_new_46
+  - first:
+      213: 951281846435570987
+    second: manor_dec_new_47
+  - first:
+      213: 1759904680757009858
+    second: manor_dec_new_48
+  - first:
+      213: -1582185330144418953
+    second: manor_dec_new_49
+  - first:
+      213: 6827295065474456448
+    second: manor_dec_new_50
+  - first:
+      213: 8671426362335479662
+    second: manor_dec_new_51
+  - first:
+      213: -1487481456966300039
+    second: manor_dec_new_52
+  - first:
+      213: 4972908629326652077
+    second: manor_dec_new_53
+  - first:
+      213: -8645256349478217339
+    second: manor_dec_new_54
+  - first:
+      213: 2084320045530311221
+    second: manor_dec_new_55
+  - first:
+      213: -1150146460600609893
+    second: manor_dec_new_56
+  - first:
+      213: -1515044085668465395
+    second: manor_dec_new_57
+  - first:
+      213: 8986424519772000239
+    second: manor_dec_new_58
+  - first:
+      213: -8356564870879388122
+    second: manor_dec_new_59
+  - first:
+      213: -2946246844755931983
+    second: manor_dec_new_60
+  - first:
+      213: -1320774132733253424
+    second: manor_dec_new_61
+  - first:
+      213: 1638495699171652842
+    second: manor_dec_new_62
+  - first:
+      213: -335936892117002221
+    second: manor_dec_new_63
+  - first:
+      213: 1800683320135820879
+    second: manor_dec_new_64
+  - first:
+      213: 9209706252871345673
+    second: manor_dec_new_65
+  - first:
+      213: -2910562697938138241
+    second: manor_dec_new_66
+  - first:
+      213: 2187848417446492478
+    second: manor_dec_new_67
+  - first:
+      213: 7685550126911836075
+    second: manor_dec_new_68
+  - first:
+      213: 3999595496277226785
+    second: manor_dec_new_69
+  - first:
+      213: 1449809698740893459
+    second: manor_dec_new_70
+  - first:
+      213: 7213975428590103462
+    second: manor_dec_new_71
+  - first:
+      213: 885632665990610083
+    second: manor_dec_new_72
+  - first:
+      213: -8947510055146890645
+    second: manor_dec_new_73
+  - first:
+      213: 5407335502290164295
+    second: manor_dec_new_74
+  - first:
+      213: -7006118907399447763
+    second: manor_dec_new_75
+  - first:
+      213: 848797002489733893
+    second: manor_dec_new_76
+  - first:
+      213: -1324449241875538145
+    second: manor_dec_new_77
+  - first:
+      213: 5800780202267612251
+    second: manor_dec_new_78
+  - first:
+      213: -8348001099985587060
+    second: manor_dec_new_79
+  - first:
+      213: -2178853790979144731
+    second: manor_dec_new_80
+  - first:
+      213: -5476478973638166560
+    second: manor_dec_new_81
+  - first:
+      213: -5118713960027319011
+    second: manor_dec_new_82
+  - first:
+      213: 7097992548755278022
+    second: manor_dec_new_83
+  - first:
+      213: 1665382143905685498
+    second: manor_dec_new_84
+  - first:
+      213: 5741246922154921780
+    second: manor_dec_new_85
+  - first:
+      213: -6440832251630313860
+    second: manor_dec_new_86
+  - first:
+      213: -3931484562089846802
+    second: manor_dec_new_87
+  - first:
+      213: -2848205959904314721
+    second: manor_dec_new_88
+  - first:
+      213: -4698288991012458577
+    second: manor_dec_new_89
+  - first:
+      213: -7665025189838599244
+    second: manor_dec_new_90
+  - first:
+      213: -2675176534890125360
+    second: manor_dec_new_91
+  - first:
+      213: -6624547540642735028
+    second: manor_dec_new_92
+  - first:
+      213: 1160470288614749516
+    second: manor_dec_new_93
+  - first:
+      213: -5775887214728996303
+    second: manor_dec_new_94
+  - first:
+      213: 723577564076460364
+    second: manor_dec_new_95
+  - first:
+      213: -2219160250843463116
+    second: manor_dec_new_96
+  - first:
+      213: 6238975409495394896
+    second: manor_dec_new_97
+  - first:
+      213: -3836824705612955554
+    second: manor_dec_new_98
+  - first:
+      213: 1021894415670591615
+    second: manor_dec_new_99
+  - first:
+      213: 716858466518513935
+    second: manor_dec_new_100
+  - first:
+      213: 2036215744818222901
+    second: manor_dec_new_101
+  - first:
+      213: -5456894467041924499
+    second: manor_dec_new_102
+  - first:
+      213: 6409591436019272032
+    second: manor_dec_new_103
+  - first:
+      213: 5294303470025658894
+    second: manor_dec_new_104
+  - first:
+      213: 8027702049794099954
+    second: manor_dec_new_105
+  - first:
+      213: -3636149517434604384
+    second: manor_dec_new_106
+  - first:
+      213: 4827849717813519776
+    second: manor_dec_new_107
+  - first:
+      213: -6813914684828134629
+    second: manor_dec_new_108
+  - first:
+      213: -9098829285426274866
+    second: manor_dec_new_109
+  - first:
+      213: 919655186395360285
+    second: manor_dec_new_110
+  - first:
+      213: 8531009908607138897
+    second: manor_dec_new_111
+  - first:
+      213: 4185339986028392234
+    second: manor_dec_new_112
+  - first:
+      213: -3121338662436561801
+    second: manor_dec_new_113
+  - first:
+      213: -9120192956747255387
+    second: manor_dec_new_114
+  - first:
+      213: -7503977708087269739
+    second: manor_dec_new_115
+  - first:
+      213: -4368548023687777375
+    second: manor_dec_new_116
+  - first:
+      213: 1863767557535681887
+    second: manor_dec_new_117
+  - first:
+      213: -6778817378229695963
+    second: manor_dec_new_118
+  - first:
+      213: -621031512414010263
+    second: manor_dec_new_119
+  - first:
+      213: -348886245622829519
+    second: manor_dec_new_120
+  - first:
+      213: 6289452417279468400
+    second: manor_dec_new_121
+  - first:
+      213: 644239356084476123
+    second: manor_dec_new_122
+  - first:
+      213: -8309308317785186276
+    second: manor_dec_new_123
+  - first:
+      213: 7421343194032093363
+    second: manor_dec_new_124
+  - first:
+      213: 1011788874421017329
+    second: manor_dec_new_125
+  - first:
+      213: -5521007886328901570
+    second: manor_dec_new_126
+  - first:
+      213: -2183112836745009726
+    second: manor_dec_new_127
+  - first:
+      213: -3503697786597736215
+    second: manor_dec_new_128
+  - first:
+      213: -7639209896331141162
+    second: manor_dec_new_129
+  - first:
+      213: 462024688292153702
+    second: manor_dec_new_130
+  - first:
+      213: -7131759426234248849
+    second: manor_dec_new_131
+  - first:
+      213: -3181478000438111795
+    second: manor_dec_new_132
+  - first:
+      213: -6197688354189832815
+    second: manor_dec_new_133
+  - first:
+      213: -3026405208015916972
+    second: manor_dec_new_134
+  - first:
+      213: 8500993777060057365
+    second: manor_dec_new_135
+  - first:
+      213: 4844755875729235618
+    second: manor_dec_new_136
+  - first:
+      213: 4272074534894146362
+    second: manor_dec_new_137
+  - first:
+      213: 8750198112396360210
+    second: manor_dec_new_138
+  - first:
+      213: -2992217853021802015
+    second: manor_dec_new_139
+  - first:
+      213: -6779933177513475525
+    second: manor_dec_new_140
+  - first:
+      213: -6988932429240792926
+    second: manor_dec_new_141
+  - first:
+      213: -5361555384461265855
+    second: manor_dec_new_142
+  - first:
+      213: -1010628178000798508
+    second: manor_dec_new_143
+  - first:
+      213: 6271522883655555216
+    second: manor_dec_new_144
+  - first:
+      213: 8339661500647725396
+    second: manor_dec_new_145
+  - first:
+      213: 8191577021362297641
+    second: manor_dec_new_146
+  - first:
+      213: 5907393626197961043
+    second: manor_dec_new_147
+  - first:
+      213: -6343048329408286479
+    second: manor_dec_new_148
+  - first:
+      213: 68783928666052906
+    second: manor_dec_new_149
+  - first:
+      213: 4761375487292038212
+    second: manor_dec_new_150
+  - first:
+      213: -785381857390193394
+    second: manor_dec_new_151
+  - first:
+      213: 6657708039395664078
+    second: manor_dec_new_152
+  - first:
+      213: 7908598906091536970
+    second: manor_dec_new_153
+  - first:
+      213: 7864310009288817654
+    second: manor_dec_new_154
+  - first:
+      213: 5332757213433733706
+    second: manor_dec_new_155
+  - first:
+      213: 2349009593086832146
+    second: manor_dec_new_156
+  - first:
+      213: -3678476163698465746
+    second: manor_dec_new_157
+  - first:
+      213: 5919627434259048870
+    second: manor_dec_new_158
+  - first:
+      213: -1354396880738719116
+    second: manor_dec_new_159
+  - first:
+      213: 4750267657884768515
+    second: manor_dec_new_160
+  - first:
+      213: 6195160934950826187
+    second: manor_dec_new_161
+  - first:
+      213: -1074409589726905005
+    second: manor_dec_new_162
+  - first:
+      213: -8587076232481561205
+    second: manor_dec_new_163
+  - first:
+      213: 8929883919492681598
+    second: manor_dec_new_164
+  - first:
+      213: -6114748541753168455
+    second: manor_dec_new_165
+  - first:
+      213: 7155962666255913026
+    second: manor_dec_new_166
+  - first:
+      213: -6501730925883395701
+    second: manor_dec_new_167
+  - first:
+      213: -8096905606599412947
+    second: manor_dec_new_168
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -618,7 +1125,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: manorDecoSheet1_0
+      name: manor_dec_new_0
       rect:
         serializedVersion: 2
         x: 0
@@ -626,20 +1133,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d7e2bd8ca65c28f0800000000000000
-      internalID: -563980554216478764
+      spriteID: 2b63c33ac796126c0800000000000000
+      internalID: -4169935795932875086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_1
+      name: manor_dec_new_1
       rect:
         serializedVersion: 2
         x: 16
@@ -647,20 +1154,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30eff1096e584fd60800000000000000
-      internalID: 7923104869758533123
+      spriteID: 834aeb1c3d74fd730800000000000000
+      internalID: 4026015566706680888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_2
+      name: manor_dec_new_2
       rect:
         serializedVersion: 2
         x: 32
@@ -668,20 +1175,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a72168ba4e14cd1e0800000000000000
-      internalID: -2171788469913382278
+      spriteID: 25a3042bdba1fa7b0800000000000000
+      internalID: -5210916841802679726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_3
+      name: manor_dec_new_3
       rect:
         serializedVersion: 2
         x: 48
@@ -689,20 +1196,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b38e4b4ace070a20800000000000000
-      internalID: 3028405536439567280
+      spriteID: 2e3ee30bc7a8e86b0800000000000000
+      internalID: -5292140243976264734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_4
+      name: manor_dec_new_4
       rect:
         serializedVersion: 2
         x: 64
@@ -710,20 +1217,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fef9129958995cc60800000000000000
-      internalID: 7837839525587034095
+      spriteID: 044eec01e7a0ae610800000000000000
+      internalID: 1651143749948859456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_5
+      name: manor_dec_new_5
       rect:
         serializedVersion: 2
         x: 80
@@ -731,20 +1238,188 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1694fa416378f6e0800000000000000
-      internalID: -1803564789055318498
+      spriteID: 9d518ab7ac2ebc4d0800000000000000
+      internalID: -3113145358110681639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_14
+      name: manor_dec_new_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca375f82ef32a2e0800000000000000
+      internalID: -2116058632610694449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb489073a02522820800000000000000
+      internalID: 2891964114551801022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d4199e60f39e120800000000000000
+      internalID: 2443553571746172237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39644b7b1ed8eea60800000000000000
+      internalID: 7705252013066700435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f670bc1500cdf40800000000000000
+      internalID: 5754474775171264349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b76253042a14330800000000000000
+      internalID: 3693411566073838389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332598ec8640ae970800000000000000
+      internalID: 8784838871327789619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a222ea0f6baf648d0800000000000000
+      internalID: -2862324849518435798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_14
       rect:
         serializedVersion: 2
         x: 0
@@ -752,20 +1427,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47bcea3d079369b80800000000000000
-      internalID: -8388454099180401804
+      spriteID: a63d7f5f0b48249a0800000000000000
+      internalID: -6250287437261057174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_15
+      name: manor_dec_new_15
       rect:
         serializedVersion: 2
         x: 16
@@ -773,20 +1448,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5f7896675577e840800000000000000
-      internalID: 5253296508594847583
+      spriteID: 6026be4c5b9c74100800000000000000
+      internalID: 92264099914408454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_16
+      name: manor_dec_new_16
       rect:
         serializedVersion: 2
         x: 32
@@ -794,20 +1469,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2f5b2a8fa29b7e30800000000000000
-      internalID: 4502353535121973035
+      spriteID: a9ed5054d7ab7ce60800000000000000
+      internalID: 7982553911729184410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_17
+      name: manor_dec_new_17
       rect:
         serializedVersion: 2
         x: 48
@@ -815,20 +1490,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abfaf8c3f62736760800000000000000
-      internalID: 7449924030683918266
+      spriteID: 323486905ca64bd70800000000000000
+      internalID: 9057982145047839523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_18
+      name: manor_dec_new_18
       rect:
         serializedVersion: 2
         x: 64
@@ -836,20 +1511,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a089668217109770800000000000000
-      internalID: 8615411455491670184
+      spriteID: 1b9ef83d65245f680800000000000000
+      internalID: -8721992162649052751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_19
+      name: manor_dec_new_19
       rect:
         serializedVersion: 2
         x: 80
@@ -857,20 +1532,188 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d3d53835daf059d0800000000000000
-      internalID: -2787452375664307241
+      spriteID: 4788f627c62bee2a0800000000000000
+      internalID: -6706226616261965708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_28
+      name: manor_dec_new_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e64471f157062c90800000000000000
+      internalID: -7195055306153113884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdbcf51a49cbad40800000000000000
+      internalID: 5596788281971621318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd62761d95de8310800000000000000
+      internalID: 1409298604076723708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9769c0b98187e6f80800000000000000
+      internalID: -8111413831771842951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1023ceb01efd7f0800000000000000
+      internalID: -585501985211285033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1d00f055787c8c0800000000000000
+      internalID: -3979062946364862034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cfe2389be478d30800000000000000
+      internalID: 4433598916846353544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_27
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bb51c28f093c000800000000000000
+      internalID: 55047016024488816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_28
       rect:
         serializedVersion: 2
         x: 0
@@ -878,20 +1721,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf39f738d79c9a400800000000000000
-      internalID: 336021188130083836
+      spriteID: 8b2609d7de0f1a470800000000000000
+      internalID: 8404263282454586040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_29
+      name: manor_dec_new_29
       rect:
         serializedVersion: 2
         x: 16
@@ -899,20 +1742,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 188364b12845202e0800000000000000
-      internalID: -2161071953404348287
+      spriteID: c1a35bcfe3960a790800000000000000
+      internalID: -7520895658460104164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_30
+      name: manor_dec_new_30
       rect:
         serializedVersion: 2
         x: 32
@@ -920,20 +1763,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adff39457eaa40e60800000000000000
-      internalID: 7927649154612068314
+      spriteID: 2244a3e33a98b9070800000000000000
+      internalID: 8114230487854760994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_31
+      name: manor_dec_new_31
       rect:
         serializedVersion: 2
         x: 48
@@ -941,20 +1784,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef61af6f81bf05420800000000000000
-      internalID: 2616867468143630078
+      spriteID: 26c9473f09e173d00800000000000000
+      internalID: 952263454120778850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_32
+      name: manor_dec_new_32
       rect:
         serializedVersion: 2
         x: 64
@@ -962,20 +1805,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db2a9d766def47c70800000000000000
-      internalID: 8968072954820272829
+      spriteID: d2783864c29796890800000000000000
+      internalID: -7464301676321339603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_33
+      name: manor_dec_new_33
       rect:
         serializedVersion: 2
         x: 80
@@ -983,20 +1826,188 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e4a05d0ca07e4ee0800000000000000
-      internalID: -1274957760239196958
+      spriteID: c64245ac286c83990800000000000000
+      internalID: -7405951322168220564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_42
+      name: manor_dec_new_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b151c7614efe460800000000000000
+      internalID: 7273282708448811908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_35
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a989c16f511720420800000000000000
+      internalID: 2594760674456148122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe001e4ea47aa170800000000000000
+      internalID: 8190487164309475058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_37
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7dfa261982c2340800000000000000
+      internalID: 4840288304407500747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e28b4e5349507d0800000000000000
+      internalID: -2952791021480038857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_39
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6277d71edb12716a0800000000000000
+      internalID: -6478672439533537498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bde7d28f158eb860800000000000000
+      internalID: 7547616395905199544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_41
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b39cbe5be70ed3a0800000000000000
+      internalID: -6638860093209406535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_42
       rect:
         serializedVersion: 2
         x: 0
@@ -1004,20 +2015,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 751a8b9ceddf46cd0800000000000000
-      internalID: -2565646754385452713
+      spriteID: 287bf2995c69ed9f0800000000000000
+      internalID: -441749938012964990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_43
+      name: manor_dec_new_43
       rect:
         serializedVersion: 2
         x: 16
@@ -1025,20 +2036,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3786a797430242d0800000000000000
-      internalID: -3296068371259947205
+      spriteID: de4d2c2b1b3285df0800000000000000
+      internalID: -191363738047949587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_44
+      name: manor_dec_new_44
       rect:
         serializedVersion: 2
         x: 32
@@ -1046,20 +2057,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e01d8cb394002f3b0800000000000000
-      internalID: -5480317482020843250
+      spriteID: ee04be6b27d002f50800000000000000
+      internalID: 6854493419204198638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_45
+      name: manor_dec_new_45
       rect:
         serializedVersion: 2
         x: 48
@@ -1067,20 +2078,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ac48e2c09149e810800000000000000
-      internalID: 1795038016484953252
+      spriteID: 7dce2e1f2c501a6d0800000000000000
+      internalID: -2981095143502582569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_46
+      name: manor_dec_new_46
       rect:
         serializedVersion: 2
         x: 64
@@ -1088,20 +2099,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15752fe46353b4eb0800000000000000
-      internalID: -4734632075880933551
+      spriteID: 031845de77ca12620800000000000000
+      internalID: 2747666878755537200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_47
+      name: manor_dec_new_47
       rect:
         serializedVersion: 2
         x: 80
@@ -1109,20 +2120,188 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a990fd8a0b0da1f40800000000000000
-      internalID: 5700097735556794778
+      spriteID: b25e11a9cc1a33d00800000000000000
+      internalID: 951281846435570987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_56
+      name: manor_dec_new_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd91179bff6c6810800000000000000
+      internalID: 1759904680757009858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_49
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77368e333d2fa0ae0800000000000000
+      internalID: -1582185330144418953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bd16280bc6fbe50800000000000000
+      internalID: 6827295065474456448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67c6f65558175870800000000000000
+      internalID: 8671426362335479662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e0b83fe776b5be0800000000000000
+      internalID: -1487481456966300039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_53
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da26d7ffc02530540800000000000000
+      internalID: 4972908629326652077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58919299721e50880800000000000000
+      internalID: -8645256349478217339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a6f08c90efcec10800000000000000
+      internalID: 2084320045530311221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1130,20 +2309,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03cb322b05d18c3f0800000000000000
-      internalID: -880421494727656400
+      spriteID: b935a3843ebd900f0800000000000000
+      internalID: -1150146460600609893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_57
+      name: manor_dec_new_57
       rect:
         serializedVersion: 2
         x: 16
@@ -1151,20 +2330,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 068595888ba08def0800000000000000
-      internalID: -83304805428537248
+      spriteID: d05bcae5e6b79fae0800000000000000
+      internalID: -1515044085668465395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_58
+      name: manor_dec_new_58
       rect:
         serializedVersion: 2
         x: 32
@@ -1172,20 +2351,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe153ae407b457000800000000000000
-      internalID: 33015518002893295
+      spriteID: fefced51d7136bc70800000000000000
+      internalID: 8986424519772000239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_59
+      name: manor_dec_new_59
       rect:
         serializedVersion: 2
         x: 48
@@ -1193,20 +2372,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f31dcf37f3f27150800000000000000
-      internalID: 5869021507670053875
+      spriteID: 62ed9b06684870c80800000000000000
+      internalID: -8356564870879388122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_60
+      name: manor_dec_new_60
       rect:
         serializedVersion: 2
         x: 64
@@ -1214,20 +2393,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9e0f70a1aee98800800000000000000
-      internalID: 615285202062610074
+      spriteID: 1bc05b5ca14dc17d0800000000000000
+      internalID: -2946246844755931983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_61
+      name: manor_dec_new_61
       rect:
         serializedVersion: 2
         x: 80
@@ -1235,20 +2414,188 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df014552cbe5f3ea0800000000000000
-      internalID: -5890885625404190467
+      spriteID: 0d8e8ed8ceaabade0800000000000000
+      internalID: -1320774132733253424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_70
+      name: manor_dec_new_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4b123482b1db610800000000000000
+      internalID: 1638495699171652842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_63
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318da6e2d23865bf0800000000000000
+      internalID: -335936892117002221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46aaa170ff4df810800000000000000
+      internalID: 1800683320135820879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_65
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9062718ba037fcf70800000000000000
+      internalID: 9209706252871345673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_66
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b05e4a5aa9b97d0800000000000000
+      internalID: -2910562697938138241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_67
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e397c404b8ccc5e10800000000000000
+      internalID: 2187848417446492478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafc902ee1f88aa60800000000000000
+      internalID: 7685550126911836075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_69
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1253bd0c9ea618730800000000000000
+      internalID: 3999595496277226785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_70
       rect:
         serializedVersion: 2
         x: 0
@@ -1256,20 +2603,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59ebdfffb71919810800000000000000
-      internalID: 1770356090295139989
+      spriteID: 317fd555d32ce1410800000000000000
+      internalID: 1449809698740893459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_71
+      name: manor_dec_new_71
       rect:
         serializedVersion: 2
         x: 16
@@ -1277,20 +2624,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dadd73cbe15211df0800000000000000
-      internalID: -211346893572678227
+      spriteID: 6ab62875e603d1460800000000000000
+      internalID: 7213975428590103462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_72
+      name: manor_dec_new_72
       rect:
         serializedVersion: 2
         x: 32
@@ -1298,20 +2645,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b4fb0582d55152e0800000000000000
-      internalID: -2138833985360628552
+      spriteID: 3ac3ad9a7366a4c00800000000000000
+      internalID: 885632665990610083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_73
+      name: manor_dec_new_73
       rect:
         serializedVersion: 2
         x: 48
@@ -1319,20 +2666,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96d882b653905a3f0800000000000000
-      internalID: -890295226300068503
+      spriteID: b6adbb2c20f04d380800000000000000
+      internalID: -8947510055146890645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_74
+      name: manor_dec_new_74
       rect:
         serializedVersion: 2
         x: 64
@@ -1340,20 +2687,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb991eef6023b2170800000000000000
-      internalID: 8154666555911805374
+      spriteID: 74a1d537df6ba0b40800000000000000
+      internalID: 5407335502290164295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_75
+      name: manor_dec_new_75
       rect:
         serializedVersion: 2
         x: 80
@@ -1361,20 +2708,188 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3e2e813071cd6070800000000000000
-      internalID: 8101343992321289787
+      spriteID: d2bde4649f345ce90800000000000000
+      internalID: -7006118907399447763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_84
+      name: manor_dec_new_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50321db606887cb00800000000000000
+      internalID: 848797002489733893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_77
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f19f68e6c9e9de0800000000000000
+      internalID: -1324449241875538145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_78
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5497403cd2808050800000000000000
+      internalID: 5800780202267612251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_79
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84f9caaa31f52c80800000000000000
+      internalID: -8348001099985587060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_80
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3cc2b650823c1e0800000000000000
+      internalID: -2178853790979144731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_81
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7b66c9363aff3b0800000000000000
+      internalID: -5476478973638166560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d151db106cca6f8b0800000000000000
+      internalID: -5118713960027319011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_83
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c88de6cd92218260800000000000000
+      internalID: 7097992548755278022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_84
       rect:
         serializedVersion: 2
         x: 0
@@ -1382,20 +2897,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80f23549bf4ae2b00800000000000000
-      internalID: 805762783778123528
+      spriteID: affd6ce7c30ac1710800000000000000
+      internalID: 1665382143905685498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_85
+      name: manor_dec_new_85
       rect:
         serializedVersion: 2
         x: 16
@@ -1403,20 +2918,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3fe5214d9d429fd0800000000000000
-      internalID: -2336719918853656770
+      spriteID: 43f49d248a10daf40800000000000000
+      internalID: 5741246922154921780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_86
+      name: manor_dec_new_86
       rect:
         serializedVersion: 2
         x: 32
@@ -1424,20 +2939,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69b8207f23c3a9320800000000000000
-      internalID: 2565429127331089302
+      spriteID: c7e12bf21319d96a0800000000000000
+      internalID: -6440832251630313860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_87
+      name: manor_dec_new_87
       rect:
         serializedVersion: 2
         x: 48
@@ -1445,20 +2960,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0fd159b96c30f590800000000000000
-      internalID: -7642542142869348596
+      spriteID: ee7d3b4ee9f8079c0800000000000000
+      internalID: -3931484562089846802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_88
+      name: manor_dec_new_88
       rect:
         serializedVersion: 2
         x: 64
@@ -1466,20 +2981,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e387caf1076bd12d0800000000000000
-      internalID: -3306285958736086978
+      spriteID: f9ab0c815c32978d0800000000000000
+      internalID: -2848205959904314721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_89
+      name: manor_dec_new_89
       rect:
         serializedVersion: 2
         x: 80
@@ -1487,20 +3002,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73e1a0b2b5a8efc40800000000000000
-      internalID: 5548023915135770167
+      spriteID: fafe2962e035cceb0800000000000000
+      internalID: -4698288991012458577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_90
+      name: manor_dec_new_90
       rect:
         serializedVersion: 2
         x: 96
@@ -1508,20 +3023,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78e8752c3ab1a9710800000000000000
-      internalID: 1700702199439920775
+      spriteID: 4bbcf3d633c50a590800000000000000
+      internalID: -7665025189838599244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_91
+      name: manor_dec_new_91
       rect:
         serializedVersion: 2
         x: 112
@@ -1529,20 +3044,146 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94ed1bdd11f310840800000000000000
-      internalID: 5188497591673937481
+      spriteID: 0d7e96e7d1ddfdad0800000000000000
+      internalID: -2675176534890125360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_98
+      name: manor_dec_new_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c5d423c11e014a0800000000000000
+      internalID: -6624547540642735028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45f64d3491da1010800000000000000
+      internalID: 1160470288614749516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a9b5f1e2de7dfa0800000000000000
+      internalID: -5775887214728996303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_95
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49483af5f9aa0a00800000000000000
+      internalID: 723577564076460364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4320fcc6285f331e0800000000000000
+      internalID: -2219160250843463116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_97
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ace55541b459650800000000000000
+      internalID: 6238975409495394896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_98
       rect:
         serializedVersion: 2
         x: 0
@@ -1550,20 +3191,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 978cc4c3b52895c30800000000000000
-      internalID: 4348650243568224377
+      spriteID: e504f74324cd0cac0800000000000000
+      internalID: -3836824705612955554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_99
+      name: manor_dec_new_99
       rect:
         serializedVersion: 2
         x: 16
@@ -1571,20 +3212,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2de3a88a36cec4db0800000000000000
-      internalID: -4806206789537612078
+      spriteID: f70400c8e8f7e2e00800000000000000
+      internalID: 1021894415670591615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_100
+      name: manor_dec_new_100
       rect:
         serializedVersion: 2
         x: 32
@@ -1592,20 +3233,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2696d791942a00630800000000000000
-      internalID: 3891288512892070242
+      spriteID: f09311b2afac2f900800000000000000
+      internalID: 716858466518513935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_101
+      name: manor_dec_new_101
       rect:
         serializedVersion: 2
         x: 48
@@ -1613,20 +3254,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f98aa04a6bff80e70800000000000000
-      internalID: 9081789808493897887
+      spriteID: 53792fb7e67124c10800000000000000
+      internalID: 2036215744818222901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_102
+      name: manor_dec_new_102
       rect:
         serializedVersion: 2
         x: 64
@@ -1634,20 +3275,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80721526eef2da640800000000000000
-      internalID: 5092779454524106504
+      spriteID: d6aeb23e4673544b0800000000000000
+      internalID: -5456894467041924499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_103
+      name: manor_dec_new_103
       rect:
         serializedVersion: 2
         x: 80
@@ -1655,20 +3296,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01dc085eefb401f30800000000000000
-      internalID: 4544215582161030416
+      spriteID: 069805b937173f850800000000000000
+      internalID: 6409591436019272032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_104
+      name: manor_dec_new_104
       rect:
         serializedVersion: 2
         x: 96
@@ -1676,20 +3317,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ba20b083dd5b9330800000000000000
-      internalID: 3718669080302987955
+      spriteID: e025fff94f4297940800000000000000
+      internalID: 5294303470025658894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_105
+      name: manor_dec_new_105
       rect:
         serializedVersion: 2
         x: 112
@@ -1697,20 +3338,146 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77751e43cf58fd610800000000000000
-      internalID: 1648183306906326903
+      spriteID: 2fa07a05b70286f60800000000000000
+      internalID: 8027702049794099954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_112
+      name: manor_dec_new_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a43a1f674dc98dc0800000000000000
+      internalID: -3636149517434604384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_107
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5ae334db7fff240800000000000000
+      internalID: 4827849717813519776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_108
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13500122bc1071a0800000000000000
+      internalID: -6813914684828134629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_109
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdde3af8f67ab180800000000000000
+      internalID: -9098829285426274866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_110
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ce0fcf48543cc00800000000000000
+      internalID: 919655186395360285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_111
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cbdd9005c346670800000000000000
+      internalID: 8531009908607138897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_112
       rect:
         serializedVersion: 2
         x: 0
@@ -1718,20 +3485,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bc8bb8b1d6b2e2a0800000000000000
-      internalID: -6709599482964898632
+      spriteID: a2fe57bda80551a30800000000000000
+      internalID: 4185339986028392234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_113
+      name: manor_dec_new_113
       rect:
         serializedVersion: 2
         x: 16
@@ -1739,20 +3506,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e53847f0b61de6a00800000000000000
-      internalID: 751768445568451422
+      spriteID: 77c96c92607cea4d0800000000000000
+      internalID: -3121338662436561801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_114
+      name: manor_dec_new_114
       rect:
         serializedVersion: 2
         x: 32
@@ -1760,20 +3527,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a14f59c82d4247bb0800000000000000
-      internalID: -4939282404598221798
+      spriteID: 5a17f02a3d09e6180800000000000000
+      internalID: -9120192956747255387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_115
+      name: manor_dec_new_115
       rect:
         serializedVersion: 2
         x: 48
@@ -1781,20 +3548,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67a90d1765fcf9e80800000000000000
-      internalID: -8169583228843156874
+      spriteID: 596220348048cd790800000000000000
+      internalID: -7503977708087269739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_116
+      name: manor_dec_new_116
       rect:
         serializedVersion: 2
         x: 64
@@ -1802,20 +3569,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f096a63aca74c12f0800000000000000
-      internalID: -1000846210381485809
+      spriteID: 1a3fadfc7bccf53c0800000000000000
+      internalID: -4368548023687777375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_117
+      name: manor_dec_new_117
       rect:
         serializedVersion: 2
         x: 80
@@ -1823,20 +3590,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76de852826d0a03d0800000000000000
-      internalID: -3239762265194828441
+      spriteID: f5dcfca08be6dd910800000000000000
+      internalID: 1863767557535681887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_118
+      name: manor_dec_new_118
       rect:
         serializedVersion: 2
         x: 96
@@ -1844,20 +3611,230 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e14deb4e5c12ffe30800000000000000
-      internalID: 4539384083242734622
+      spriteID: 52acf5d928dcce1a0800000000000000
+      internalID: -6778817378229695963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_129
+      name: manor_dec_new_119
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9644d3c3127a167f0800000000000000
+      internalID: -621031512414010263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_120
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ea1aedec1882bf0800000000000000
+      internalID: -348886245622829519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_121
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0732aab86af984750800000000000000
+      internalID: 6289452417279468400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_122
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8ddb1f74cc0f800800000000000000
+      internalID: 644239356084476123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_123
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10273d0c186fac80800000000000000
+      internalID: -8309308317785186276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_124
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8bb84a058edf660800000000000000
+      internalID: 7421343194032093363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa9e8fde989a0e00800000000000000
+      internalID: 1011788874421017329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_126
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e305c3534907163b0800000000000000
+      internalID: -5521007886328901570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_127
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5e73d017604b1e0800000000000000
+      internalID: -2183112836745009726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_128
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0058d2d6d506fc0800000000000000
+      internalID: -3503697786597736215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_129
       rect:
         serializedVersion: 2
         x: 64
@@ -1865,20 +3842,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58c5861f6367864c0800000000000000
-      internalID: -4294052266347307899
+      spriteID: 6df9884d2131cf590800000000000000
+      internalID: -7639209896331141162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_130
+      name: manor_dec_new_130
       rect:
         serializedVersion: 2
         x: 80
@@ -1886,20 +3863,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de7e1caaaf4d85580800000000000000
-      internalID: -8838080095642851347
+      spriteID: 6694d1f8101796600800000000000000
+      internalID: 462024688292153702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_131
+      name: manor_dec_new_131
       rect:
         serializedVersion: 2
         x: 96
@@ -1907,41 +3884,545 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4faa6e934dc2a4c80800000000000000
-      internalID: -8337802470106944780
+      spriteID: f6193c76696e60d90800000000000000
+      internalID: -7131759426234248849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_156
+      name: manor_dec_new_132
       rect:
         serializedVersion: 2
-        x: 1
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc19a236d9e19d3d0800000000000000
+      internalID: -3181478000438111795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_133
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d80f357436df9a0800000000000000
+      internalID: -6197688354189832815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_134
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450b1d57f7c0006d0800000000000000
+      internalID: -3026405208015916972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_135
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511987fccc899f570800000000000000
+      internalID: 8500993777060057365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_136
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aed354ecc70c3340800000000000000
+      internalID: 4844755875729235618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_137
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a339b52b725794b30800000000000000
+      internalID: 4272074534894146362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_138
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21abdab92d2fe6970800000000000000
+      internalID: 8750198112396360210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_139
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1bd0457b18976d0800000000000000
+      internalID: -2992217853021802015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_140
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b328c6952b6d8e1a0800000000000000
+      internalID: -6779933177513475525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_141
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a805eb0cf2520f90800000000000000
+      internalID: -6988932429240792926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_142
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1447a99d8cde795b0800000000000000
+      internalID: -5361555384461265855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_143
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc1342d60789f1f0800000000000000
+      internalID: -1010628178000798508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098d501b5dce80750800000000000000
+      internalID: 6271522883655555216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_145
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459db1d03fd6cb370800000000000000
+      internalID: 8339661500647725396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_146
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b5d8c66e35ea170800000000000000
+      internalID: 8191577021362297641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_147
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359afed44374bf150800000000000000
+      internalID: 5907393626197961043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_148
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0fb7cb627f8f7a0800000000000000
+      internalID: -6343048329408286479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_149
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2955626e9e54f000800000000000000
+      internalID: 68783928666052906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c5b4267cdc31240800000000000000
+      internalID: 4761375487292038212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_151
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e059831ac53c915f0800000000000000
+      internalID: -785381857390193394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_152
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0e072103ee46c50800000000000000
+      internalID: 6657708039395664078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_153
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4201a4bdccf0cd60800000000000000
+      internalID: 7908598906091536970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_154
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb753b5944a32d60800000000000000
+      internalID: 7864310009288817654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_155
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42ae147e62c10a40800000000000000
+      internalID: 5332757213433733706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_156
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 16
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7faaca25895d0da60800000000000000
-      internalID: 7696886613374970615
+      spriteID: 21eece187cb599020800000000000000
+      internalID: 2349009593086832146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_157
+      name: manor_dec_new_157
       rect:
         serializedVersion: 2
         x: 16
@@ -1949,20 +4430,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee19054e962812760800000000000000
-      internalID: 7431364251451691502
+      spriteID: e24e2042b6d63fcc0800000000000000
+      internalID: -3678476163698465746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_158
+      name: manor_dec_new_158
       rect:
         serializedVersion: 2
         x: 32
@@ -1970,20 +4451,104 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6af1104602d5489f0800000000000000
-      internalID: -467146067641557082
+      spriteID: 6a9eaa5b9cdb62250800000000000000
+      internalID: 5919627434259048870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_163
+      name: manor_dec_new_159
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47aebae7637343de0800000000000000
+      internalID: -1354396880738719116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_160
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3099f3054475ce140800000000000000
+      internalID: 4750267657884768515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0fe160c02a9f550800000000000000
+      internalID: 6195160934950826187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_162
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dfd0dab2ee611f0800000000000000
+      internalID: -1074409589726905005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_163
       rect:
         serializedVersion: 2
         x: 16
@@ -1991,20 +4556,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07bd3b5e4329fec40800000000000000
-      internalID: 5543810422206094192
+      spriteID: b85acbfa9a394d880800000000000000
+      internalID: -8587076232481561205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: manorDecoSheet1_164
+      name: manor_dec_new_164
       rect:
         serializedVersion: 2
         x: 32
@@ -2012,14 +4577,98 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a03e076841cdd430800000000000000
-      internalID: 3809413376536096936
+      spriteID: e7f85dabc125deb70800000000000000
+      internalID: 8929883919492681598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_165
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bde6fd399c042ba0800000000000000
+      internalID: -6114748541753168455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_166
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240142c81261f4360800000000000000
+      internalID: 7155962666255913026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_167
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b817c89ab2635c5a0800000000000000
+      internalID: -6501730925883395701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manor_dec_new_168
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23f5c2004302af80800000000000000
+      internalID: -8096905606599412947
       vertices: []
       indices: 
       edges: []
