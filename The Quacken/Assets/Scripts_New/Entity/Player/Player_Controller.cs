@@ -42,10 +42,10 @@ public class Player_Controller : MonoBehaviour
         if (m_input.Move_Down)
             m_movement.Add_Direction(Vector2.down);
 
-        m_anim.SetFloat("x", m_movement.direction.x);
-        m_anim.SetFloat("y", m_movement.direction.y);
-        m_anim.SetFloat("prev_x", m_movement.prev_direction.x);
-        m_anim.SetFloat("prev_y", m_movement.prev_direction.y);
+        m_anim.SetFloat("x", m_movement.move_direction.x);
+        m_anim.SetFloat("y", m_movement.move_direction.y);
+        m_anim.SetFloat("prev_x", m_movement.prev_move_direction.x);
+        m_anim.SetFloat("prev_y", m_movement.prev_move_direction.y);
     }
 
     public Vector2 m_spawn_position;

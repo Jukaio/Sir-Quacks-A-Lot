@@ -103,7 +103,7 @@ namespace Utility
         {
             GameObject temp_collider_game_object = new GameObject(p_collider_name);
             Rigidbody2D temp = temp_collider_game_object.AddComponent<Rigidbody2D>();
-            temp.bodyType = RigidbodyType2D.Static;
+            temp.bodyType = RigidbodyType2D.Kinematic;
 
             Mesh mesh = Create_Mesh(out p_mesh_game_object, p_mesh_name, p_mesh_layer, p_material);
             temp_collider_game_object.transform.parent = p_mesh_game_object.transform;
@@ -430,6 +430,17 @@ namespace Utility
             double second = (p_point.y - p_line_b.y) * (p_line_a.x - p_line_b.x);
 
             return first - second;
+        }
+    }
+
+    public class Extra_Math
+    {
+        public static void Interpolate(ref float f)
+        {
+            if (f >= 1.0f)
+                f = 1.0f;
+            else if (f < 0.0f)
+                f = 0.0f;
         }
     }
 }

@@ -7,6 +7,7 @@ TagManager:
   - mapAbove
   - mapBellow
   - tunnel
+  - lightCollider
   layers:
   - Default
   - TransparentFX

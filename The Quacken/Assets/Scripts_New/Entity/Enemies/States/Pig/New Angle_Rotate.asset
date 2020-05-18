@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01a1405e7fa63b46adf36379e7621ac, type: 3}
+  m_Name: New Angle_Rotate
+  m_EditorClassIdentifier: 
+  m_name: Full
+  m_if_reached_target: Rotate
+  m_if_sees: Look
+  m_angle: 580

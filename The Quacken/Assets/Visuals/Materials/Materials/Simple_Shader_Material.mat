@@ -43,4 +43,4 @@ Material:
     - _SPeedY: -0.1
     - _SmoothEdge: 0.242
     m_Colors:
-    - _ShadowC: {r: 0, g: 0, b: 0, a: 0.1}
+    - _ShadowC: {r: 0.6974971, g: 0.6933962, b: 1, a: 1}
