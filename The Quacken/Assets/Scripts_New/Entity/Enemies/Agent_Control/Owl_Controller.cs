@@ -30,25 +30,31 @@ public class Owl_Controller : Enemy_Base
     float m_timer;
     int m_rotations;
 
+
+    public override void Init()
+    {
+
+    }
+
     public override void Behaviour()
     {
         switch (m_state)
         {
             case State.ENTER_MOVEMENT:
-                m_movement.Enter_Movement(m_waypoints[m_index].transform.position);
+                m_movement.Enter_Move(m_waypoints[m_index].transform.position);
                 m_movement.Set_Speed(m_movement.Initial_Speed);
                 m_state = State.MOVEMENT;
                 break;
 
             case State.MOVEMENT:
-                if (m_movement.Movement())
+                if (m_movement.Move())
                 {
                     Next_Target();
                     m_movement.Set_Speed(0.0f);
                     m_state = State.LOOK_AROUND;
                     m_rotations = 0;
                     m_timer = 0.4f;
-                    m_look_at = -m_movement.prev_direction;
+                    m_look_at = -m_movement.prev_move_direction;
                     m_sit_direction = m_look_at;
                     m_anim.SetFloat("x", 0.0f);
                     m_anim.SetFloat("y", 0.0f);
@@ -87,7 +93,7 @@ public class Owl_Controller : Enemy_Base
 
         m_movement.Normalise();
 
-        if (m_seeing.Sense(m_movement.direction, m_player))
+        if (m_seeing.Sense(m_movement.move_direction, m_player))
             m_player.GetComponent<Player_Controller>().Respawn();
     }
 
@@ -131,21 +137,21 @@ public class Owl_Controller : Enemy_Base
         }
     }
 
-    public override void Animate()
-    {
-        if (m_state != State.LOOK_AROUND)
-        {
-            m_anim.SetFloat("x", m_movement.direction.x);
-            m_anim.SetFloat("y", m_movement.direction.y);
-            m_anim.SetFloat("prev_x", m_movement.prev_direction.x);
-            m_anim.SetFloat("prev_y", m_movement.prev_direction.y);
-        }
-        else
-        {
-            m_anim.SetFloat("prev_x", m_sit_direction.x);
-            m_anim.SetFloat("prev_y", m_sit_direction.y);
-            m_anim.SetFloat("head_x", m_look_at.x);
-            m_anim.SetFloat("head_y", m_look_at.y);
-        }
-    }
+    //public override void Animate()
+    //{
+    //    if (m_state != State.LOOK_AROUND)
+    //    {
+    //        m_anim.SetFloat("x", m_movement.move_direction.x);
+    //        m_anim.SetFloat("y", m_movement.move_direction.y);
+    //        m_anim.SetFloat("prev_x", m_movement.prev_move_direction.x);
+    //        m_anim.SetFloat("prev_y", m_movement.prev_move_direction.y);
+    //    }
+    //    else
+    //    {
+    //        m_anim.SetFloat("prev_x", m_sit_direction.x);
+    //        m_anim.SetFloat("prev_y", m_sit_direction.y);
+    //        m_anim.SetFloat("head_x", m_look_at.x);
+    //        m_anim.SetFloat("head_y", m_look_at.y);
+    //    }
+    //}
 }

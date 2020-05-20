@@ -17,7 +17,7 @@ public class Clip_Display : PropertyDrawer
         // Don't make child fields be indented
         var indent = EditorGUI.indentLevel;
         EditorGUI.indentLevel = 0;
-
+        
         // Calculate rects
         Rect name_label_rect = new Rect(position.x, position.y, 115 - 95, position.height);
         Rect name_rect = new Rect(position.x + 20, position.y, 115 - 20, position.height);

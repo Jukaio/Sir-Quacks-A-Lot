@@ -9,7 +9,7 @@ public class Shadow_Renderer : MonoBehaviour
 
     Mesh m_mesh;
     GameObject m_mesh_object;
-    PolygonCollider2D m_mesh_collider_object;
+    public PolygonCollider2D m_mesh_collider_object;
     public Material m_shadow_material;
 
     private Vector3[] m_vertices;
@@ -32,10 +32,14 @@ public class Shadow_Renderer : MonoBehaviour
                             "m_shadow", "m_shadow_collider",
                             "Light_Overlay", "Ignore Raycast",
                             new Material(m_shadow_material));
+        m_mesh_collider_object.gameObject.tag = "lightCollider";
     }
 
-    void Update()
+    void LateUpdate()
     {
+        var temp = m_vertices.To_Vector2_Array();
+        temp[0] = temp[1];
+        m_mesh_collider_object.points = temp;
         Utility.Extra_Mesh.Update_Mesh(ref m_mesh, m_vertices, m_triangles);
     }
 }

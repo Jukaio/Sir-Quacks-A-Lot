@@ -6,13 +6,13 @@ public class PickUpObject : MonoBehaviour
 {
     public Transform theDest;
 
-    void OnTriggerEnter2D(Collider2D collision)
+    public void DoInteraction()
     {
         this.transform.position = theDest.position;
         this.transform.parent = GameObject.Find("Destination").transform;
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    public void ObjectDrop()
     {
         this.transform.parent = null;
     }
