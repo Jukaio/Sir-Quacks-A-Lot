@@ -8,7 +8,7 @@ public class grabThrowScript : MonoBehaviour
     RaycastHit2D hit;
     public float distance = 2f;
     public Transform holdpoint;
-    public float throwForce;
+    public float throwForce = 0f;
     public LayerMask notPickUpObject;
 
     // Start is called before the first frame update
