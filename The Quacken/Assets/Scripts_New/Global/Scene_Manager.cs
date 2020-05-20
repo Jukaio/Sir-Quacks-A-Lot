@@ -8,6 +8,7 @@ public class Scene_Manager : MonoBehaviour
     static public void Load_Level(int index)
     {
         SceneManager.LoadSceneAsync(index, LoadSceneMode.Additive);
+        SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(index));
     }
 
     public void Unload_Level(int index)

@@ -1,0 +1,1256 @@
+fileFormatVersion: 2
+guid: d8302a2e0492d974daa7e8055cfa8922
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8270276095360225665
+    second: owl idle, eyes full rotation_0
+  - first:
+      213: -4409319959987284566
+    second: owl idle, eyes full rotation_1
+  - first:
+      213: -8186554907089104645
+    second: owl idle, eyes full rotation_2
+  - first:
+      213: -6421331391377300871
+    second: owl idle, eyes full rotation_3
+  - first:
+      213: -8344181663540885181
+    second: owl idle, eyes full rotation_4
+  - first:
+      213: -1376800823454390913
+    second: owl idle, eyes full rotation_5
+  - first:
+      213: -1420431226317692799
+    second: owl idle, eyes full rotation_6
+  - first:
+      213: -1632987337145125531
+    second: owl idle, eyes full rotation_7
+  - first:
+      213: 2764008385571742256
+    second: owl idle, eyes full rotation_8
+  - first:
+      213: 6079844621515386558
+    second: owl idle, eyes full rotation_9
+  - first:
+      213: -8353673290811070008
+    second: owl idle, eyes full rotation_10
+  - first:
+      213: 372294560386796763
+    second: owl idle, eyes full rotation_11
+  - first:
+      213: -6153525525487487654
+    second: owl idle, eyes full rotation_12
+  - first:
+      213: 4313033704770168685
+    second: owl idle, eyes full rotation_13
+  - first:
+      213: -1778564417303944111
+    second: owl idle, eyes full rotation_14
+  - first:
+      213: 3757165110168734518
+    second: owl idle, eyes full rotation_15
+  - first:
+      213: 6610025973961490817
+    second: owl idle, eyes full rotation_16
+  - first:
+      213: 9129606803998165821
+    second: owl idle, eyes full rotation_17
+  - first:
+      213: -8234439254430938988
+    second: owl idle, eyes full rotation_18
+  - first:
+      213: 6551147901901551150
+    second: owl idle, eyes full rotation_19
+  - first:
+      213: 1866184288088716975
+    second: owl idle, eyes full rotation_20
+  - first:
+      213: 7128631749123781492
+    second: owl idle, eyes full rotation_21
+  - first:
+      213: 8828962354334775899
+    second: owl idle, eyes full rotation_22
+  - first:
+      213: 8163328553387534455
+    second: owl idle, eyes full rotation_23
+  - first:
+      213: 8246451852032953718
+    second: owl idle, eyes full rotation_24
+  - first:
+      213: -7731536824930183339
+    second: owl idle, eyes full rotation_25
+  - first:
+      213: -4445122870889204002
+    second: owl idle, eyes full rotation_26
+  - first:
+      213: -3519751755156021413
+    second: owl idle, eyes full rotation_27
+  - first:
+      213: -165747951580333930
+    second: owl idle, eyes full rotation_28
+  - first:
+      213: 8497819508579370771
+    second: owl idle, eyes full rotation_29
+  - first:
+      213: -1635803082880654480
+    second: owl idle, eyes full rotation_30
+  - first:
+      213: -7870576670697315420
+    second: owl idle, eyes full rotation_31
+  - first:
+      213: 1075573217967575468
+    second: owl idle, eyes full rotation_32
+  - first:
+      213: 3058476098379519993
+    second: owl idle, eyes full rotation_33
+  - first:
+      213: -464355063392700359
+    second: owl idle, eyes full rotation_34
+  - first:
+      213: -5122791718540024935
+    second: owl idle, eyes full rotation_35
+  - first:
+      213: 6088610428989406052
+    second: owl idle, eyes full rotation_36
+  - first:
+      213: -1162033343972983738
+    second: owl idle, eyes full rotation_37
+  - first:
+      213: 2004370004794984260
+    second: owl idle, eyes full rotation_38
+  - first:
+      213: -9197114674664782474
+    second: owl idle, eyes full rotation_39
+  - first:
+      213: -5418975873078249156
+    second: owl idle, eyes full rotation_40
+  - first:
+      213: 5559695654859828585
+    second: owl idle, eyes full rotation_41
+  - first:
+      213: -7860840730409145193
+    second: owl idle, eyes full rotation_42
+  - first:
+      213: -7781644739878034585
+    second: owl idle, eyes full rotation_43
+  - first:
+      213: 3482027694380048261
+    second: owl idle, eyes full rotation_44
+  - first:
+      213: 2751651824130153746
+    second: owl idle, eyes full rotation_45
+  - first:
+      213: -2090019284692403689
+    second: owl idle, eyes full rotation_46
+  - first:
+      213: -8738786062162202114
+    second: owl idle, eyes full rotation_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181d95a7a4ce5c270800000000000000
+      internalID: 8270276095360225665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa51be3abd2fec2c0800000000000000
+      internalID: -4409319959987284566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf019bcafa3836e80800000000000000
+      internalID: -8186554907089104645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97224e70f19d2e6a0800000000000000
+      internalID: -6421331391377300871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34941538cf2833c80800000000000000
+      internalID: -8344181663540885181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75298712fe94ece0800000000000000
+      internalID: -1376800823454390913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180267f435d994ce0800000000000000
+      internalID: -1420431226317692799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565f0c63ba67659e0800000000000000
+      internalID: -1632987337145125531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032643a7bfabb5620800000000000000
+      internalID: 2764008385571742256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe6efa8872ff5450800000000000000
+      internalID: 6079844621515386558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9a983d66ac11c80800000000000000
+      internalID: -8353673290811070008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc4aaf1ee7aa2500800000000000000
+      internalID: 372294560386796763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55f40923294a9aa0800000000000000
+      internalID: -6153525525487487654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67ec159d49fadb30800000000000000
+      internalID: 4313033704770168685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_14
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154e270f5154157e0800000000000000
+      internalID: -1778564417303944111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_15
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b491ae2c1242430800000000000000
+      internalID: 3757165110168734518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_16
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18184161a978bbb50800000000000000
+      internalID: 6610025973961490817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bcc4b7401e2be70800000000000000
+      internalID: 9129606803998165821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4988c13402569bd80800000000000000
+      internalID: -8234439254430938988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2633ebae4a5aea50800000000000000
+      internalID: 6551147901901551150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa671f8f8b406e910800000000000000
+      internalID: 1866184288088716975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47338158eccfde260800000000000000
+      internalID: 7128631749123781492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_22
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5abb61cb76c68a70800000000000000
+      internalID: 8828962354334775899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_23
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778a7717118f94170800000000000000
+      internalID: 8163328553387534455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d49c19448417270800000000000000
+      internalID: 8246451852032953718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_25
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5575f2e983014b490800000000000000
+      internalID: -7731536824930183339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_26
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed63fa9dc40cf42c0800000000000000
+      internalID: -4445122870889204002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_27
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f1e585d64572fc0800000000000000
+      internalID: -3519751755156021413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6983ecfbd1523bdf0800000000000000
+      internalID: -165747951580333930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_29
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3170246d1d15ee570800000000000000
+      internalID: 8497819508579370771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073e86253c57c49e0800000000000000
+      internalID: -1635803082880654480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_31
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a32c95d73816c290800000000000000
+      internalID: -7870576670697315420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_32
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca191e2a4243dee00800000000000000
+      internalID: 1075573217967575468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_33
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f71fe59ec3e17a20800000000000000
+      internalID: 3058476098379519993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_34
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938f2d4b7874e89f0800000000000000
+      internalID: -464355063392700359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_35
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993eb1ed21038e8b0800000000000000
+      internalID: -5122791718540024935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bf6a32de61f7450800000000000000
+      internalID: 6088610428989406052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_37
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cb45394d0afdfe0800000000000000
+      internalID: -1162033343972983738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_38
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447c04656e3f0db10800000000000000
+      internalID: 2004370004794984260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_39
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675c21a8ee84d5080800000000000000
+      internalID: -9197114674664782474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_40
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3932c6872eebc4b0800000000000000
+      internalID: -5418975873078249156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_41
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96de337ddb1082d40800000000000000
+      internalID: 5559695654859828585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_42
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c6a04110fa8e290800000000000000
+      internalID: -7860840730409145193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_43
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7636847865b020490800000000000000
+      internalID: -7781644739878034585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_44
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f589d4db5a25030800000000000000
+      internalID: 3482027694380048261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_45
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d55d251c4df2620800000000000000
+      internalID: 2751651824130153746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_46
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a7132b882cef2e0800000000000000
+      internalID: -2090019284692403689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: owl idle, eyes full rotation_47
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1ffa4606899b680800000000000000
+      internalID: -8738786062162202114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
