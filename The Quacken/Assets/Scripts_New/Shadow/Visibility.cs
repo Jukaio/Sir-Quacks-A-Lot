@@ -99,9 +99,11 @@ class Visibility
 
     static void Check_Segment(Segment p_segment, Point p_point, Vector2 p_position, ref SortedSet<Key_Segment> p_tree)
     {
-        double key2 = Math.Pow(p_segment.m_start.x - p_position.x, 2) + Math.Pow(p_segment.m_start.y - p_position.y, 2);
-        double key = Math.Pow(p_segment.m_end.x - p_position.x, 2) + Math.Pow(p_segment.m_end.y - p_position.y, 2);
-        Key_Segment key_segment = new Key_Segment( key + key2, p_segment);
+        double key_start = Math.Pow(p_segment.m_start.x - p_position.x, 2) + Math.Pow(p_segment.m_start.y - p_position.y, 2);
+        double key_end = Math.Pow(p_segment.m_end.x - p_position.x, 2) + Math.Pow(p_segment.m_end.y - p_position.y, 2);
+        double length = Math.Pow(p_segment.m_start.x - p_segment.m_end.x, 2) + Math.Pow(p_segment.m_start.y - p_segment.m_end.y, 2);
+
+        Key_Segment key_segment = new Key_Segment( (key_end + key_start) / length, p_segment);
 
         Vector2 segment_other_end = (p_point.m_coordinate != p_segment.m_end) ? p_segment.m_end : p_segment.m_start;
         double seg_angle = Angle.Determinant(segment_other_end, p_point.m_coordinate, p_position);

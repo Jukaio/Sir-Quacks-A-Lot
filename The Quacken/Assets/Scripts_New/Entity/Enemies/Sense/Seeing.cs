@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class Seeing : Sensing
 {
-    [SerializeField] private float m_cone_width;
-    [SerializeField] private float m_cone_length;
-    [SerializeField] private float m_sense_speed;
+    [SerializeField] public float m_cone_width;
+    [SerializeField] public float m_cone_length;
+    [SerializeField] public float m_sense_speed;
 
     //// Internal variables
     // Player
@@ -68,20 +68,23 @@ public class Seeing : Sensing
     {
         // Make/Use a polygon collider, idiot. It's cheaper than 90 fucking raycasts!! 
         Vector2 look_direction = p_view_direction * m_cone_length;
+        Vector2 position = m_entity.transform.position;
+        Vector2 parent_position = transform.parent.position;
 
-        m_mesh_object.transform.localPosition = Vector3.zero + Vector3.back * 2.0f;
-        m_feedback_mesh_object.transform.localPosition = Vector3.zero + Vector3.back * 3.0f;
         int triangle_index = 1;
-        m_polygon_trigger_points[0] = Vector2.zero;
-        m_verts[0] = Vector3.zero;
+
+        m_polygon_trigger_points[0] = position - parent_position;
+        m_feedback_verts[0] = position;
+        m_verts[0] = position;
+
         for (int i = (int)-m_cone_width; i < (int)m_cone_width; i++)
         {
             int index = i + (int)m_cone_width;
             var temp = look_direction.Rotate(i).normalized * m_cone_length;
 
-            m_polygon_trigger_points[index + 1] = temp;
-            m_verts[index + 1] = temp;
-            m_feedback_verts[index + 1] = temp * m_feedback_Factor;
+            m_polygon_trigger_points[index + 1] = temp + position - parent_position;
+            m_verts[index + 1] = temp + position;
+            m_feedback_verts[index + 1] = (temp * m_feedback_Factor) + position;
 
             m_triangles[index * 3 + 0] = 0;
             m_triangles[index * 3 + 1] = triangle_index;
@@ -92,17 +95,17 @@ public class Seeing : Sensing
         m_mesh_renderer.sortingOrder = 2;
         m_feedback_mesh_renderer.sortingOrder = 3;
 
-        Color color = Color.cyan;
-        for(int j = 0; j < m_triangles.Length; j+=3)
-        {
-            var vert1 = m_verts[m_triangles[j]] + transform.position;
-            var vert2 = m_verts[m_triangles[j + 1]] + transform.position;
-            var vert3 = m_verts[m_triangles[j + 2]] + transform.position;
+        //Color color = Color.cyan;
+        //for(int j = 0; j < m_triangles.Length; j+=3)
+        //{
+        //    var vert1 = m_verts[m_triangles[j]] + transform.position;
+        //    var vert2 = m_verts[m_triangles[j + 1]] + transform.position;
+        //    var vert3 = m_verts[m_triangles[j + 2]] + transform.position;
 
-            Debug.DrawLine(vert1, vert2, color);
-            Debug.DrawLine(vert2, vert3, color);
-            Debug.DrawLine(vert3, vert1, color);
-        }
+        //    Debug.DrawLine(vert1, vert2, color);
+        //    Debug.DrawLine(vert2, vert3, color);
+        //    Debug.DrawLine(vert3, vert1, color);
+        //}
 
         m_trigger_zone.points = m_polygon_trigger_points;
 
@@ -122,23 +125,25 @@ public class Seeing : Sensing
     bool in_trigger_zone = false;
     public bool Sense(Vector2 p_view_direction, GameObject p_target)
     {
-        m_to_player_direction = Set_Direction_To_Target(p_target);
-        m_to_player_distance = Set_Distance_To_Target(p_target);
+        m_to_player_direction = Set_Direction_To_Target(m_entity.transform.position, p_target);
+        m_to_player_distance = Set_Distance_To_Target(m_entity.transform.position, p_target);
 
         Update_Trigger_Zone(p_view_direction);
 
         if (in_trigger_zone) // Only Raycast if player is in the trigger zone
         {
-            m_feedback_Factor += Time.deltaTime * m_sense_speed;
-            Utility.Extra_Math.Interpolate(ref m_feedback_Factor);
 
 
-            var hit = Physics2D.Raycast(transform.position, m_to_player_direction * m_to_player_distance);
-            Debug.DrawLine(transform.position, hit.point, Color.cyan);
+            var hit = Physics2D.Raycast(m_entity.transform.position, m_to_player_direction * m_to_player_distance);
+            Debug.DrawLine(m_entity.transform.position, hit.point, Color.cyan);
             if (hit.collider.CompareTag(p_target.tag))
             {
+                m_feedback_Factor += Time.deltaTime * m_sense_speed;
+                Utility.Extra_Math.Interpolate(ref m_feedback_Factor);
                 return true;
             }
+            else
+                m_feedback_Factor = 0.0f;
         }
         return false;
     }
@@ -150,6 +155,12 @@ public class Seeing : Sensing
             case "Player":
                 m_feedback_Factor = 0;
                 in_trigger_zone = true;
+
+                break;
+
+            case "lightCollider":
+                m_mesh_object.SetActive(true);
+                m_feedback_mesh_object.SetActive(true);
                 break;
         }
     }
@@ -161,6 +172,11 @@ public class Seeing : Sensing
             case "Player":
                 m_feedback_Factor = 0;
                 in_trigger_zone = false;
+
+                break;
+            case "lightCollider":
+                m_mesh_object.SetActive(false);
+                m_feedback_mesh_object.SetActive(false);
                 break;
         }
     }

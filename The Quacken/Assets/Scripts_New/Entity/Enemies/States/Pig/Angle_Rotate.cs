@@ -45,7 +45,7 @@ public class Angle_Rotate : Pig_State
             return false;
         }
 
-        if (m_context.m_seeing.Sense(m_movement.view_direction, m_context.m_player))
+        if (m_context.m_sees)
         {
             m_next = m_if_sees;
             return false;

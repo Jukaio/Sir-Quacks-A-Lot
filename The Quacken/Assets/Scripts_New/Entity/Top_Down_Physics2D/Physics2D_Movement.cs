@@ -84,6 +84,7 @@ public class Physics2D_Movement : MonoBehaviour
     public void Add_Direction(Vector2 p_direction)
     {
         m_move_direction += p_direction;
+        m_view_direction = m_move_direction;
     }
 
     public void Normalise()
@@ -125,7 +126,7 @@ public class Physics2D_Movement : MonoBehaviour
         m_move_direction = (m_move_target - m_move_from).normalized;
         if (move_direction != Vector2.zero)
             m_prev_move_direction = m_move_direction;
-        transform.position = m_move_from + (m_move_target - m_move_from) * m_move_factor;
+        m_rb.position = m_move_from + (m_move_target - m_move_from) * m_move_factor;
 
         m_view_direction = m_move_direction;
 

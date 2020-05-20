@@ -8,6 +8,8 @@ public class Look_At : Pig_State
     Physics2D_Movement m_movement;
     Animator m_anim;
 
+    public string m_if_fully_seen;
+
     public override void Init()
     {
         m_movement = m_context.m_movement;
@@ -34,11 +36,12 @@ public class Look_At : Pig_State
 
     public override bool Run()
     {
-        if (m_context.m_seeing.Sense(m_movement.view_direction, m_context.m_player))
+        if (m_context.m_sees)
         {
             if(m_context.m_seeing.full_Feedback)
             {
-                Debug.Log("CHASE!!");
+                m_next = m_if_fully_seen;
+                return false;
             }
 
             return true;
