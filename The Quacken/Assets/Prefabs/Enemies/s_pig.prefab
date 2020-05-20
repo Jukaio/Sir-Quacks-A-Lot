@@ -195,7 +195,6 @@ GameObject:
   - component: {fileID: 6108184675233491837}
   - component: {fileID: 6108184675233491836}
   - component: {fileID: 6108184675233491826}
-  - component: {fileID: 245102427222976717}
   m_Layer: 2
   m_Name: m_entity
   m_TagString: Untagged
@@ -236,7 +235,7 @@ MonoBehaviour:
   m_hearing: {fileID: 0}
   m_renderer: {fileID: 0}
   m_sees: 0
-  m_collide_with_player: 0
+  m_collides_with_player: 0
   m_state_machine_data: {fileID: 11400000, guid: 261f308feb66dd648915dbdb114691a8,
     type: 2}
   m_waypoints:

@@ -12,8 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Pig
   m_EditorClassIdentifier: Assembly-CSharp::Pig_State_Data
-  m_states:
-  - {fileID: 11400000, guid: e58a794885e767b46a2478d2a4f4a247, type: 2}
-  - {fileID: 11400000, guid: 3d35bec9b6890b443afddfc471576e26, type: 2}
-  - {fileID: 11400000, guid: edeee6fade681c343a7e619b2357c52e, type: 2}
-  - {fileID: 11400000, guid: f129abdb0790f5f48bf69f0c9661f342, type: 2}
+  m_states: []
