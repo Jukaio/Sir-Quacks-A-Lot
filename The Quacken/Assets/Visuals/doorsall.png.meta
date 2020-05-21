@@ -1,0 +1,1611 @@
+fileFormatVersion: 2
+guid: 3c660d0bf89ee4d49a83239da4de9c1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3401351957677648539
+    second: doorsall_0
+  - first:
+      213: -2068807549783549391
+    second: doorsall_1
+  - first:
+      213: -218712301906482920
+    second: doorsall_2
+  - first:
+      213: -4190767881931688640
+    second: doorsall_3
+  - first:
+      213: 4244752158213550513
+    second: doorsall_4
+  - first:
+      213: -3997317181593156122
+    second: doorsall_5
+  - first:
+      213: 2173299652827614864
+    second: doorsall_6
+  - first:
+      213: 2012692556657014351
+    second: doorsall_7
+  - first:
+      213: 5763790498684514615
+    second: doorsall_8
+  - first:
+      213: -7094855002754447127
+    second: doorsall_9
+  - first:
+      213: 1792880131248491426
+    second: doorsall_10
+  - first:
+      213: -584713937728732717
+    second: doorsall_11
+  - first:
+      213: 2414891422522806108
+    second: doorsall_12
+  - first:
+      213: 7486702462403459181
+    second: doorsall_13
+  - first:
+      213: 4195156899392563046
+    second: doorsall_14
+  - first:
+      213: 5373109431265621839
+    second: doorsall_15
+  - first:
+      213: 5968137124096885005
+    second: doorsall_16
+  - first:
+      213: 709276872732098871
+    second: doorsall_17
+  - first:
+      213: -2711742074094211772
+    second: doorsall_18
+  - first:
+      213: 6413684414437332206
+    second: doorsall_19
+  - first:
+      213: 2149537345118446835
+    second: doorsall_20
+  - first:
+      213: 4475902055565302314
+    second: doorsall_21
+  - first:
+      213: -9002400959878175214
+    second: doorsall_22
+  - first:
+      213: -2534595785739439631
+    second: doorsall_23
+  - first:
+      213: -9136585214813808106
+    second: doorsall_24
+  - first:
+      213: 8773186706367961840
+    second: doorsall_25
+  - first:
+      213: 8149985537126201246
+    second: doorsall_26
+  - first:
+      213: 261610616523744210
+    second: doorsall_27
+  - first:
+      213: -7123784632987204914
+    second: doorsall_28
+  - first:
+      213: -4516656985098873530
+    second: doorsall_29
+  - first:
+      213: -4816830563244623975
+    second: doorsall_30
+  - first:
+      213: 5041725982644438530
+    second: doorsall_31
+  - first:
+      213: 8524953985795943471
+    second: doorsall_32
+  - first:
+      213: -868867679472383453
+    second: doorsall_33
+  - first:
+      213: 5634053470627020150
+    second: doorsall_34
+  - first:
+      213: -5228330246414219983
+    second: doorsall_35
+  - first:
+      213: 2890610778884403293
+    second: doorsall_36
+  - first:
+      213: -1302512189601316804
+    second: doorsall_37
+  - first:
+      213: 6410517211962857523
+    second: doorsall_38
+  - first:
+      213: 4231269691661397774
+    second: doorsall_39
+  - first:
+      213: -8355767772660735784
+    second: doorsall_40
+  - first:
+      213: -8622025918746807096
+    second: doorsall_41
+  - first:
+      213: -5983771449676874976
+    second: doorsall_42
+  - first:
+      213: 4901151047235202552
+    second: doorsall_43
+  - first:
+      213: -9035960032266349147
+    second: doorsall_44
+  - first:
+      213: 4527362777463034091
+    second: doorsall_45
+  - first:
+      213: -3150337211283175801
+    second: doorsall_46
+  - first:
+      213: -2333350552690621588
+    second: doorsall_47
+  - first:
+      213: 4632135241681027511
+    second: doorsall_48
+  - first:
+      213: -4338893953896666170
+    second: doorsall_49
+  - first:
+      213: -2509049495734787260
+    second: doorsall_50
+  - first:
+      213: -3335930200851093648
+    second: doorsall_51
+  - first:
+      213: 504871501863475177
+    second: doorsall_52
+  - first:
+      213: 1676707932000560054
+    second: doorsall_53
+  - first:
+      213: -7381259908879148827
+    second: doorsall_54
+  - first:
+      213: 26762876729179578
+    second: doorsall_55
+  - first:
+      213: 4123488812849943695
+    second: doorsall_56
+  - first:
+      213: 8670866118371762722
+    second: doorsall_57
+  - first:
+      213: -7891532587659287200
+    second: doorsall_58
+  - first:
+      213: 4633020010126192798
+    second: doorsall_59
+  - first:
+      213: -4770698619674036513
+    second: doorsall_60
+  - first:
+      213: -2754770347637993957
+    second: doorsall_61
+  - first:
+      213: -7238874851851657704
+    second: doorsall_62
+  - first:
+      213: -1713194658329112862
+    second: doorsall_63
+  - first:
+      213: -2306633877498023672
+    second: doorsall_64
+  - first:
+      213: -1630467791991729524
+    second: doorsall_65
+  - first:
+      213: -5127487812201410074
+    second: doorsall_66
+  - first:
+      213: 5117604481223727409
+    second: doorsall_67
+  - first:
+      213: 4608199261188984426
+    second: doorsall_68
+  - first:
+      213: -4760599369609760085
+    second: doorsall_69
+  - first:
+      213: 5371921079415958585
+    second: doorsall_70
+  - first:
+      213: -7395321045748018640
+    second: doorsall_71
+  - first:
+      213: -8195007102470558507
+    second: doorsall_72
+  - first:
+      213: 2158662678170270990
+    second: doorsall_73
+  - first:
+      213: 4487680931859363744
+    second: doorsall_74
+  - first:
+      213: 7067959618623409348
+    second: doorsall_75
+  - first:
+      213: 4913699955888042440
+    second: doorsall_76
+  - first:
+      213: 3426281613642778734
+    second: doorsall_77
+  - first:
+      213: -13985381143073196
+    second: doorsall_78
+  - first:
+      213: -6464112422729469454
+    second: doorsall_79
+  - first:
+      213: 5878985700893275651
+    second: doorsall_80
+  - first:
+      213: 81904674082727492
+    second: doorsall_81
+  - first:
+      213: 983713884558846077
+    second: doorsall_82
+  - first:
+      213: 7035453974602103311
+    second: doorsall_83
+  - first:
+      213: -482520390283453300
+    second: doorsall_84
+  - first:
+      213: -2457978261227492921
+    second: doorsall_85
+  - first:
+      213: -7563677505913890567
+    second: doorsall_86
+  - first:
+      213: -5425649447568847248
+    second: doorsall_87
+  - first:
+      213: -5134904107206745295
+    second: doorsall_88
+  - first:
+      213: 8876689060605175188
+    second: doorsall_89
+  - first:
+      213: -7478586629187580762
+    second: doorsall_90
+  - first:
+      213: 860697644762256927
+    second: doorsall_91
+  - first:
+      213: 872588009522827423
+    second: doorsall_92
+  - first:
+      213: 3553980624308947
+    second: doorsall_93
+  - first:
+      213: -1759966675093545220
+    second: doorsall_94
+  - first:
+      213: 2753885597550437703
+    second: doorsall_95
+  - first:
+      213: -571115175593869925
+    second: doorsall_96
+  - first:
+      213: -7673828973700695572
+    second: doorsall_97
+  - first:
+      213: -7126448211897131952
+    second: doorsall_98
+  - first:
+      213: -7662431422120254671
+    second: doorsall_99
+  - first:
+      213: 1710442081106508304
+    second: doorsall_100
+  - first:
+      213: -4331356353224240455
+    second: doorsall_101
+  - first:
+      213: 3511667636564995517
+    second: doorsall_102
+  - first:
+      213: 248016692203794241
+    second: doorsall_103
+  - first:
+      213: 7065224747757497536
+    second: doorsall_104
+  - first:
+      213: 6883981697849360706
+    second: doorsall_105
+  - first:
+      213: -8262522131374738380
+    second: doorsall_106
+  - first:
+      213: -3701293454103752252
+    second: doorsall_107
+  - first:
+      213: 4041325385149119273
+    second: doorsall_108
+  - first:
+      213: -1082202388984758510
+    second: doorsall_109
+  - first:
+      213: 6801109231040692715
+    second: doorsall_110
+  - first:
+      213: 2429325737553200701
+    second: doorsall_111
+  - first:
+      213: 3132370205296952180
+    second: doorsall_112
+  - first:
+      213: -6552573504799365587
+    second: doorsall_113
+  - first:
+      213: -8638958571126253132
+    second: doorsall_114
+  - first:
+      213: -7771158624162509988
+    second: doorsall_0
+  - first:
+      213: 7142002925837642534
+    second: doorsall_1
+  - first:
+      213: 4752009311470582627
+    second: doorsall_2
+  - first:
+      213: 8675956792408686140
+    second: doorsall_3
+  - first:
+      213: 4100468318335481696
+    second: doorsall_4
+  - first:
+      213: 3417956273997075779
+    second: doorsall_5
+  - first:
+      213: 2443524340475261148
+    second: doorsall_6
+  - first:
+      213: -1223770166087901371
+    second: doorsall_7
+  - first:
+      213: 7036158754830427542
+    second: doorsall_8
+  - first:
+      213: -3797919242930425283
+    second: doorsall_9
+  - first:
+      213: -7151834960979693721
+    second: doorsall_10
+  - first:
+      213: 1715592891861383620
+    second: doorsall_11
+  - first:
+      213: 2660796536606919793
+    second: doorsall_12
+  - first:
+      213: -9034101259114493402
+    second: doorsall_13
+  - first:
+      213: -144926394664399290
+    second: doorsall_14
+  - first:
+      213: -5896258301613907413
+    second: doorsall_15
+  - first:
+      213: -4029775492489331182
+    second: doorsall_16
+  - first:
+      213: -407184817093642024
+    second: doorsall_17
+  - first:
+      213: -177919312647625674
+    second: doorsall_18
+  - first:
+      213: -1168072255954462130
+    second: doorsall_19
+  - first:
+      213: 6598004640618047671
+    second: doorsall_20
+  - first:
+      213: -7962870363659022119
+    second: doorsall_21
+  - first:
+      213: -8127262059878133146
+    second: doorsall_22
+  - first:
+      213: 2035181555891655021
+    second: doorsall_23
+  - first:
+      213: -3141504076002569670
+    second: doorsall_24
+  - first:
+      213: 6711245881543291841
+    second: doorsall_25
+  - first:
+      213: 1327638354840253932
+    second: doorsall_26
+  - first:
+      213: 3204925702427713744
+    second: doorsall_27
+  - first:
+      213: 2470691697843770900
+    second: doorsall_28
+  - first:
+      213: -7628586149515566705
+    second: doorsall_29
+  - first:
+      213: 5901478349585194211
+    second: doorsall_30
+  - first:
+      213: 4389881348322957859
+    second: doorsall_31
+  - first:
+      213: -2018495179002471271
+    second: doorsall_32
+  - first:
+      213: 346074827911239207
+    second: doorsall_33
+  - first:
+      213: -6078922788696153837
+    second: doorsall_34
+  - first:
+      213: -8325246836967174285
+    second: doorsall_35
+  - first:
+      213: 1404701680076612599
+    second: doorsall_36
+  - first:
+      213: -7463348849833140470
+    second: doorsall_37
+  - first:
+      213: 9152269582170193281
+    second: doorsall_38
+  - first:
+      213: 2532060156119512141
+    second: doorsall_39
+  - first:
+      213: -3355185550557501573
+    second: doorsall_40
+  - first:
+      213: 5830994071532062636
+    second: doorsall_41
+  - first:
+      213: -2645836608307354148
+    second: doorsall_42
+  - first:
+      213: -369668879222582191
+    second: doorsall_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: doorsall_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b8499976c472490800000000000000
+      internalID: -7771158624162509988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b6a5332dd7d1360800000000000000
+      internalID: 7142002925837642534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b7d83aa4782f140800000000000000
+      internalID: 4752009311470582627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: -2, y: -8}
+        - {x: -2, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e382a4cb0376870800000000000000
+      internalID: 8675956792408686140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0673127d53ac7e830800000000000000
+      internalID: 4100468318335481696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345d9614f150f6f20800000000000000
+      internalID: 3417956273997075779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd07c0af07429e120800000000000000
+      internalID: 2443524340475261148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: -2, y: -8}
+        - {x: -2, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f1c9b848b440fe0800000000000000
+      internalID: -1223770166087901371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6952cecbb1575a160800000000000000
+      internalID: 7036158754830427542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32f28f12941b4bc0800000000000000
+      internalID: -3797919242930425283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fe59abef39fbc90800000000000000
+      internalID: -7151834960979693721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9359245a20fc710800000000000000
+      internalID: 1715592891861383620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c8b004a5c0de420800000000000000
+      internalID: 2660796536606919793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a429105cc60a280800000000000000
+      internalID: -9034101259114493402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e437f363e1dfdf0800000000000000
+      internalID: -144926394664399290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22ea5c70584c2ea0800000000000000
+      internalID: -5896258301613907413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e399d4a8c5318c0800000000000000
+      internalID: -4029775492489331182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d87333f093695af0800000000000000
+      internalID: -407184817093642024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634e4fae357e78df0800000000000000
+      internalID: -177919312647625674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a58dfc87c2acfe0800000000000000
+      internalID: -1168072255954462130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 2, y: -8}
+        - {x: 5, y: -4}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8ea6e4342d09b50800000000000000
+      internalID: 6598004640618047671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d05e95e7933e7190800000000000000
+      internalID: -7962870363659022119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6625474773a263f80800000000000000
+      internalID: -8127262059878133146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61595c97da6e3c10800000000000000
+      internalID: 2035181555891655021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32dc61ffa22764d0800000000000000
+      internalID: -3141504076002569670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: -2, y: -8}
+        - {x: -2, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3f0b15292232d50800000000000000
+      internalID: 6711245881543291841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5ff62bc08bc6210800000000000000
+      internalID: 1327638354840253932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d029b822fe2a7c20800000000000000
+      internalID: 3204925702427713744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4161c774209a94220800000000000000
+      internalID: 2470691697843770900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: -2, y: -8}
+        - {x: -2, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81e8a3a051d12690800000000000000
+      internalID: -7628586149515566705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec1fa4aa4346e150800000000000000
+      internalID: 5901478349585194211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a17e4e3ddfbec30800000000000000
+      internalID: 4389881348322957859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c18b2445ddcf3e0800000000000000
+      internalID: -2018495179002471271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7269a5fe8318dc400800000000000000
+      internalID: 346074827911239207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3112db26ee353aba0800000000000000
+      internalID: -6078922788696153837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f802f5c18c67c80800000000000000
+      internalID: -8325246836967174285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 5, y: -8}
+        - {x: 5, y: 3}
+        - {x: -2, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f36c505cb08e7310800000000000000
+      internalID: 1404701680076612599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f10ea73cbdc6890800000000000000
+      internalID: -7463348849833140470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dfdd5b1b4630f70800000000000000
+      internalID: 9152269582170193281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d447c6beb4fa32320800000000000000
+      internalID: 2532060156119512141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b772f7fa48cff61d0800000000000000
+      internalID: -3355185550557501573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7c311d63adbe050800000000000000
+      internalID: 5830994071532062636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 1, y: -8}
+        - {x: 5, y: -4}
+        - {x: 5, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5ad1c7f99184bd0800000000000000
+      internalID: -2645836608307354148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doorsall_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 8}
+        - {x: 2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154db69ec1caedaf0800000000000000
+      internalID: -369668879222582191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

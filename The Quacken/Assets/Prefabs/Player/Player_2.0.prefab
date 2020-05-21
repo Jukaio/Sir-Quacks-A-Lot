@@ -355,6 +355,7 @@ MonoBehaviour:
   m_input: {fileID: 0}
   m_movement: {fileID: 0}
   m_anim: {fileID: 0}
+  m_spawn_position: {x: 0, y: 0}
 --- !u!61 &1632639404892130354
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -428,8 +429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_camera: {fileID: 1632639404750907163}
-  m_collider: {fileID: 0}
-  some_object: {fileID: 0}
+  m_map: {fileID: 0}
 --- !u!114 &1632639404892130357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -551,4 +551,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc6589a8d99c44742874a12b30e34c75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tunnelRenderer: {fileID: 0}
+  topLayer: 13
