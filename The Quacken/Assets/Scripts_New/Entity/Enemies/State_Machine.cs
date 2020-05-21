@@ -3,12 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CreateAssetMenu(menuName = "FSM/Machine/Pig")]
-public class Pig_State_Data : ScriptableObject
-{
-    public List<Pig_State> m_states;
-}
-
 public class State_Machine<T> 
 {
     [SerializeField] public Dictionary<string, State<T>> m_state_collection = new Dictionary<string, State<T>>();
