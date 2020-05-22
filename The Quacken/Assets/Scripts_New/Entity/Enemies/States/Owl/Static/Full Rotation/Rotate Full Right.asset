@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f59b1886c294b714cbb33f3c827e886e, type: 3}
-  m_Name: Rotate Full
+  m_Name: Rotate Full Right
   m_EditorClassIdentifier: 
   m_name: Rotate
   m_if_reached_target: Rotate

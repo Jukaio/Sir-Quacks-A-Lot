@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 604b6ad0328fbd24880a31d87dec3c3a, type: 3}
-  m_Name: Static Owl
+  m_Name: Static Owl Left
   m_EditorClassIdentifier: 
   m_states:
   - {fileID: 11400000, guid: 41ea91012b233f3458bba36f745801e6, type: 2}
   - {fileID: 11400000, guid: 91bd1f3c31561b94bbf63461f7071209, type: 2}
   - {fileID: 11400000, guid: 8b37e497c02762a4ca8bf61d7209cfc5, type: 2}
   - {fileID: 11400000, guid: 5303c44bd8088fe4ca6e79da1987d052, type: 2}
-  - {fileID: 11400000, guid: 54161789832b5414a82830af386829b2, type: 2}
+  - {fileID: 11400000, guid: aef39d850f20de24d809fdf10c3344a2, type: 2}

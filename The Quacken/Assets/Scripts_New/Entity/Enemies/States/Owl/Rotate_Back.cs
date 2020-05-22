@@ -33,6 +33,8 @@ namespace Owl
 
         public override void Enter()
         {
+            if (m_movement.view_direction == Vector2.zero)
+                m_movement.view_direction = m_movement.prev_move_direction;
             Vector2 to_next = m_context.m_waypoints[m_context.m_index + 1].transform.position - m_context.transform.position;
             float to_rotate = Mathf.Rad2Deg * (float)Utility.Angle.Angle_Between_Segments(to_next, m_movement.view_direction, Vector2.zero); // view direction is a child 
 

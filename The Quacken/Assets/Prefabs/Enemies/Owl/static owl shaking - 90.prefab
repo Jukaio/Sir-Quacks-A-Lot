@@ -77,9 +77,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_entity: {fileID: 0}
-  m_cone_width: 35
+  m_cone_width: 45
   m_cone_length: 5
-  m_sense_speed: 1
+  m_sense_speed: 6
   m_trigger_zone: {fileID: 0}
   m_test_mat: {fileID: 2100000, guid: 46e92ef6db0ffb947b4b0cf0ce19e95b, type: 2}
   m_feedback_test_mat: {fileID: 2100000, guid: 4b5f26f6f100e1944825bf7edaa55f69, type: 2}
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a80797faa54b2854f868ce19b74f64d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_rotate_speed: 100
+  m_rotate_speed: 75
   m_speed: 4
 --- !u!95 &5786655151894821746
 Animator:
@@ -308,6 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc6589a8d99c44742874a12b30e34c75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topLayer: 8
 --- !u!1 &5786655152482727900
 GameObject:
   m_ObjectHideFlags: 0
