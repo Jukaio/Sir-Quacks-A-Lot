@@ -112,8 +112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_entity: {fileID: 0}
   m_cone_width: 35
-  m_cone_length: 5
-  m_sense_speed: 1
+  m_cone_length: 5.5
+  m_sense_speed: 6.5
   m_trigger_zone: {fileID: 0}
   m_test_mat: {fileID: 2100000, guid: 46e92ef6db0ffb947b4b0cf0ce19e95b, type: 2}
   m_feedback_test_mat: {fileID: 2100000, guid: 4b5f26f6f100e1944825bf7edaa55f69, type: 2}
@@ -244,6 +244,7 @@ MonoBehaviour:
   m_prev_index: 0
   m_index: 0
   m_type: 0
+  m_use_waypoints: 0
 --- !u!114 &6108184675233491824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,7 +272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_rotate_speed: 200
-  m_speed: 3
+  m_speed: 4
 --- !u!95 &6108184675233491838
 Animator:
   serializedVersion: 3

@@ -19,7 +19,7 @@ public class Owl_Controller : Enemy_Base
     }
     public Waypoint_Type m_type;
 
-
+    public string current;
 
     public override void Init()
     {
@@ -35,6 +35,7 @@ public class Owl_Controller : Enemy_Base
     public override void Behaviour()
     {
         m_state_machine.Run();
+        current = m_state_machine.m_current.m_name;
     }
 
     public void Next_Target()

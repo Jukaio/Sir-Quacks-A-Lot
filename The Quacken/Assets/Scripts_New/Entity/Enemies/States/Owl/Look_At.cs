@@ -33,7 +33,7 @@ namespace Owl
 
         public override void Exit()
         {
-            m_context.Next_Target();
+            
         }
 
         public override bool Run()

@@ -158,35 +158,11 @@ public class Shadow : MonoBehaviour
         // Get the camera bounds with an offset size
         m_camera_bounds = Utility.Bounds.Create_Camera_Rect(m_camera, m_camera.transform.position, 2.0f);
 
-        Debug.DrawLine(m_camera_bounds.min, new Vector2(m_camera_bounds.xMax, m_camera_bounds.yMin), Color.red);
-        Debug.DrawLine(new Vector2(m_camera_bounds.xMax, m_camera_bounds.yMin), m_camera_bounds.max, Color.red);
-        Debug.DrawLine(m_camera_bounds.max, new Vector2(m_camera_bounds.xMin, m_camera_bounds.yMax), Color.red);
-        Debug.DrawLine(new Vector2(m_camera_bounds.xMin, m_camera_bounds.yMax), m_camera_bounds.min, new Color(0.57f, 1f, 0.26f));
-
         // Make Segments out of the Paths
         Paths_To_Segments();
  
 
         m_points = Visibility.Find_Visible_Points(m_segments, m_points, position);
-        Color color = Color.black;
-        float r = 1.0f / m_points.Count;
-        foreach (Point point in m_points)
-        {
-            Vector2 top_left   =     (Vector2.left  + Vector2.up)   / 8.0f;
-            Vector2 top_right  =     (Vector2.right + Vector2.up)   / 8.0f;
-            Vector2 down_right =     (Vector2.right + Vector2.down) / 8.0f;
-            Vector2 down_left  =     (Vector2.left  + Vector2.down) / 8.0f;
-
-            Vector2 p = point.m_coordinate;
-
-            Debug.DrawLine(p + top_left,       p + top_right,  color);
-            Debug.DrawLine(p + top_right,      p + down_right, color);
-            Debug.DrawLine(p + down_right,     p + down_left,  color);
-            Debug.DrawLine(p + down_left,      p + top_left,   color);
-            Debug.DrawLine(transform.position, p,              color);
-
-            color.r += r;
-        }
 
         m_triangles.Clear();
         m_hit_points.Clear();
@@ -225,26 +201,6 @@ public class Shadow : MonoBehaviour
             }
         }
         m_triangles[m_triangles.Count - 1] = 1; // Correct the last triangle
-
-        color = Color.black;
-        r = 1.0f / m_points.Count;
-        foreach (var point in m_points)
-        {
-            Vector2 top_left = (Vector2.left + Vector2.up) / 8.0f;
-            Vector2 top_right = (Vector2.right + Vector2.up) / 8.0f;
-            Vector2 down_right = (Vector2.right + Vector2.down) / 8.0f;
-            Vector2 down_left = (Vector2.left + Vector2.down) / 8.0f;
-
-            var p = point;
-
-            Debug.DrawLine(p.m_coordinate + top_left, p.m_coordinate + top_right, color);
-            Debug.DrawLine(p.m_coordinate + top_right, p.m_coordinate + down_right, color);
-            Debug.DrawLine(p.m_coordinate + down_right, p.m_coordinate + down_left, color);
-            Debug.DrawLine(p.m_coordinate + down_left, p.m_coordinate + top_left, color);
-            Debug.DrawLine(transform.position, p.m_coordinate, color);
-
-            color.r += r;
-        }
 
 
         // Sorts from index 1 to the end of the array (skips the player position
