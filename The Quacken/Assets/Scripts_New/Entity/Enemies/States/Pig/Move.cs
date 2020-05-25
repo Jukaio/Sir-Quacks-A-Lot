@@ -33,13 +33,14 @@ public class Move : Pig_State
 
     public override void Exit()
     {
-            m_context.Next_Target();
+            
     }
 
     public override bool Run()
     {
         if (m_movement.Move())
         {
+            m_context.Next_Target();
             m_next = m_if_reached_target;
             return false;
         }

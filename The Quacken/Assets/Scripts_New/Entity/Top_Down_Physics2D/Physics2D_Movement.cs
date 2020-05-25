@@ -144,6 +144,7 @@ public class Physics2D_Movement : MonoBehaviour
         m_rotate_target = m_view_direction.Rotate(p_target);
         m_rotate_angle = p_target;
         m_rotate_factor = 0.0f;
+        prev_view_direction = view_direction;
     }
 
     public bool Rotate()
