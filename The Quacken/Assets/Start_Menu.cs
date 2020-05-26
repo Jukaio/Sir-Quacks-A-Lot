@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Start_Menu : MonoBehaviour
 {
+    public List<GameObject> m_points;
+
+    public Teleport m_teleport;
     public enum Rooms
     {
         DEFAULT = -1,
@@ -26,6 +29,7 @@ public class Start_Menu : MonoBehaviour
 
     private void Start()
     {
+        
         m_player = Service<Game_Manager>.Get().Player.gameObject;
         //Scene_Manager.Load_Level(1); // <- Loads a certain scene from the build settings
                                        // 0 = Game_Managment; 1 = Start_Menu; 2 = Level_One
@@ -48,24 +52,15 @@ public class Start_Menu : MonoBehaviour
                 break;
 
             case Rooms.GAME:
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    Scene_Manager.Load_Level(2);
-                }
+                m_teleport.m_end = m_points[(int)m_index];
                 break;
 
             case Rooms.OPTIONS:
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    //Load menu options level
-                }
+                m_teleport.m_end = m_points[(int)m_index];
                 break;
 
             case Rooms.EXIT:
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    //quit game code
-                }
+                m_teleport.m_end = m_points[(int)m_index];
                 break;
         }
 
