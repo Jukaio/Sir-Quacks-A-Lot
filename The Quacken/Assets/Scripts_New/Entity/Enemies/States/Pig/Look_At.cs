@@ -31,7 +31,7 @@ public class Look_At : Pig_State
 
     public override void Exit()
     {
-        m_context.Next_Target();
+   
     }
 
     public override bool Run()

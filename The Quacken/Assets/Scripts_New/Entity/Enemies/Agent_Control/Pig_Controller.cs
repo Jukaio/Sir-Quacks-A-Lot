@@ -27,8 +27,9 @@ public class Pig_Controller : Enemy_Base
     {
         foreach(var state in m_state_machine_data.m_states)
         {
-            state.Init(this);
-            m_state_machine.Add(state.m_name, state);
+            var temp = ScriptableObject.Instantiate(state);
+            temp.Init(this);
+            m_state_machine.Add(state.m_name, temp);
         }
         m_state_machine.Set(m_state_machine_data.m_states[0].m_name);
     }
