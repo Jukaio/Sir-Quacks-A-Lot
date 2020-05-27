@@ -37,6 +37,9 @@ public class Shadow_Renderer : MonoBehaviour
 
     void LateUpdate()
     {
+        if (m_vertices == null)
+            return;
+
         var temp = m_vertices.To_Vector2_Array();
         temp[0] = temp[1];
         m_mesh_collider_object.points = temp;
