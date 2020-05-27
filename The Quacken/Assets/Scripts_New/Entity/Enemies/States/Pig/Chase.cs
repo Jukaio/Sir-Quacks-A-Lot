@@ -72,12 +72,6 @@ public class Chase : Pig_State
             m_next = m_if_reached_target;
             return false;
         }
-        else if(m_context.m_collides_with_player)
-        {
-            m_next = m_if_reached_target;
-            m_context.m_player.GetComponent<Player_Controller>().Respawn();
-            return false;
-        }
 
         //if (m_movement.Move())
         //{

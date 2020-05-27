@@ -49,12 +49,17 @@ class Visibility
             return true;
     }
 
-    public static List<Point> Find_Visible_Points(List<List<Segment>> p_polygons, List<Point> p_points, Vector2 p_position)
+
+    private static SortedSet<Key_Segment> set = new SortedSet<Key_Segment>();
+    private static List<Point> visible_points = new List<Point>();
+    public static List<Point> Find_Visible_Points(List<List<Segment>> p_polygons, ref List<Point> p_points, Vector2 p_position)
     {
-        SortedSet<Key_Segment> set = new SortedSet<Key_Segment>();
+        set.Clear();
+        visible_points.Clear();
+
         Segment halfline = new Segment(p_position, (2000.0f * Vector2.left) + (p_position * Vector2.up));
 
-        List<Point> visible_points = new List<Point>();
+
 
         foreach (List<Segment> segments in p_polygons)
         {
@@ -96,7 +101,7 @@ class Visibility
         return visible_points;
     }
 
-
+    
     static void Check_Segment(Segment p_segment, Point p_point, Vector2 p_position, ref SortedSet<Key_Segment> p_tree)
     {
         double key_start = Math.Pow(p_segment.m_start.x - p_position.x, 2) + Math.Pow(p_segment.m_start.y - p_position.y, 2);
