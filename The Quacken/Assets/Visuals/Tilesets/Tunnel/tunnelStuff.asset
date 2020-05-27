@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
+  m_Name: tunnelStuff
+  m_EditorClassIdentifier: 
+  m_DefaultSprite: {fileID: 4631863402192557061, guid: 0dc1e5644799ad24c86e240970a724d4,
+    type: 3}
+  m_DefaultGameObject: {fileID: 8871884099773618730, guid: 39d8d28b5162e3c419da362b9c7508d5,
+    type: 3}
+  m_DefaultColliderType: 1
+  m_TilingRules: []
