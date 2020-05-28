@@ -18,9 +18,12 @@ public class Scene_Manager : MonoBehaviour
         yield break;
     }
 
-    public void Unload_Level(int index)
+    static public IEnumerator Unload_Level(int index)
     {
         if (SceneManager.GetSceneAt(index).isLoaded)
             SceneManager.UnloadSceneAsync(index);
+        else
+            yield break;
+
     }
 }

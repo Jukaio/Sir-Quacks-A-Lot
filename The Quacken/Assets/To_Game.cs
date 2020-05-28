@@ -10,8 +10,9 @@ public class To_Game : MonoBehaviour
         if (collision.CompareTag("Player") && m_flag == false)
         {
             m_flag = true;
-            Scene_Manager.Unload_Level(1);
-            Scene_Manager.Load_Level(2);
+
+            StartCoroutine(Scene_Manager.Unload_Level(1));
+            StartCoroutine(Scene_Manager.Load_Level(2));
         }   
     }
 }
