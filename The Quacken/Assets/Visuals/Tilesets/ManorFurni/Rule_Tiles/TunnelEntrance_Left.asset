@@ -20,7 +20,8 @@ MonoBehaviour:
   - m_Id: 0
     m_Sprites:
     - {fileID: 2439721830314071076, guid: d7b731732b9c8d340a82f43a02dacbc5, type: 3}
-    m_GameObject: {fileID: 0}
+    m_GameObject: {fileID: 8871884099773618730, guid: aad29b5f024beda4db764d6ef469ee0a,
+      type: 3}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
     m_Output: 0
@@ -37,7 +38,8 @@ MonoBehaviour:
   - m_Id: 3
     m_Sprites:
     - {fileID: -5808443859968989733, guid: d7b731732b9c8d340a82f43a02dacbc5, type: 3}
-    m_GameObject: {fileID: 0}
+    m_GameObject: {fileID: 8871884099773618730, guid: 39d8d28b5162e3c419da362b9c7508d5,
+      type: 3}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
     m_Output: 0
@@ -53,7 +55,8 @@ MonoBehaviour:
   - m_Id: 2
     m_Sprites:
     - {fileID: -5611279629627644417, guid: d7b731732b9c8d340a82f43a02dacbc5, type: 3}
-    m_GameObject: {fileID: 0}
+    m_GameObject: {fileID: 8871884099773618730, guid: 48952a16010998a4bb57670b56185ea2,
+      type: 3}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
     m_Output: 0
@@ -68,7 +71,8 @@ MonoBehaviour:
   - m_Id: 5
     m_Sprites:
     - {fileID: 4068745768222343452, guid: 69a1a9c9dbb14f1409becafa6aca4c87, type: 3}
-    m_GameObject: {fileID: 0}
+    m_GameObject: {fileID: 8871884099773618730, guid: 851bfb8a6203931439c95ad49998c6d7,
+      type: 3}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
     m_Output: 0
@@ -83,7 +87,8 @@ MonoBehaviour:
   - m_Id: 1
     m_Sprites:
     - {fileID: 6225767184515317341, guid: d7b731732b9c8d340a82f43a02dacbc5, type: 3}
-    m_GameObject: {fileID: 0}
+    m_GameObject: {fileID: 8871884099773618730, guid: 851bfb8a6203931439c95ad49998c6d7,
+      type: 3}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
     m_Output: 0
@@ -99,7 +104,8 @@ MonoBehaviour:
   - m_Id: 4
     m_Sprites:
     - {fileID: 5344132014177726439, guid: d7b731732b9c8d340a82f43a02dacbc5, type: 3}
-    m_GameObject: {fileID: 0}
+    m_GameObject: {fileID: 8871884099773618730, guid: 48952a16010998a4bb57670b56185ea2,
+      type: 3}
     m_AnimationSpeed: 1
     m_PerlinScale: 0.5
     m_Output: 0

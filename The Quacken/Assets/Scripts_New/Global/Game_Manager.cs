@@ -26,7 +26,7 @@ public class Game_Manager : MonoBehaviour
     private void Awake()
     {
         Service<Sound_Manager>.Set(m_sound_manager);
-        StartCoroutine(Scene_Manager.Load_Level(1));
+        //StartCoroutine(Scene_Manager.Load_Level(1));
     }
 
     public void Set_Player(GameObject p_player)
