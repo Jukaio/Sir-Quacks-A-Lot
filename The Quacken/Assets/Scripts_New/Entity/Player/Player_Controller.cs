@@ -62,12 +62,12 @@ public class Player_Controller : MonoBehaviour
     private void Update()
     {
         Handle_Inputs();
+        Execute_Inputs();
     }
 
     void FixedUpdate()
     {
         Update_Noise_Range();
-        Execute_Inputs();
     }
 
     private void OnGUI()

@@ -12,7 +12,6 @@ abstract public class Enemy_Base : MonoBehaviour
     public SpriteRenderer m_renderer;
 
     public bool m_sees;
-    public bool m_collides_with_player;
 
     // Start is called before the first frame update
     void Start()
@@ -49,8 +48,15 @@ abstract public class Enemy_Base : MonoBehaviour
                 m_renderer.enabled = true;
                 break;
 
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        switch (collision.gameObject.tag)
+        {
             case "Player":
-                m_collides_with_player = true;
+                m_player.GetComponent<Player_Controller>().Respawn();
                 break;
         }
     }
@@ -62,10 +68,14 @@ abstract public class Enemy_Base : MonoBehaviour
             case "lightCollider":
                 m_renderer.enabled = false;
                 break;
+        }
+    }
 
-            case "Player":
-                m_collides_with_player = false;
-                break;
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+
         }
     }
 }

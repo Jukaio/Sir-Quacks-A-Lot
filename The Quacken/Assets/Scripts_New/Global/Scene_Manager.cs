@@ -5,10 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class Scene_Manager : MonoBehaviour
 {
-    static public void Load_Level(int index)
+    static public IEnumerator Load_Level(int index)
     {
         SceneManager.LoadSceneAsync(index, LoadSceneMode.Additive);
-        SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(index));
+        var scene = SceneManager.GetSceneByBuildIndex(index);
+
+        yield return new WaitForSecondsRealtime(1.0f);
+
+        if (!SceneManager.SetActiveScene(scene))
+            Debug.Log("FAIL TO SET ACTIVE SCENE");
+
+        yield break;
     }
 
     public void Unload_Level(int index)

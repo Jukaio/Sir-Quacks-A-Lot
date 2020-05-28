@@ -125,8 +125,8 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: prev_x
     m_Mirror: 0
-  m_BlendParameter: x
-  m_BlendParameterY: y
+  m_BlendParameter: move_x
+  m_BlendParameterY: move_y
   m_MinThreshold: 0
   m_MaxThreshold: 0.5625
   m_UseAutomaticThresholds: 1
@@ -224,8 +224,8 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: x
     m_Mirror: 0
-  m_BlendParameter: prev_x
-  m_BlendParameterY: prev_y
+  m_BlendParameter: idle_x
+  m_BlendParameterY: idle_y
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1
@@ -386,30 +386,30 @@ AnimatorController:
   m_Name: Wolf
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: x
+  - m_Name: move_x
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: y
+    m_Controller: {fileID: 0}
+  - m_Name: move_y
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: prev_x
+    m_Controller: {fileID: 0}
+  - m_Name: idle_x
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: prev_y
+    m_Controller: {fileID: 0}
+  - m_Name: idle_y
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
