@@ -20,7 +20,6 @@ public class Pig_Controller : Enemy_Base
     }
     public Waypoint_Type m_type;
 
-
     public bool m_use_waypoints;
 
     public override void Init()

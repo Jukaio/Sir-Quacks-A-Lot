@@ -12,10 +12,20 @@ abstract public class Enemy_Base : MonoBehaviour
     public SpriteRenderer m_renderer;
 
     public bool m_sees;
+    public AudioClip m_notice_clip;
+    public AudioSource m_notice_source;
+
+    public float pitch = 0.65f;
 
     // Start is called before the first frame update
     void Start()
     {
+        m_notice_source = gameObject.AddComponent<AudioSource>();
+        m_notice_source.clip = m_notice_clip;
+        m_notice_source.loop = false;
+        m_notice_source.pitch = pitch;
+        m_notice_source.playOnAwake = false;
+
         m_renderer = GetComponent<SpriteRenderer>();
 
         m_seeing = transform.parent.GetComponentInChildren<Seeing>();
@@ -33,6 +43,11 @@ abstract public class Enemy_Base : MonoBehaviour
 
     bool fade_in_running;
     bool fade_out_running;
+
+    public void Play_Notice()
+    {
+        m_notice_source.Play();
+    }
 
     // Update is called once per frame
     void Update()

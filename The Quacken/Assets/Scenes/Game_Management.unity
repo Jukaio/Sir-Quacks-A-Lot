@@ -209,7 +209,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_sound_manager: {fileID: 1180207033}
-  m_level_manager: {fileID: 0}
 --- !u!4 &1371524938
 Transform:
   m_ObjectHideFlags: 0

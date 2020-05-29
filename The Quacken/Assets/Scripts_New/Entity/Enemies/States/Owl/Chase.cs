@@ -34,6 +34,7 @@ namespace Owl
 
         public override void Enter()
         {
+            m_context.Play_Notice();
             m_anim.SetBool("chase", true);
             m_context.m_seeing.m_cone_length *= m_cone_length_factor;
         }

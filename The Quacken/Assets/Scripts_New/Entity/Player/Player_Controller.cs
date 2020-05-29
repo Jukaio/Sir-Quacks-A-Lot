@@ -76,6 +76,9 @@ public class Player_Controller : MonoBehaviour
     void FixedUpdate()
     {
         Update_Noise_Range();
+
+        var position = transform.position;
+
     }
 
     float m_distance_travelled = 0.0f;

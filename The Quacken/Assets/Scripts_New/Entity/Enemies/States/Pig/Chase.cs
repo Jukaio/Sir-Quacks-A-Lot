@@ -33,6 +33,7 @@ public class Chase : Pig_State
 
     public override void Enter()
     {
+        m_context.Play_Notice();
         m_anim.SetBool("chase", true);
         //m_movement.Enter_Move(m_context.m_player.transform.position);
         //m_movement.Set_Speed(m_movement.Initial_Speed);

@@ -6,7 +6,10 @@ public class Start_Menu : MonoBehaviour
 {
     public GameObject camera;
     public GameObject[] camera_points;
+
     public GameObject[] m_points;
+
+    public GameObject m_closed_door;
 
     public Teleport m_teleport;
     public enum Rooms
@@ -37,9 +40,15 @@ public class Start_Menu : MonoBehaviour
 
     GameObject m_player;
 
+    AudioSource m_source;
+    public AudioClip m_button_press;
+
     private void Start()
     {
-        
+        m_source = gameObject.AddComponent<AudioSource>();
+        m_source.loop = false;
+        m_source.playOnAwake = false;
+
         m_player = Service<Game_Manager>.Get().Player.gameObject;
 
         camera.transform.position = camera_points[0].transform.position;
@@ -78,6 +87,14 @@ public class Start_Menu : MonoBehaviour
 
         if (m_pressed_left && !m_prev_press_left)
         {
+            if (m_index == Rooms.DEFAULT)
+                Unlock_Door();
+
+            if (m_source.clip != m_button_press)
+                m_source.clip = m_button_press;
+
+            m_source.Play();
+
             m_left_button.sprite = m_left_pressed;
             m_index--;
             if ((int) m_index < 0)
@@ -90,6 +107,14 @@ public class Start_Menu : MonoBehaviour
 
         if (m_pressed_right && !m_prev_press_right)
         {
+            if (m_index == Rooms.DEFAULT)
+                Unlock_Door();
+
+            if (m_source.clip != m_button_press)
+                m_source.clip = m_button_press;
+
+            m_source.Play();
+
             m_right_button.sprite = m_right_pressed;
             m_index++;
             if ((int)m_index > 1)
@@ -100,9 +125,24 @@ public class Start_Menu : MonoBehaviour
             m_right_button.sprite = m_right_released;
         }
 
+        foreach(var point in camera_points)
+        {
+            if(m_player.transform.position.Distancef(point.transform.position) < 4.0f)
+            {
+                camera.transform.position = point.transform.position;
+            }
+        }
+
+
+
         m_prev_press_left = m_pressed_left;
         m_prev_press_right = m_pressed_right;
         
+    }
+
+    void Unlock_Door()
+    {
+        m_closed_door.SetActive(false);
     }
 
 }

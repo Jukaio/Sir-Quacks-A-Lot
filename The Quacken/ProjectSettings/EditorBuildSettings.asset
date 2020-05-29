@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Game_Management.unity
     guid: 65dc93952413d5044925d90d59fb0670
   - enabled: 1
+    path: Assets/Scenes/Menu Mockup.unity
+    guid: 0d6af7e61d2340144827b336ec068b34
+  - enabled: 1
     path: Assets/Scenes/first_map.unity
     guid: a9db5acb10e16dd4eb4053ba53c498f7
   m_configObjects:
