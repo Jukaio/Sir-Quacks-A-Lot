@@ -1,0 +1,1268 @@
+fileFormatVersion: 2
+guid: 391f3fd9e38f9c94782428b24efb1f1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8902625016450922133
+    second: glasses owl full rotation_0
+  - first:
+      213: -4626101224456713839
+    second: glasses owl full rotation_1
+  - first:
+      213: 2377917511170325753
+    second: glasses owl full rotation_2
+  - first:
+      213: -2519087820986487825
+    second: glasses owl full rotation_3
+  - first:
+      213: 7493184802463524233
+    second: glasses owl full rotation_4
+  - first:
+      213: -4782014781752934062
+    second: glasses owl full rotation_5
+  - first:
+      213: 7388974976065405736
+    second: glasses owl full rotation_6
+  - first:
+      213: -3539697929391710331
+    second: glasses owl full rotation_7
+  - first:
+      213: 8038757325734397859
+    second: glasses owl full rotation_8
+  - first:
+      213: -7183463204180395040
+    second: glasses owl full rotation_9
+  - first:
+      213: 6933622058515798081
+    second: glasses owl full rotation_10
+  - first:
+      213: -3470305218092173774
+    second: glasses owl full rotation_11
+  - first:
+      213: -812404515412847048
+    second: glasses owl full rotation_12
+  - first:
+      213: -4571554156207656993
+    second: glasses owl full rotation_13
+  - first:
+      213: 1547485874596598559
+    second: glasses owl full rotation_14
+  - first:
+      213: -1911136413977841735
+    second: glasses owl full rotation_15
+  - first:
+      213: 5822647356332183890
+    second: glasses owl full rotation_16
+  - first:
+      213: 4365870782072566120
+    second: glasses owl full rotation_17
+  - first:
+      213: 2119308512964005434
+    second: glasses owl full rotation_18
+  - first:
+      213: -402773740649359149
+    second: glasses owl full rotation_19
+  - first:
+      213: -5467274101756817508
+    second: glasses owl full rotation_20
+  - first:
+      213: 5209927859232191752
+    second: glasses owl full rotation_21
+  - first:
+      213: 7650270158145075264
+    second: glasses owl full rotation_22
+  - first:
+      213: -1055505557141363560
+    second: glasses owl full rotation_23
+  - first:
+      213: -7066968464563895409
+    second: glasses owl full rotation_24
+  - first:
+      213: 9057099836715266862
+    second: glasses owl full rotation_25
+  - first:
+      213: -6403191775237091129
+    second: glasses owl full rotation_26
+  - first:
+      213: 411586490774230133
+    second: glasses owl full rotation_27
+  - first:
+      213: -8055288047912192572
+    second: glasses owl full rotation_28
+  - first:
+      213: 9026340704526391577
+    second: glasses owl full rotation_29
+  - first:
+      213: 2302342973275185810
+    second: glasses owl full rotation_30
+  - first:
+      213: -4174219451592938942
+    second: glasses owl full rotation_31
+  - first:
+      213: 4676972154893542212
+    second: glasses owl full rotation_32
+  - first:
+      213: 3175706565676066376
+    second: glasses owl full rotation_33
+  - first:
+      213: 549215717397276039
+    second: glasses owl full rotation_34
+  - first:
+      213: -2931091408845494928
+    second: glasses owl full rotation_35
+  - first:
+      213: -2164730213265146582
+    second: glasses owl full rotation_36
+  - first:
+      213: 833570468239940112
+    second: glasses owl full rotation_37
+  - first:
+      213: 4030956444240959549
+    second: glasses owl full rotation_38
+  - first:
+      213: 8295046496750905365
+    second: glasses owl full rotation_39
+  - first:
+      213: 7219546915674353855
+    second: glasses owl full rotation_40
+  - first:
+      213: 9045690714095950288
+    second: glasses owl full rotation_41
+  - first:
+      213: 3868483898541256145
+    second: glasses owl full rotation_42
+  - first:
+      213: -8998196607017721093
+    second: glasses owl full rotation_43
+  - first:
+      213: -8470696051610454377
+    second: glasses owl full rotation_44
+  - first:
+      213: 4351756340414081928
+    second: glasses owl full rotation_45
+  - first:
+      213: -4326083462485805054
+    second: glasses owl full rotation_46
+  - first:
+      213: 3654607821960098357
+    second: glasses owl full rotation_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: glasses owl full rotation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69cfe537b5837480800000000000000
+      internalID: -8902625016450922133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199024d4279cccfb0800000000000000
+      internalID: -4626101224456713839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcfc7ea06f000120800000000000000
+      internalID: 2377917511170325753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb661839f66a0dd0800000000000000
+      internalID: -2519087820986487825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985a13390e32df760800000000000000
+      internalID: 7493184802463524233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25103f664eed2adb0800000000000000
+      internalID: -4782014781752934062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82301ae9799ea8660800000000000000
+      internalID: 7388974976065405736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fdb62cc7770eec0800000000000000
+      internalID: -3539697929391710331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7c7f352376f8f60800000000000000
+      internalID: 8038757325734397859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebfcb186463f4c90800000000000000
+      internalID: -7183463204180395040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14895acb68c293060800000000000000
+      internalID: 6933622058515798081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2367e656acff6dfc0800000000000000
+      internalID: -3470305218092173774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836d4e4c562c9b4f0800000000000000
+      internalID: -812404515412847048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf28cf47b39e80c0800000000000000
+      internalID: -4571554156207656993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_14
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13d34a3436c97510800000000000000
+      internalID: 1547485874596598559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_15
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf698f9e874a75e0800000000000000
+      internalID: -1911136413977841735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_16
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2511c8ebbe23ec050800000000000000
+      internalID: 5822647356332183890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86131bc4850b69c30800000000000000
+      internalID: 4365870782072566120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e4eac2ddb496d10800000000000000
+      internalID: 2119308512964005434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d85db7ba6f096af0800000000000000
+      internalID: -402773740649359149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f871bdb275024b0800000000000000
+      internalID: -5467274101756817508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80532fad8c16d4840800000000000000
+      internalID: 5209927859232191752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_22
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048320c0d283b2a60800000000000000
+      internalID: 7650270158145075264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_23
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8946320c9471a51f0800000000000000
+      internalID: -1055505557141363560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8308c6bf951ded90800000000000000
+      internalID: -7066968464563895409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_25
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2379ae905841bd70800000000000000
+      internalID: 9057099836715266862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_26
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c05a48810b4327a0800000000000000
+      internalID: -6403191775237091129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_27
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57492f09bbf36b500800000000000000
+      internalID: 411586490774230133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c57ebcf23ed53090800000000000000
+      internalID: -8055288047912192572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_29
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919d1f21c01044d70800000000000000
+      internalID: 9026340704526391577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2922f216cb093ff10800000000000000
+      internalID: 2302342973275185810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_31
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ae64556813216c0800000000000000
+      internalID: -4174219451592938942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_32
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443a2dc2561f7e040800000000000000
+      internalID: 4676972154893542212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_33
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8466ffdbb40621c20800000000000000
+      internalID: 3175706565676066376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_34
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785a68cf8c43f9700800000000000000
+      internalID: 549215717397276039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_35
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075a09ba4eba257d0800000000000000
+      internalID: -2931091408845494928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d76cb175555f1e0800000000000000
+      internalID: -2164730213265146582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_37
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a92b6acef619b00800000000000000
+      internalID: 833570468239940112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_38
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38dd047785d0f730800000000000000
+      internalID: 4030956444240959549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_39
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518af2af6dced1370800000000000000
+      internalID: 8295046496750905365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_40
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb079044babf03460800000000000000
+      internalID: 7219546915674353855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_41
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d91db147cfb88d70800000000000000
+      internalID: 9045690714095950288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_42
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddaedf0c9d9fa530800000000000000
+      internalID: 3868483898541256145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_43
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf265934cdbff1380800000000000000
+      internalID: -8998196607017721093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_44
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796747b12da027a80800000000000000
+      internalID: -8470696051610454377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_45
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b6f63c55b846c30800000000000000
+      internalID: 4351756340414081928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_46
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20877dde20aa6f3c0800000000000000
+      internalID: -4326083462485805054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glasses owl full rotation_47
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532bb4d7376c7b230800000000000000
+      internalID: 3654607821960098357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

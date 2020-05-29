@@ -1,0 +1,1268 @@
+fileFormatVersion: 2
+guid: 982f1f650a423e640b7793bf56a989de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4947239227217761762
+    second: bowtie owl full rotation_0
+  - first:
+      213: 3705789620224646378
+    second: bowtie owl full rotation_1
+  - first:
+      213: -2620232070798859822
+    second: bowtie owl full rotation_2
+  - first:
+      213: -1912650007903855571
+    second: bowtie owl full rotation_3
+  - first:
+      213: 3262704067212590258
+    second: bowtie owl full rotation_4
+  - first:
+      213: -3827614606846412130
+    second: bowtie owl full rotation_5
+  - first:
+      213: 7425584464131129967
+    second: bowtie owl full rotation_6
+  - first:
+      213: 3798381031237470173
+    second: bowtie owl full rotation_7
+  - first:
+      213: -2034401396494785797
+    second: bowtie owl full rotation_8
+  - first:
+      213: 3619079048627049166
+    second: bowtie owl full rotation_9
+  - first:
+      213: 8647540765093831410
+    second: bowtie owl full rotation_10
+  - first:
+      213: 5755146399006597587
+    second: bowtie owl full rotation_11
+  - first:
+      213: 5308574241454904984
+    second: bowtie owl full rotation_12
+  - first:
+      213: -9135121379637895755
+    second: bowtie owl full rotation_13
+  - first:
+      213: -8680743676275009428
+    second: bowtie owl full rotation_14
+  - first:
+      213: -3442646773494324512
+    second: bowtie owl full rotation_15
+  - first:
+      213: -948212441186034815
+    second: bowtie owl full rotation_16
+  - first:
+      213: 174174131608873761
+    second: bowtie owl full rotation_17
+  - first:
+      213: 8461084441106040292
+    second: bowtie owl full rotation_18
+  - first:
+      213: -8345093256708657177
+    second: bowtie owl full rotation_19
+  - first:
+      213: 1980591118047786837
+    second: bowtie owl full rotation_20
+  - first:
+      213: -7325302443640698472
+    second: bowtie owl full rotation_21
+  - first:
+      213: -2333776992193191622
+    second: bowtie owl full rotation_22
+  - first:
+      213: -2801923997435721192
+    second: bowtie owl full rotation_23
+  - first:
+      213: -6768685887000932576
+    second: bowtie owl full rotation_24
+  - first:
+      213: 4087665446400656940
+    second: bowtie owl full rotation_25
+  - first:
+      213: -2725535982098577052
+    second: bowtie owl full rotation_26
+  - first:
+      213: -727806666788859562
+    second: bowtie owl full rotation_27
+  - first:
+      213: 8472067930347399011
+    second: bowtie owl full rotation_28
+  - first:
+      213: -5504176182730726352
+    second: bowtie owl full rotation_29
+  - first:
+      213: 6149385643749836296
+    second: bowtie owl full rotation_30
+  - first:
+      213: 5044266597473812955
+    second: bowtie owl full rotation_31
+  - first:
+      213: 6545635623662516306
+    second: bowtie owl full rotation_32
+  - first:
+      213: -8327390038533972625
+    second: bowtie owl full rotation_33
+  - first:
+      213: -3877741664528977327
+    second: bowtie owl full rotation_34
+  - first:
+      213: 2103975949082821677
+    second: bowtie owl full rotation_35
+  - first:
+      213: -142772107119607283
+    second: bowtie owl full rotation_36
+  - first:
+      213: -2905876137861686963
+    second: bowtie owl full rotation_37
+  - first:
+      213: 613499328261638842
+    second: bowtie owl full rotation_38
+  - first:
+      213: 5212810643700477169
+    second: bowtie owl full rotation_39
+  - first:
+      213: 3379160103740090547
+    second: bowtie owl full rotation_40
+  - first:
+      213: 1037365510094982054
+    second: bowtie owl full rotation_41
+  - first:
+      213: 3624349586225368134
+    second: bowtie owl full rotation_42
+  - first:
+      213: -3895356709429466556
+    second: bowtie owl full rotation_43
+  - first:
+      213: 1834771582702587389
+    second: bowtie owl full rotation_44
+  - first:
+      213: -2207509930283504939
+    second: bowtie owl full rotation_45
+  - first:
+      213: -5174795455638369082
+    second: bowtie owl full rotation_46
+  - first:
+      213: -5613124757345076457
+    second: bowtie owl full rotation_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bowtie owl full rotation_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1aaeca6220e75bb0800000000000000
+      internalID: -4947239227217761762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecd1d5860c9d6330800000000000000
+      internalID: 3705789620224646378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1a2fe60d013abd0800000000000000
+      internalID: -2620232070798859822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c1e3393f6e475e0800000000000000
+      internalID: -1912650007903855571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcbd650014774d20800000000000000
+      internalID: 3262704067212590258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ab2dd6bc491eac0800000000000000
+      internalID: -3827614606846412130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62023a4ab9fc0760800000000000000
+      internalID: 7425584464131129967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7cd785c6f86b430800000000000000
+      internalID: 3798381031237470173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_8
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2ae5765ba54c3e0800000000000000
+      internalID: -2034401396494785797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_9
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec25973583d893230800000000000000
+      internalID: 3619079048627049166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2a02c528c320870800000000000000
+      internalID: 8647540765093831410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 81
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1282768236edf40800000000000000
+      internalID: 5755146399006597587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89655b58528dba940800000000000000
+      internalID: 5308574241454904984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd5b925187893180800000000000000
+      internalID: -9135121379637895755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_14
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68d8657e9dc78780800000000000000
+      internalID: -8680743676275009428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_15
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2e9badff24930d0800000000000000
+      internalID: -3442646773494324512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_16
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b108ffec547d2f0800000000000000
+      internalID: -948212441186034815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_17
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12beb9b237aca6200800000000000000
+      internalID: 174174131608873761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5c5be687fcb6570800000000000000
+      internalID: 8461084441106040292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef6f50b5e5403c80800000000000000
+      internalID: -8345093256708657177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5573884d0297c7b10800000000000000
+      internalID: 1980591118047786837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899ce761d3c475a90800000000000000
+      internalID: -7325302443640698472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_22
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a316853c032cc9fd0800000000000000
+      internalID: -2333776992193191622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_23
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 54
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a833538f09d19d0800000000000000
+      internalID: -2801923997435721192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f0c1d3c0cc012a0800000000000000
+      internalID: -6768685887000932576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_25
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26895de01e4ab830800000000000000
+      internalID: 4087665446400656940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_26
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469087cf673fc2ad0800000000000000
+      internalID: -2725535982098577052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_27
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65193e051bf46e5f0800000000000000
+      internalID: -727806666788859562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367e55d45e4d29570800000000000000
+      internalID: 8472067930347399011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_29
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0346b279cec3d93b0800000000000000
+      internalID: -5504176182730726352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_30
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806889289a1075550800000000000000
+      internalID: 6149385643749836296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_31
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd18bc6aeb5d00640800000000000000
+      internalID: 5044266597473812955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_32
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258fb816be4c6da50800000000000000
+      internalID: 6545635623662516306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_33
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d5e0f51ea2f6c80800000000000000
+      internalID: -8327390038533972625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_34
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152b403508e7f2ac0800000000000000
+      internalID: -3877741664528977327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_35
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 27
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d240c057af2d23d10800000000000000
+      internalID: 2103975949082821677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d024d476685c40ef0800000000000000
+      internalID: -142772107119607283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_37
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4958717c014ca7d0800000000000000
+      internalID: -2905876137861686963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_38
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abac9fa7366938800800000000000000
+      internalID: 613499328261638842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_39
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc642b69af975840800000000000000
+      internalID: 5212810643700477169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_40
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8a996f53035ee20800000000000000
+      internalID: 3379160103740090547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_41
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab047b6f66756e00800000000000000
+      internalID: 1037365510094982054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_42
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c0cccfeb64c4230800000000000000
+      internalID: 3624349586225368134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_43
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44aa50516b9e0f9c0800000000000000
+      internalID: -3895356709429466556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_44
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd08fe880b667910800000000000000
+      internalID: 1834771582702587389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_45
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5daed4f0a695d51e0800000000000000
+      internalID: -2207509930283504939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_46
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc8e5943fe6f28b0800000000000000
+      internalID: -5174795455638369082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowtie owl full rotation_47
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bfe76d5cc2a12b0800000000000000
+      internalID: -5613124757345076457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
