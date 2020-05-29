@@ -10,7 +10,7 @@ EditorBuildSettings:
     guid: 65dc93952413d5044925d90d59fb0670
   - enabled: 1
     path: Assets/Scenes/first_map.unity
-    guid: 9d5a6d0f6bea69e4bac82943a831fd1d
+    guid: a9db5acb10e16dd4eb4053ba53c498f7
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: c57af409e36b02542bf0c4769da614c7,
       type: 2}
