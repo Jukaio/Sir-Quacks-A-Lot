@@ -64,12 +64,18 @@ public class Map : MonoBehaviour
         if (m_current_index != m_previous_index)
         {
             if (m_previous_index != new Vector2Int(-1, -1))
-                levels[m_previous_index.x, m_previous_index.y].gameObject.SetActive(false);
+                StartCoroutine(Deactive_In(levels[m_previous_index.x, m_previous_index.y].gameObject, 1.0f));
             var temp = levels[m_current_index.x, m_current_index.y];
             temp.gameObject.SetActive(true);
 
             m_player.GetComponent<Shadow>().Set_Map(temp);
         }
         m_previous_index = m_current_index;
+    }
+
+    IEnumerator Deactive_In(GameObject obj, float t)
+    {
+        yield return new WaitForSecondsRealtime(t);
+        obj.SetActive(false);
     }
 }

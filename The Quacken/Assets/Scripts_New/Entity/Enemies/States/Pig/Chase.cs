@@ -27,11 +27,13 @@ public class Chase : Pig_State
         m_anim.SetFloat("move_y", m_direction.y);
         m_anim.SetFloat("idle_x", m_movement.prev_move_direction.x);
         m_anim.SetFloat("idle_y", m_movement.prev_move_direction.y);
+
     }
 
 
     public override void Enter()
     {
+        m_anim.SetBool("chase", true);
         //m_movement.Enter_Move(m_context.m_player.transform.position);
         //m_movement.Set_Speed(m_movement.Initial_Speed);
         m_context.m_seeing.m_cone_length *= m_cone_length_factor;
@@ -39,6 +41,7 @@ public class Chase : Pig_State
 
     public override void Exit()
     {
+        m_anim.SetBool("chase", false);
         m_movement.Reset_Direction();
         m_rb.velocity = Vector2.zero;
         m_context.m_seeing.m_cone_length /= m_cone_length_factor;

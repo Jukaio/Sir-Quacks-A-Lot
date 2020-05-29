@@ -62,6 +62,8 @@ public class Seeing : Sensing
         m_feedback_verts = new Vector3[(int)m_cone_width * 2 + 1];
         m_verts = new Vector3[(int)m_cone_width * 2 + 1];
 
+        m_mesh_renderer.material.color = new Color(1, 1, 1, 0);
+
     }
 
     void Update_Trigger_Zone(Vector2 p_view_direction)
@@ -159,8 +161,18 @@ public class Seeing : Sensing
                 break;
 
             case "lightCollider":
-                m_mesh_object.SetActive(true);
-                m_feedback_mesh_object.SetActive(true);
+                StartCoroutine(fade_in_color());
+                break;
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        switch (collision.tag)
+        {
+            case "lightCollider":
+                if (!fade_out_running && !fade_in_running && m_mesh_renderer.material.color.a != 1)
+                    StartCoroutine(fade_in_color());
                 break;
         }
     }
@@ -175,9 +187,45 @@ public class Seeing : Sensing
 
                 break;
             case "lightCollider":
-                m_mesh_object.SetActive(false);
-                m_feedback_mesh_object.SetActive(false);
+                StartCoroutine(fade_out_color());
                 break;
         }
+    }
+
+    private void OnDisable()
+    {
+        StopAllCoroutines();
+    }
+
+    bool fade_out_running;
+    IEnumerator fade_out_color()
+    {
+
+        while (m_mesh_renderer.material.color.a > 0)
+        {
+            fade_out_running = true;
+            var factor = m_mesh_renderer.material.color.a;
+            Utility.Extra_Math.Interpolate(ref factor);
+
+            m_mesh_renderer.material.color -= (Color.black * Time.deltaTime * 4.0f);
+            yield return new WaitForEndOfFrame();
+        }
+        fade_out_running = false;
+    }
+
+    bool fade_in_running;
+    IEnumerator fade_in_color()
+    {
+
+        while (m_mesh_renderer.material.color.a < 25.0/255.0f)
+        {
+            fade_in_running = true;
+            var factor = m_mesh_renderer.material.color.a;
+            Utility.Extra_Math.Interpolate(ref factor);
+
+            m_mesh_renderer.material.color += (Color.black * Time.deltaTime * 4.0f);
+            yield return new WaitForEndOfFrame();
+        }
+        fade_in_running = false;
     }
 }

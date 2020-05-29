@@ -34,11 +34,13 @@ namespace Owl
 
         public override void Enter()
         {
+            m_anim.SetBool("chase", true);
             m_context.m_seeing.m_cone_length *= m_cone_length_factor;
         }
 
         public override void Exit()
         {
+            m_anim.SetBool("chase", false);
             m_movement.Reset_Direction();
             m_rb.velocity = Vector2.zero;
             m_context.m_seeing.m_cone_length /= m_cone_length_factor;

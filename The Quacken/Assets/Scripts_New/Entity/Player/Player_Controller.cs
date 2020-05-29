@@ -11,8 +11,16 @@ public class Player_Controller : MonoBehaviour
     public Physics2D_Movement m_movement;
     public Animator m_anim;
 
+    public AudioClip m_movement_sound;
+    AudioSource m_movement_source;
+
     private void Awake()
     {
+        m_movement_source = gameObject.AddComponent<AudioSource>();
+        m_movement_source.clip = m_movement_sound;
+        m_movement_source.loop = false;
+
+        StartCoroutine(Play_Movement_Sound());
 
         m_anim = GetComponent<Animator>();
         m_movement = GetComponent<Physics2D_Movement>();
@@ -70,9 +78,27 @@ public class Player_Controller : MonoBehaviour
         Update_Noise_Range();
     }
 
-    private void OnGUI()
+    float m_distance_travelled = 0.0f;
+    public float m_movement_treshhold = 1.0f;
+    IEnumerator Play_Movement_Sound()
     {
-        
+        var previous_position = transform.position;
+
+        while (true)
+        {
+            var position = transform.position;
+
+            m_distance_travelled += position.Distancef(previous_position);
+
+            if (m_distance_travelled > m_movement_treshhold)
+            {
+                m_movement_source.Play();
+                m_distance_travelled = 0.0f;
+            }
+
+            previous_position = position;
+            yield return new WaitForEndOfFrame();
+        }
     }
 }
 
