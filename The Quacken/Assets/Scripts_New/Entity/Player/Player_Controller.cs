@@ -54,9 +54,9 @@ public class Player_Controller : MonoBehaviour
     void Start()
     {
         m_spawn_position = transform.position;
-
         if (m_is_game_play)
         {
+            m_times_caught = 0;
             m_time_passed = 0.0f;
             m_death_text.text = "00" + m_times_caught.ToString();
         }
@@ -101,9 +101,12 @@ public class Player_Controller : MonoBehaviour
         var ai = obj.GetComponent<Enemy_Base>();
         var other_rb = obj.GetComponent<Rigidbody2D>();
         var player_renderer = GetComponent<SpriteRenderer>();
+        var collider = GetComponent<Collider2D>();
 
 
+        collider.enabled = false;
         ai.active_ai = false;
+        ai.m_seeing.gameObject.SetActive(false);
         player_renderer.enabled = false;
         other_rb.velocity = Vector2.zero;
 
@@ -154,7 +157,12 @@ public class Player_Controller : MonoBehaviour
         m_reset_source.Play();
         player_renderer.enabled = true;
         ai.active_ai = true;
+        ai.m_seeing.gameObject.SetActive(true);
         death_running = false;
+        collider.enabled = true;
+        ai.fade_out();
+        ai.m_seeing.fade_out();
+
     }
 
     public void Respawn(GameObject obj)

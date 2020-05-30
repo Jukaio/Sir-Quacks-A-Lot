@@ -32,6 +32,8 @@ public class Shadow_Renderer : MonoBehaviour
                             "m_shadow", "m_shadow_collider",
                             "Light_Overlay", "Ignore Raycast",
                             new Material(m_shadow_material));
+        m_mesh_object.transform.parent = transform;
+        m_mesh_object.transform.parent = null;
         m_mesh_collider_object.gameObject.tag = "lightCollider";
     }
 

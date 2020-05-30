@@ -149,7 +149,6 @@ public class Physics2D_Movement : MonoBehaviour
 
     public bool Rotate()
     {
-        Debug.DrawLine(transform.position, transform.position + (Vector3)view_direction * 3.0f, Color.red);
         m_rotate_factor += Mathf.Abs((m_rotate_speed / m_rotate_angle) * Time.deltaTime);
         Utility.Extra_Math.Interpolate(ref m_rotate_factor);
         m_view_direction = m_rotate_from.Rotate(m_rotate_angle * m_rotate_factor);

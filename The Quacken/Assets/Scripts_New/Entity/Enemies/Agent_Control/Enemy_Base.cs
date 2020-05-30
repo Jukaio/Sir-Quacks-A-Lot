@@ -54,15 +54,20 @@ abstract public class Enemy_Base : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        m_sees = m_seeing.Sense(m_movement.view_direction, m_player);
-
         if (active_ai)
+        {
+            m_sees = m_seeing.Sense(m_movement.view_direction, m_player);
             Behaviour();
+        }
     }
 
     abstract public void Init();
     abstract public void Behaviour();
 
+    public void fade_out()
+    {
+        StartCoroutine(fade_out_color());
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

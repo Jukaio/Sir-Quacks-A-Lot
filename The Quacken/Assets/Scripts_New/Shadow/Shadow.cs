@@ -215,11 +215,6 @@ public class Shadow : MonoBehaviour
             m_shadow_renderer.Triangles = m_triangles.ToArray();
             m_shadow_renderer.Vertices = m_hit_points.ToArray();
 
-            foreach(Vector3 point in m_hit_points)
-            {
-                Debug.DrawLine(position, point, Color.red);
-            }
-
             float now = Time.realtimeSinceStartup - before;
             yield return new WaitForSecondsRealtime((1.0f/60.0f) - now);
         }

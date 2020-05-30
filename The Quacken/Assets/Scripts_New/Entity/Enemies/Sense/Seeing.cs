@@ -97,18 +97,6 @@ public class Seeing : Sensing
         m_mesh_renderer.sortingOrder = 2;
         m_feedback_mesh_renderer.sortingOrder = 3;
 
-        //Color color = Color.cyan;
-        //for(int j = 0; j < m_triangles.Length; j+=3)
-        //{
-        //    var vert1 = m_verts[m_triangles[j]] + transform.position;
-        //    var vert2 = m_verts[m_triangles[j + 1]] + transform.position;
-        //    var vert3 = m_verts[m_triangles[j + 2]] + transform.position;
-
-        //    Debug.DrawLine(vert1, vert2, color);
-        //    Debug.DrawLine(vert2, vert3, color);
-        //    Debug.DrawLine(vert3, vert1, color);
-        //}
-
         m_trigger_zone.points = m_polygon_trigger_points;
 
         Utility.Extra_Mesh.Update_Mesh(ref m_feedback_mesh, m_feedback_verts, m_triangles);
@@ -137,7 +125,6 @@ public class Seeing : Sensing
 
 
             var hit = Physics2D.Raycast(m_entity.transform.position, m_to_player_direction * m_to_player_distance);
-            Debug.DrawLine(m_entity.transform.position, hit.point, Color.cyan);
             if (hit.collider.CompareTag(p_target.tag))
             {
                 m_feedback_Factor += Time.deltaTime * m_sense_speed;
@@ -187,7 +174,8 @@ public class Seeing : Sensing
 
                 break;
             case "lightCollider":
-                StartCoroutine(fade_out_color());
+                if (gameObject.activeSelf)
+                    StartCoroutine(fade_out_color());
                 break;
         }
     }
@@ -211,6 +199,11 @@ public class Seeing : Sensing
             yield return new WaitForEndOfFrame();
         }
         fade_out_running = false;
+    }
+
+    public void fade_out()
+    {
+        StartCoroutine(fade_out_color());
     }
 
     bool fade_in_running;

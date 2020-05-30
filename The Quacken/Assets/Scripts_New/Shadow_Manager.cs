@@ -42,9 +42,6 @@ public class Shadow_Manager : MonoBehaviour
         //Debug.DrawLine(m_player.transform.position, m_bound_points[1], Color.green);
         //Debug.DrawLine(m_player.transform.position, m_bound_points[2], Color.green);
         //Debug.DrawLine(m_player.transform.position, m_bound_points[3], Color.green);
-
-        foreach (Vector2 ray in m_corners)
-            Debug.DrawLine(m_player.transform.position, ray, Color.blue);
     }
 
     void Create_Mesh()
