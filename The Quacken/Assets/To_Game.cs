@@ -11,8 +11,8 @@ public class To_Game : MonoBehaviour
         {
             m_flag = true;
 
-            StartCoroutine(Scene_Manager.Unload_Level(1));
             StartCoroutine(Scene_Manager.Load_Level(2));
+            StartCoroutine(Scene_Manager.Unload_Level(1));
         }   
     }
 }

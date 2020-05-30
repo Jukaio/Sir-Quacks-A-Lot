@@ -20,7 +20,7 @@ public class Scene_Manager : MonoBehaviour
 
     static public IEnumerator Unload_Level(int index)
     {
-        if (SceneManager.GetSceneAt(index).isLoaded)
+        if (SceneManager.GetSceneByBuildIndex(index).isLoaded)
             SceneManager.UnloadSceneAsync(index);
         else
             yield break;

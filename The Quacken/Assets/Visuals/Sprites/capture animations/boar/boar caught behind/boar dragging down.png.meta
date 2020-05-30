@@ -17,6 +17,24 @@ TextureImporter:
   - first:
       213: 9151113395089896659
     second: boar dragging down_4
+  - first:
+      213: -5249800553857274350
+    second: boar dragging down_0
+  - first:
+      213: 2960334537484845012
+    second: boar dragging down_1
+  - first:
+      213: 6913946691773845393
+    second: boar dragging down_2
+  - first:
+      213: 4623988114205221947
+    second: boar dragging down_3
+  - first:
+      213: 2276962974508085284
+    second: boar dragging down_4
+  - first:
+      213: 3169936085398526113
+    second: boar dragging down_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -119,7 +137,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
+        width: 40
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,8 +146,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bf44a048f7dd8640800000000000000
-      internalID: 5083957015607529399
+      spriteID: 21e20bdf536f427b0800000000000000
+      internalID: -5249800553857274350
       vertices: []
       indices: 
       edges: []
@@ -138,9 +156,9 @@ TextureImporter:
       name: boar dragging down_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 40
         y: 0
-        width: 48
+        width: 40
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -149,8 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49142a469fa157590800000000000000
-      internalID: -7677200331345608300
+      spriteID: 4dfba1bc398351920800000000000000
+      internalID: 2960334537484845012
       vertices: []
       indices: 
       edges: []
@@ -159,9 +177,9 @@ TextureImporter:
       name: boar dragging down_2
       rect:
         serializedVersion: 2
-        x: 96
+        x: 80
         y: 0
-        width: 48
+        width: 40
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -170,8 +188,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02ca99487c5a63f10800000000000000
-      internalID: 2249167340259879968
+      spriteID: 19fca2f62e543ff50800000000000000
+      internalID: 6913946691773845393
       vertices: []
       indices: 
       edges: []
@@ -180,9 +198,9 @@ TextureImporter:
       name: boar dragging down_3
       rect:
         serializedVersion: 2
-        x: 144
+        x: 120
         y: 0
-        width: 48
+        width: 40
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -191,8 +209,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69ecf5841659baaa0800000000000000
-      internalID: -6148656621185675626
+      spriteID: b34a4d0e0b4bb2040800000000000000
+      internalID: 4623988114205221947
       vertices: []
       indices: 
       edges: []
@@ -201,9 +219,9 @@ TextureImporter:
       name: boar dragging down_4
       rect:
         serializedVersion: 2
-        x: 192
+        x: 160
         y: 0
-        width: 48
+        width: 40
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -212,8 +230,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d4f6ade5294ffe70800000000000000
-      internalID: 9151113395089896659
+      spriteID: 420754ee2c5699f10800000000000000
+      internalID: 2276962974508085284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boar dragging down_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a81fda1310edfb20800000000000000
+      internalID: 3169936085398526113
       vertices: []
       indices: 
       edges: []

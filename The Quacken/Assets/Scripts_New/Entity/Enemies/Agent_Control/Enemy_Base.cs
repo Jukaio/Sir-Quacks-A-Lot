@@ -49,11 +49,15 @@ abstract public class Enemy_Base : MonoBehaviour
         m_notice_source.Play();
     }
 
+    public bool active_ai = true;
+
     // Update is called once per frame
     void Update()
     {
         m_sees = m_seeing.Sense(m_movement.view_direction, m_player);
-        Behaviour();
+
+        if (active_ai)
+            Behaviour();
     }
 
     abstract public void Init();
@@ -131,7 +135,7 @@ abstract public class Enemy_Base : MonoBehaviour
         switch (collision.gameObject.tag)
         {
             case "Player":
-                m_player.GetComponent<Player_Controller>().Respawn();
+                m_player.GetComponent<Player_Controller>().Respawn(gameObject);
                 break;
         }
     }
