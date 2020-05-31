@@ -7,11 +7,16 @@ abstract public class Enemy_Base : MonoBehaviour
     public Animator m_anim;
     public Physics2D_Movement m_movement;
     public GameObject m_player;
+    private Player_Controller m_player_controller;
     public Seeing m_seeing;
     public Hearing m_hearing;
     public SpriteRenderer m_renderer;
 
     public bool m_sees;
+    public bool m_prev_sees;
+
+    public bool m_remembers;
+
     public AudioClip m_notice_clip;
     public AudioSource m_notice_source;
 
@@ -33,6 +38,7 @@ abstract public class Enemy_Base : MonoBehaviour
         
         m_hearing = GetComponent<Hearing>();
         m_player = Service<Game_Manager>.Get().Player;
+        m_player_controller = m_player.GetComponent<Player_Controller>();
         m_anim = GetComponent<Animator>();
         m_movement = GetComponent<Physics2D_Movement>();
 
@@ -56,9 +62,16 @@ abstract public class Enemy_Base : MonoBehaviour
     {
         if (active_ai)
         {
-            m_sees = m_seeing.Sense(m_movement.view_direction, m_player);
+            m_sees = m_seeing.Sense(m_movement.view_direction, m_player) && !m_player_controller.m_in_barrel;
+            if(m_prev_sees && m_player_controller.m_in_barrel)
+                m_sees = true;
+
             Behaviour();
+
+
+            m_prev_sees = m_sees;
         }
+
     }
 
     abstract public void Init();

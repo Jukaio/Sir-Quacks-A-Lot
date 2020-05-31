@@ -20,6 +20,8 @@ public class Player_Controller : MonoBehaviour
     public Physics2D_Movement m_movement;
     public Animator m_anim;
 
+    public GameObject m_shadow;
+
     public AudioClip m_get_caught_sound;
     AudioSource m_caught_source;
 
@@ -28,6 +30,9 @@ public class Player_Controller : MonoBehaviour
 
     public AudioClip m_reset_sound;
     AudioSource m_reset_source;
+
+    public bool m_in_barrel = false;
+    public bool m_is_looking_out_of_barrel = false;
 
     private void Awake()
     {
@@ -48,6 +53,7 @@ public class Player_Controller : MonoBehaviour
 
         m_anim = GetComponent<Animator>();
         m_movement = GetComponent<Physics2D_Movement>();
+
         Service<Game_Manager>.Get().Set_Player(gameObject);
     }
 
@@ -61,6 +67,7 @@ public class Player_Controller : MonoBehaviour
             m_death_text.text = "00" + m_times_caught.ToString();
         }
 
+        m_shadow = GetComponent<Shadow_Renderer>().m_mesh_object;
         m_input = Player_Input_System.Player(0);
     }
 
@@ -69,20 +76,43 @@ public class Player_Controller : MonoBehaviour
         transform.GetChild(0).transform.localScale = (Vector3.one / 10.0f) * m_noise_range;
     }
 
+    void Go_In_Barrel()
+    {
+        m_anim.SetTrigger("enter_barrel");
+    }
+
+    void Go_Out_Barrel()
+    {
+        m_shadow.SetActive(true);
+        m_anim.SetTrigger("exit_barrel");
+    }
+
     void Handle_Inputs()
     {
         m_movement.Reset_Direction();
 
         if (!death_running)
         {
-            if (m_input.Move_Left)
-                m_movement.Add_Direction(Vector2.left);
-            if (m_input.Move_Right)
-                m_movement.Add_Direction(Vector2.right);
-            if (m_input.Move_Up)
-                m_movement.Add_Direction(Vector2.up);
-            if (m_input.Move_Down)
-                m_movement.Add_Direction(Vector2.down);
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Go_In_Barrel();
+            }
+            else if (Input.GetKeyUp(KeyCode.Space))
+            {
+                Go_Out_Barrel();
+            }
+
+            if (!m_in_barrel)
+            {
+                if (m_input.Move_Left || Input.GetKey(KeyCode.LeftArrow))
+                    m_movement.Add_Direction(Vector2.left);
+                if (m_input.Move_Right || Input.GetKey(KeyCode.RightArrow))
+                    m_movement.Add_Direction(Vector2.right);
+                if (m_input.Move_Up || Input.GetKey(KeyCode.UpArrow))
+                    m_movement.Add_Direction(Vector2.up);
+                if (m_input.Move_Down || Input.GetKey(KeyCode.DownArrow))
+                    m_movement.Add_Direction(Vector2.down);
+            }
         }
 
         m_anim.SetFloat("x", m_movement.move_direction.x);
@@ -96,6 +126,9 @@ public class Player_Controller : MonoBehaviour
 
     IEnumerator Play_Death(GameObject obj)
     {
+        if(m_in_barrel)
+            Go_Out_Barrel();
+
         death_running = true;
 
         var ai = obj.GetComponent<Enemy_Base>();
@@ -174,6 +207,11 @@ public class Player_Controller : MonoBehaviour
     void Execute_Inputs()
     {
         m_movement.Execute();
+
+        if(m_in_barrel)
+        {
+            m_shadow.SetActive(m_is_looking_out_of_barrel);
+        }
     }
 
     private void Update()

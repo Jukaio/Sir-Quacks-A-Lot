@@ -8,7 +8,7 @@ public class Shadow_Renderer : MonoBehaviour
     Shadow m_shadow;
 
     Mesh m_mesh;
-    GameObject m_mesh_object;
+    public GameObject m_mesh_object;
     public PolygonCollider2D m_mesh_collider_object;
     public Material m_shadow_material;
 

@@ -31,6 +31,10 @@ public class Seeing : Sensing
     MeshFilter m_feedback_mesh_filter;
     MeshRenderer m_feedback_mesh_renderer;
     float m_feedback_Factor;
+
+    Color fill_feedback;
+    Color base_feedback;
+
     public bool full_Feedback
     {
         get => m_feedback_Factor >= 1;
@@ -62,8 +66,13 @@ public class Seeing : Sensing
         m_feedback_verts = new Vector3[(int)m_cone_width * 2 + 1];
         m_verts = new Vector3[(int)m_cone_width * 2 + 1];
 
-        m_mesh_renderer.material.color = new Color(1, 1, 1, 0);
+        base_feedback = m_mesh_renderer.material.color;
+        fill_feedback = m_feedback_mesh_renderer.material.color;
+    }
 
+    private void OnEnable()
+    {
+        fade_out();
     }
 
     void Update_Trigger_Zone(Vector2 p_view_direction)
@@ -122,8 +131,6 @@ public class Seeing : Sensing
 
         if (in_trigger_zone) // Only Raycast if player is in the trigger zone
         {
-
-
             var hit = Physics2D.Raycast(m_entity.transform.position, m_to_player_direction * m_to_player_distance);
             if (hit.collider.CompareTag(p_target.tag))
             {
@@ -188,16 +195,18 @@ public class Seeing : Sensing
     bool fade_out_running;
     IEnumerator fade_out_color()
     {
-
-        while (m_mesh_renderer.material.color.a > 0)
+        float factor = 1;
+        while (factor > 0)
         {
             fade_out_running = true;
-            var factor = m_mesh_renderer.material.color.a;
+            factor -= Time.deltaTime * 8.0f;
             Utility.Extra_Math.Interpolate(ref factor);
 
-            m_mesh_renderer.material.color -= (Color.black * Time.deltaTime * 4.0f);
+            m_feedback_mesh_renderer.material.color = (fill_feedback * factor);
+            m_mesh_renderer.material.color = (base_feedback * factor);
             yield return new WaitForEndOfFrame();
         }
+        //m_mesh_renderer.material.color = Color.clear;
         fade_out_running = false;
     }
 
@@ -209,14 +218,15 @@ public class Seeing : Sensing
     bool fade_in_running;
     IEnumerator fade_in_color()
     {
-
-        while (m_mesh_renderer.material.color.a < 25.0/255.0f)
+        float factor = 0;
+        while (factor < 1)
         {
-            fade_in_running = true;
-            var factor = m_mesh_renderer.material.color.a;
+            fade_out_running = true;
+            factor += Time.deltaTime * 8.0f;
             Utility.Extra_Math.Interpolate(ref factor);
 
-            m_mesh_renderer.material.color += (Color.black * Time.deltaTime * 4.0f);
+            m_feedback_mesh_renderer.material.color = (fill_feedback * factor);
+            m_mesh_renderer.material.color = (base_feedback * factor);
             yield return new WaitForEndOfFrame();
         }
         fade_in_running = false;
