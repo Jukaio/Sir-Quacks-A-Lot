@@ -1,0 +1,17 @@
+{
+"companyName": "DefaultCompany",
+"productName": "The Quacken",
+"productVersion": "1.0",
+"dataUrl": "The Quacken 3.0 Web.data.unityweb",
+"wasmCodeUrl": "The Quacken 3.0 Web.wasm.code.unityweb",
+"wasmFrameworkUrl": "The Quacken 3.0 Web.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "The Quacken 3.0 Web.jpg",
+"splashScreenStyle": "Light",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.7f1"
+}

@@ -31,14 +31,26 @@ public class Player_Controller : MonoBehaviour
     public AudioClip m_reset_sound;
     AudioSource m_reset_source;
 
+    public AudioClip m_barrel_sound;
+    AudioSource m_barrel_source;
+
+    private bool m_prev_barrel_press = false;
+
+    public bool m_entered_barrel = false;
     public bool m_in_barrel = false;
     public bool m_is_looking_out_of_barrel = false;
+
+    public float m_press_timer_reset = 0.75f;
+    private float m_press_timer = 0.0f;
+
+    public float m_minimum_barrel_duration = 0.5f;
+    private float m_minimum_barrel_timer;
 
     private void Awake()
     {
         m_movement_source = gameObject.AddComponent<AudioSource>();
         m_movement_source.clip = m_movement_sound;
-        m_movement_source.volume = 0.75f;
+        m_movement_source.volume = 0.4f;
         m_movement_source.loop = false;
 
         m_caught_source = gameObject.AddComponent<AudioSource>();
@@ -48,6 +60,11 @@ public class Player_Controller : MonoBehaviour
         m_reset_source = gameObject.AddComponent<AudioSource>();
         m_reset_source.clip = m_reset_sound;
         m_reset_source.loop = false;
+
+
+        m_barrel_source = gameObject.AddComponent<AudioSource>();
+        m_barrel_source.clip = m_barrel_sound;
+        m_barrel_source.loop = false;
 
         StartCoroutine(Play_Movement_Sound());
 
@@ -80,12 +97,14 @@ public class Player_Controller : MonoBehaviour
         if(m_shadow == null)
             m_shadow = GetComponent<Shadow_Renderer>().m_mesh_object;
 
+        m_entered_barrel = true;
+        m_barrel_source.Play();
         m_anim.SetTrigger("enter_barrel");
     }
 
     void Go_Out_Barrel()
     {
-        m_shadow.SetActive(true);
+        m_entered_barrel = false;
         m_anim.SetTrigger("exit_barrel");
     }
 
@@ -95,16 +114,18 @@ public class Player_Controller : MonoBehaviour
 
         if (!death_running)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if ((Input.GetKey(KeyCode.Space) && !m_prev_barrel_press) && m_press_timer <= 0.0f)
             {
+                m_press_timer = m_press_timer_reset;
+                m_minimum_barrel_timer = m_minimum_barrel_duration;
                 Go_In_Barrel();
             }
-            else if (Input.GetKeyUp(KeyCode.Space))
+            else if (!Input.GetKey(KeyCode.Space) && m_minimum_barrel_timer <= 0.0f && m_entered_barrel)
             {
                 Go_Out_Barrel();
             }
 
-            if (!m_in_barrel)
+            if (!m_in_barrel && !m_entered_barrel)
             {
                 if (m_input.Move_Left || Input.GetKey(KeyCode.LeftArrow))
                     m_movement.Add_Direction(Vector2.left);
@@ -121,6 +142,18 @@ public class Player_Controller : MonoBehaviour
         m_anim.SetFloat("y", m_movement.move_direction.y);
         m_anim.SetFloat("prev_x", m_movement.prev_move_direction.x);
         m_anim.SetFloat("prev_y", m_movement.prev_move_direction.y);
+
+        if (m_press_timer < 0.0f)
+            m_press_timer = 0.0f;
+        else if (m_press_timer > 0.0f)
+            m_press_timer -= Time.deltaTime;
+
+        if (m_minimum_barrel_timer < 0.0f)
+            m_minimum_barrel_timer = 0.0f;
+        else if (m_minimum_barrel_timer > 0.0f)
+            m_minimum_barrel_timer -= Time.deltaTime;
+
+        m_prev_barrel_press = Input.GetKey(KeyCode.Space);
     }
 
     public Vector2 m_spawn_position;
@@ -181,7 +214,7 @@ public class Player_Controller : MonoBehaviour
             Vector2 position = obj.transform.position;
             distance = prev_position.Distancef(position);
 
-            obj.transform.position += (Vector3)direction * 2.5f * Time.deltaTime;
+            obj.transform.position += (Vector3)direction * 4.0f * Time.deltaTime;
             yield return new WaitForFixedUpdate();
         }
 

@@ -359,9 +359,13 @@ MonoBehaviour:
   m_input: {fileID: 0}
   m_movement: {fileID: 0}
   m_anim: {fileID: 0}
+  m_shadow: {fileID: 0}
   m_get_caught_sound: {fileID: 8300000, guid: 95b782c3b7adc3e4ea0799436c487789, type: 3}
   m_movement_sound: {fileID: 8300000, guid: 19980b67be18ed748a37a711a8f7662f, type: 3}
   m_reset_sound: {fileID: 8300000, guid: 7c0b0a5a69fbce84f9ec1bd57d032d5e, type: 3}
+  m_barrel_sound: {fileID: 8300000, guid: d5b8040b87231504a9c2135d1eac1ca4, type: 3}
+  m_in_barrel: 0
+  m_is_looking_out_of_barrel: 0
   m_spawn_position: {x: 0, y: 0}
   m_movement_treshhold: 1
 --- !u!50 &1632639404892130352
@@ -425,6 +429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a46a986c4ade02a439e4e0db7b1da924, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_mesh_object: {fileID: 0}
   m_mesh_collider_object: {fileID: 0}
   m_shadow_material: {fileID: 2100000, guid: 3b839ed642ad19148965333f2d61c470, type: 2}
 --- !u!212 &1632639404892130353

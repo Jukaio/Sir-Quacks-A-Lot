@@ -77,7 +77,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_start: {fileID: 104257404479020572}
   m_end: {fileID: 104257405548892387}
-  m_transition_clip: {fileID: 8300000, guid: d5b8040b87231504a9c2135d1eac1ca4, type: 3}
+  m_transition_clip: {fileID: 8300000, guid: 2becdafd40d900f4f881b48d7c517736, type: 3}
 --- !u!1 &104257405548892387
 GameObject:
   m_ObjectHideFlags: 0
