@@ -67,7 +67,6 @@ public class Player_Controller : MonoBehaviour
             m_death_text.text = "00" + m_times_caught.ToString();
         }
 
-        m_shadow = GetComponent<Shadow_Renderer>().m_mesh_object;
         m_input = Player_Input_System.Player(0);
     }
 
@@ -78,6 +77,9 @@ public class Player_Controller : MonoBehaviour
 
     void Go_In_Barrel()
     {
+        if(m_shadow == null)
+            m_shadow = GetComponent<Shadow_Renderer>().m_mesh_object;
+
         m_anim.SetTrigger("enter_barrel");
     }
 

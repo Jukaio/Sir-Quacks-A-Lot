@@ -68,11 +68,9 @@ public class Seeing : Sensing
 
         base_feedback = m_mesh_renderer.material.color;
         fill_feedback = m_feedback_mesh_renderer.material.color;
-    }
 
-    private void OnEnable()
-    {
-        fade_out();
+        m_feedback_mesh_renderer.material.color = (fill_feedback * 0.0f);
+        m_mesh_renderer.material.color = (base_feedback * 0.0f);
     }
 
     void Update_Trigger_Zone(Vector2 p_view_direction)
@@ -81,12 +79,13 @@ public class Seeing : Sensing
         Vector2 look_direction = p_view_direction * m_cone_length;
         Vector2 position = m_entity.transform.position;
         Vector2 parent_position = transform.parent.position;
+        Vector2 local_position = transform.localPosition;
 
         int triangle_index = 1;
 
         m_polygon_trigger_points[0] = position - parent_position;
-        m_feedback_verts[0] = position;
-        m_verts[0] = position;
+        m_feedback_verts[0] = position + local_position;
+        m_verts[0] = position + local_position;
 
         for (int i = (int)-m_cone_width; i < (int)m_cone_width; i++)
         {
@@ -94,8 +93,8 @@ public class Seeing : Sensing
             var temp = look_direction.Rotate(i).normalized * m_cone_length;
 
             m_polygon_trigger_points[index + 1] = temp + position - parent_position;
-            m_verts[index + 1] = temp + position;
-            m_feedback_verts[index + 1] = (temp * m_feedback_Factor) + position;
+            m_verts[index + 1] = temp + position + local_position;
+            m_feedback_verts[index + 1] = (temp * m_feedback_Factor) + position + local_position;
 
             m_triangles[index * 3 + 0] = 0;
             m_triangles[index * 3 + 1] = triangle_index;

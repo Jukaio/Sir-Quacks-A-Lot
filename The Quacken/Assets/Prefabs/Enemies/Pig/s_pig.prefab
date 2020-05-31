@@ -92,7 +92,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2799943871269183858}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2736481332110608887}
@@ -235,7 +235,12 @@ MonoBehaviour:
   m_hearing: {fileID: 0}
   m_renderer: {fileID: 0}
   m_sees: 0
-  m_collides_with_player: 0
+  m_prev_sees: 0
+  m_remembers: 0
+  m_notice_clip: {fileID: 0}
+  m_notice_source: {fileID: 0}
+  pitch: 0.65
+  active_ai: 1
   m_state_machine_data: {fileID: 11400000, guid: 261f308feb66dd648915dbdb114691a8,
     type: 2}
   m_waypoints:
